@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "@99percentpeople/pi-pwsh-adapter",
+    "version": "1.1.2",
+    "installPath": "npm/node_modules/@99percentpeople/pi-pwsh-adapter"
+  },
+  "source": {
+    "tarball": "@99percentpeople/pi-pwsh-adapter@1.1.2",
+    "integrity": "sha512-D82ILe1ck3wOZwR8vaDz3st3xW0w+k/hYfgG4hpZbM6BqaHvGzYsauw9DfFAGw+//TbOZQgUQ4vNRZ67NSIo8w==",
+    "shasum": "08b66bb6b1a6d513a6b5bf14ab097a332a9e3b45"
+  },
+  "scope": "PowerShell 适配器加载通知；工具描述、prompt、命令、路径、运行时标识和原始执行错误保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "index.min.js",
+      "upstreamSha256": "7F5858B1E48BF33851B48B9AE37AFB2194943C42D88197448DB961FB4A41DFE6",
+      "stringCount": 1
+    }
+  ]
+}

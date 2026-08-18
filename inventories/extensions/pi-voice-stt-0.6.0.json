@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-voice-stt",
+    "version": "0.6.0",
+    "installPath": "npm/node_modules/pi-voice-stt"
+  },
+  "source": {
+    "tarball": "pi-voice-stt@0.6.0",
+    "integrity": "sha512-BdPdSA4ppixbDVLr4W26qvi57+G9J5vqv2ns7jHbDH8lV11pvfwc8LrIcgEXV4T7uksfKcfewUD+gVT8PtQZwQ==",
+    "shasum": "92586cf4da5a4ca526933c9089e5b3d1b9728eb9"
+  },
+  "scope": "录音、转写、配置、profile、doctor 和错误提示；mode、profile、命令及原始错误保持原文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "src/i18n/strings.ts",
+      "upstreamSha256": "136D871CA941A5B75BEEF23B7D850B90F6181F77921532A1386036477F20E61E",
+      "stringCount": 25
+    },
+    {
+      "path": "src/config/startup.ts",
+      "upstreamSha256": "98C0F290DF3D5A6A38C54695DA9B6604724B4A188B7C5C42A3B5647E00CF5F95",
+      "stringCount": 0
+    },
+    {
+      "path": "src/index.ts",
+      "upstreamSha256": "075D9DC214FDBE62E69614EB9445559B3D7D00F97E7BAF6B7FFFB7E20B247BC7",
+      "stringCount": 12
+    }
+  ]
+}

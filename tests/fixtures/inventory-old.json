@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "fixture-pkg",
+    "version": "0.9.0",
+    "installPath": "pkg-a"
+  },
+  "source": {
+    "tarball": "fixture-pkg@0.9.0",
+    "integrity": "sha512-AQ==",
+    "shasum": "0000000000000000000000000000000000000000"
+  },
+  "scope": "测试用户可见文本。",
+  "keepEnglish": "路径和内部标识保持英文。",
+  "files": [
+    {
+      "path": "index.txt",
+      "upstreamSha256": "5FDBAAF87E6229E01F519B8BE97D04D3A6989F1FE7B4FFA364C61C17A93D586F",
+      "stringCount": 2
+    }
+  ]
+}

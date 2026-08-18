@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-subagents",
+    "version": "0.50.0",
+    "installPath": "npm/node_modules/pi-subagents"
+  },
+  "source": {
+    "tarball": "pi-subagents@0.50.0",
+    "integrity": "sha512-M/EipMk17mpdn1hIBO8TAHM4SsGBipwDXp/TaS275MYdNxMtwmlUHvwPWULbqnbREI0OLl+hWFu327OQ+xSuvQ==",
+    "shasum": "31625d3727f0eff9e825f0067aabe075122da387"
+  },
+  "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示和内置提示模板说明；提示模板名与正文、action、状态枚举、工具协议与恢复命令保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "src/extension/doctor.ts",
+      "upstreamSha256": "47DAE19E140BA58729B9C838382DA8D9D7027808C6BFC8EC74B5815327117042",
+      "stringCount": 56
+    },
+    {
+      "path": "src/shared/status-format.ts",
+      "upstreamSha256": "0C8BB72BE421361B1CE3F67B0F56098C88706AEFB89666757192525389D0BBF3",
+      "stringCount": 15
+    },
+    {
+      "path": "src/runs/background/resume-guidance.ts",
+      "upstreamSha256": "3B984413EDC842255AB11D03F407D4AF19E66FC108E8B7AF966A019B40CE42A4",
+      "stringCount": 5
+    },
+    {
+      "path": "src/tui/render.ts",
+      "upstreamSha256": "7DC1459A0888A3EA17324055DE075D247D16AB94B062595A32A8617CC9D817A5",
+      "stringCount": 58
+    },
+    {
+      "path": "src/watchdog/register-main.ts",
+      "upstreamSha256": "471A861BF7474500A11F98F7A83F01997384F8DC3C6675D4C0B77F13E287B526",
+      "stringCount": 3
+    },
+    {
+      "path": "src/slash/prompt-workflows.ts",
+      "upstreamSha256": "B059FD64C7710688F99AEE907350AB4B864ED35B2CAC43FE816CAB86661885D1",
+      "stringCount": 5
+    },
+    {
+      "path": "src/slash/slash-commands.ts",
+      "upstreamSha256": "524ACB441CEB49343DD1C19ADFD2429E9FF1E12097A81D7339C8CAC55950A12B",
+      "stringCount": 46
+    },
+    {
+      "path": "src/extension/index.ts",
+      "upstreamSha256": "5DC9701FE6AA00B092943BF0B51B213970823F7DE6CEAEEC76ED1A232AB311DA",
+      "stringCount": 8
+    },
+    {
+      "path": "prompts/gather-context-and-clarify.md",
+      "upstreamSha256": "D1EAB578F7E4094A3A4265ACB288B914A3E1A8CA4C9B316C5E55BCBCB6C1342B",
+      "stringCount": 1
+    },
+    {
+      "path": "prompts/parallel-cleanup.md",
+      "upstreamSha256": "4491517710A21DEFB578C8B29A8999498ED8317EC6862678BA19BA9E0A380BEC",
+      "stringCount": 1
+    },
+    {
+      "path": "prompts/parallel-research.md",
+      "upstreamSha256": "7A279437A1EC4CFC442DF321DF7585AFE0C41C0E96856BD0A02C558E6A95DB19",
+      "stringCount": 1
+    },
+    {
+      "path": "prompts/parallel-review.md",
+      "upstreamSha256": "F16E680B7378A5EDECAD1B1B17E0830B20F2679316B4AC27A29213A3C3F55337",
+      "stringCount": 1
+    },
+    {
+      "path": "prompts/review-loop.md",
+      "upstreamSha256": "8D5C88B3E104CE894D658F67F611F97FA6859C25432498A23235465C63104E8E",
+      "stringCount": 1
+    }
+  ]
+}

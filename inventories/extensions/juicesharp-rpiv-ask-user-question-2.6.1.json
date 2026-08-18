@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "@juicesharp/rpiv-ask-user-question",
+    "version": "2.6.1",
+    "installPath": "npm/node_modules/@juicesharp/rpiv-ask-user-question"
+  },
+  "source": {
+    "tarball": "@juicesharp/rpiv-ask-user-question@2.6.1",
+    "integrity": "sha512-jLkHAIjI1MNzYQHnxnk50O2z/ARmqU7qsveSsnRlEyKcb44KktHhSFv1CrT++f8w2adZEkaYO+g+6cgeyXBCLw==",
+    "shasum": "e6fc63c5d79c7f23da6cc3fea1968ca38c5abe53"
+  },
+  "scope": "按钮、选项、提交、取消、备注、折叠提示和外部编辑器状态；工具协议保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "state/i18n-bridge.ts",
+      "upstreamSha256": "C2921835574265924E0A96A1D10B010D6EDD78B07B7EE14E4A4B92CC2287A809",
+      "stringCount": 23
+    },
+    {
+      "path": "ask-user-question.ts",
+      "upstreamSha256": "E796142BF0E8F4FD45EE3532A4CC63EEE7C4EA0EB5D72D6EA42555B2404747E4",
+      "stringCount": 1
+    },
+    {
+      "path": "state/external-editor.ts",
+      "upstreamSha256": "13E2FFF5925436A82C7460BC153A4F5E0DCB5F36A2A58AD090B901326FB243F9",
+      "stringCount": 2
+    },
+    {
+      "path": "view/tab-content-strategy.ts",
+      "upstreamSha256": "C0895C69FC7FEAA785D4EC21443899994BA2D04C34146C65AF5474DE242C7FF3",
+      "stringCount": 1
+    },
+    {
+      "path": "view/components/preview/preview-box-renderer.ts",
+      "upstreamSha256": "20B900EAD8A0E71F005AADB18C00103B2DFF87391EC8C8011EBD3C47540A8C33",
+      "stringCount": 1
+    }
+  ]
+}

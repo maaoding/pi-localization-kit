@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "name": "@earendil-works/pi-coding-agent",
+      "version": "0.84.2",
+      "kind": "core",
+      "installPath": "dist",
+      "inventory": "inventories/core/pi-coding-agent-0.84.2.json",
+      "source": {
+        "tarball": "@earendil-works/pi-coding-agent@0.84.2",
+        "integrity": "sha512-l4E+B7hgXKWddRo8bC/eSue2aWZjEgJ9xIpf5p0Og+lq8a2TArCwJ0HCoCPCgaBP/tN4zbYH/wOwvx9pJpeLCA==",
+        "shasum": "e4d4c1e769963c816959f5cea02a0a10ccc0495a"
+      },
+      "fileCount": 114,
+      "stringCount": null,
+      "scope": "TUI、CLI 帮助、状态、通知、doctor、错误说明、认证与包管理界面、原生上下文压缩和分支摘要提示词。"
+    }
+  ]
+}

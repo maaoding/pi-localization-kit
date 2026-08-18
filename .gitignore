@@ -1,0 +1,9 @@
+local/
+manifests.local/
+backups/
+dist/
+node_modules/
+work/
+*.tgz
+*.tmp
+*.log

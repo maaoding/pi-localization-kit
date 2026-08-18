@@ -1,0 +1,3 @@
+Hello world
+Path: /tmp/example
+Internal key=value

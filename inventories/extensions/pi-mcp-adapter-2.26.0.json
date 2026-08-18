@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-mcp-adapter",
+    "version": "2.26.0",
+    "installPath": "npm/node_modules/pi-mcp-adapter"
+  },
+  "source": {
+    "tarball": "pi-mcp-adapter@2.26.0",
+    "integrity": "sha512-S1L1cTvYdDUIkNGvg/dR1v3ljfxeq6nAA8ffnB+xB5nZH4DSU8Ks9KdmKgmEH4TAEsSxGgv194i6WYORHF0Clg==",
+    "shasum": "07d1eb424d58a876f6927183ea2e88bd6ca30dd6"
+  },
+  "scope": "CLI helper、/mcp 与 /mcp-auth 用户界面、启动/页脚状态、MCP 主面板和 setup 面板；MCP method、JSON-RPC/schema、工具名与工具描述、Slash command、selector、状态枚举、模型可见结果、外部路径和原始错误保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "cli.js",
+      "upstreamSha256": "0E6377CDE0A189EA5F21695B47BDE3302F7460E20EFAA9072E126A497AF4582B",
+      "stringCount": 17
+    },
+    {
+      "path": "index.ts",
+      "upstreamSha256": "744727B62604E51BE2B98DAE5116F2AE00C5F018E3B1A872EB25E77A3F4E29DA",
+      "stringCount": 16
+    },
+    {
+      "path": "commands.ts",
+      "upstreamSha256": "13DC3EA0B577986F821A3A267272F77D1FCE9652B7025A0ED5CFF6724BE11273",
+      "stringCount": 36
+    },
+    {
+      "path": "init.ts",
+      "upstreamSha256": "F5B483787DC23E698342C287BBAD2D7198CCD34197E36D234B86D22D128EB6DE",
+      "stringCount": 10
+    },
+    {
+      "path": "mcp-panel.ts",
+      "upstreamSha256": "5B17EE5030CA7729BA2795B4FE2073983B57DE3B12972C17A1076CCCBA887E7E",
+      "stringCount": 42
+    },
+    {
+      "path": "mcp-setup-panel.ts",
+      "upstreamSha256": "0858A8EFE1D785F77CC15B3B4291F52B2F82029DCBD61BAE99709FB8131E4AFA",
+      "stringCount": 35
+    }
+  ]
+}
