@@ -1,41 +1,37 @@
-# Pi 本地化 Agent 套件
+# Localization Audit Kit
 
-这个仓库只保存 **审计与生成工具**，不保存任何中文译文或可部署补丁载荷。
+仅保存审计、差异分析和清单生成工具。译文载荷与部署材料不进入本仓库。
 
-远程仓库不变式：
+## 仓库边界
 
-- 有：包目录、固定版本、官方 integrity/shasum、目标文件清单、上游 SHA-256、汉化边界。
-- 无：`from/to` 替换、`localizedSha256`、完整 manifest、备份、安装包、凭据或会话。
+保留：
 
-完整汉化 manifest 和补丁引擎只应存在于本机私有仓库。
+- 固定包名、版本和 registry 元数据。
+- 目标文件相对路径与官方上游 SHA-256。
+- 汉化范围说明和验证脚本。
+
+不保留：
+
+- `from/to` 替换、`localizedSha256`、完整汉化 manifest。
+- 备份、tarball、解包目录和安装产物。
+- 凭据、会话、模型配置和本机绝对路径。
 
 ## 目录
 
 | 路径 | 作用 |
 | --- | --- |
-| `catalog/` | core 与 extensions 的包/版本索引 |
-| `inventories/` | 每个固定版本的目标文件、上游 SHA-256、scope |
+| `catalog/` | 固定版本包索引 |
+| `inventories/` | 目标文件、上游 SHA-256、scope |
 | `schemas/` | inventory 与本机 manifest JSON schema |
-| `tools/` | 官方包校验、候选文案审计、版本差异、本地骨架生成 |
-| `validation/` | catalog/inventory 一致性校验 |
+| `tools/` | 官方包校验、文案审计、版本差异、本地骨架生成 |
+| `validation/` | catalog、inventory 与本机 manifest 校验 |
 | `tests/` | 不依赖真实译文与真实凭据的合成测试 |
-| `skills/pi-localization-kit/` | Agent 使用入口说明 |
-| `docs/` | 政策、流程与历史清理说明 |
+| `skills/` | Agent 使用入口说明 |
+| `docs/` | 政策、流程与仓库历史清理说明 |
 
-## 当前 inventory
+## 当前覆盖
 
-| 包 | 版本 | 目标文件 |
-| --- | --- | ---: |
-| `@earendil-works/pi-coding-agent` | `0.84.2` | 114 |
-| `@99percentpeople/pi-pwsh-adapter` | `1.1.2` | 1 |
-| `@juicesharp/rpiv-ask-user-question` | `2.6.1` | 5 |
-| `pi-agent-browser-native` | `0.2.72` | 4 |
-| `pi-mcp-adapter` | `2.26.0` | 6 |
-| `pi-subagents` | `0.50.0` | 13 |
-| `pi-voice-stt` | `0.6.0` | 3 |
-| `pi-web-access` | `0.23.0` | 3 |
-
-`pi-agent-browser-native` 的本地 0.4.1 包不在 npm registry，本套件只索引 npm 0.2.72。
+由 `catalog/` 和 `inventories/` 定义，当前覆盖 **8 个固定版本、149 个目标文件**；具体包名和版本以这两处为准。
 
 ## 快速验证
 
@@ -48,20 +44,14 @@ pwsh.exe -NoLogo -NoProfile -NonInteractive -File .\validation\run-all.ps1
 ## Agent 工作流
 
 1. 查询目标包最新版本，获取 `version`、`dist.integrity`、`dist.shasum`。
-2. 生成 inventory，录入固定版本、文件路径和上游 SHA-256。
-3. 用 `fetch-official.ps1` 下载并校验官方 tarball。
-4. 用 `verify-upstream.mjs` 确认解包文件与 inventory 一致。
-5. 用 `audit-strings.mjs` 盘点候选用户可见文案。
-6. 用 `diff-inventory.mjs` 对比新旧版本。
-7. 在本机私有仓库生成并填写 local manifest；译文和部署材料不得提交到这里。
-8. 更新本仓库 inventory/catalog，提交。
-
-## 禁止提交
-
-- `local/`、`manifests.local/`、`backups/`、`dist/`、tarball、解包目录。
-- `from/to` 中文替换、`localizedSha256`。
-- `settings.json`、`auth.json`、模型配置、会话文件。
-- 任何本机绝对路径。
+2. 在 `inventories/` 建立或更新 inventory，只记录上游事实。
+3. 同步更新 `catalog/`。
+4. 用 `fetch-official.ps1` 下载并校验官方 tarball。
+5. 用 `verify-upstream.mjs` 确认解包文件与 inventory 一致。
+6. 用 `audit-strings.mjs` 盘点候选用户可见文案。
+7. 用 `diff-inventory.mjs` 对比新旧版本。
+8. 在本机私有仓库生成并填写 local manifest；译文和部署材料不得提交到这里。
+9. 仅将 inventory、catalog、scope 和工具更新提交到本仓库。
 
 ## 需要网络的官方包实时校验
 
@@ -74,7 +64,7 @@ pwsh.exe -NoLogo -NoProfile -NonInteractive -File .\validation\check-upstream-li
 ## 本机 manifest
 
 ```powershell
-node .\tools\generate-local-manifest.mjs .\inventories\extensions\pi-mcp-adapter-2.26.0.json .\local\manifests\pi-mcp-adapter-2.26.0.json
+node .\tools\generate-local-manifest.mjs .\inventories\<inventory>.json .\local\manifests\<manifest>.json
 pwsh.exe -NoLogo -NoProfile -NonInteractive -File .\validation\check-manifest-local.ps1
 ```
 
