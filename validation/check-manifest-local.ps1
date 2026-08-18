@@ -1,7 +1,8 @@
 #Requires -Version 7.0
 [CmdletBinding()]
 param(
-    [string]$LocalManifestDir
+    [string]$LocalManifestDir,
+    [string]$PackageRoot
 )
 
 Set-StrictMode -Version Latest
@@ -50,3 +51,13 @@ if ($failures.Count -gt 0) {
     exit 1
 }
 Write-Host "本机 manifest 结构校验通过。"
+
+if (-not [string]::IsNullOrWhiteSpace($PackageRoot)) {
+    $node = @(Get-Command node.exe -CommandType Application -ErrorAction Stop)[0].Source
+    $checker = Join-Path (Join-Path $root 'tools') 'check-manifest-local.mjs'
+    foreach ($path in @(Get-ChildItem -LiteralPath $LocalManifestDir -Filter "*.json" -File | Sort-Object Name)) {
+        & $node $checker $path.FullName $PackageRoot
+        if ($LASTEXITCODE -ne 0) { throw "完整 manifest 校验失败：$($path.FullName)" }
+    }
+    Write-Host "本机 manifest 完整校验通过。"
+}

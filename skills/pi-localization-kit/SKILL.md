@@ -1,11 +1,11 @@
 ---
 name: pi-localization-kit
-description: Audit and maintain Pi localization inventories and generate local-only manifests. Use when checking official package hashes, finding new user-visible English strings, comparing versions, or preparing a localization worklist.
+description: Audit packages, maintain localization inventories, and prepare local-only manifests. Use when checking official package hashes, finding new user-visible strings, comparing versions, or generating and validating a localization worklist.
 ---
 
-# Pi 本地化套件
+# Pi Localization Kit
 
-本技能只做只读审计、差异分析和本地骨架生成。仓库不包含译文载荷和部署引擎。
+只读审计、差异分析和本地 manifest 生命周期。仓库不保存译文载荷。
 
 ## 只读检查
 
@@ -15,13 +15,19 @@ pwsh.exe -NoLogo -NoProfile -NonInteractive -File .\validation\run-all.ps1
 
 ## 审计新版本
 
-1. 查询 npm 元数据。
-2. 建立/更新 inventory 与 catalog。
-3. `fetch-official.ps1` 下载官方包。
-4. `verify-upstream.mjs` 校验文件哈希。
-5. `audit-strings.mjs` 提取候选用户可见英文。
-6. `diff-inventory.mjs` 对比新旧版本。
-7. 在本机私有仓库生成 local manifest，不把译文写入本仓库。
+1. 更新 `inventories/` 与 `catalog/`。
+2. `fetch-official.ps1` 取得官方包。
+3. `verify-upstream.mjs` 校验哈希。
+4. `audit-strings.mjs` 提取候选文案。
+5. `diff-inventory.mjs` 对比新旧版本。
+6. `generate-local-manifest.mjs` 生成本地骨架。
+
+## 本机 manifest 生命周期
+
+1. 填写 `replacements`。
+2. `compute-manifest-hashes.mjs` 计算 localizedSha256。
+3. `check-manifest-local.mjs` 正向/反向重放校验。
+4. `apply-local-manifest.mjs` 写入本机官方包副本。
 
 ## 安全规则
 
