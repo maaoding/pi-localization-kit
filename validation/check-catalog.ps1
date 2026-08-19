@@ -42,8 +42,20 @@ foreach ($catalogPath in @(
         Assert-True -Condition ([int]$inventory.schemaVersion -eq 1) -Message "inventory schemaVersion 无效：$inventoryPath"
         Assert-True -Condition ([string]$inventory.package.name -ceq $name) -Message "inventory 包名不匹配：$inventoryPath"
         Assert-True -Condition ([string]$inventory.package.version -ceq $version) -Message "inventory 版本不匹配：$inventoryPath"
-        Assert-True -Condition ([string]$record.source.integrity -ceq [string]$inventory.source.integrity) -Message "integrity 不匹配：$identity"
-        Assert-True -Condition ([string]$record.source.shasum -ceq [string]$inventory.source.shasum) -Message "shasum 不匹配：$identity"
+        $recordKind = if ($record.source.PSObject.Properties.Name -contains "kind") { [string]$record.source.kind } else { "npm" }
+        $inventoryKind = if ($inventory.source.PSObject.Properties.Name -contains "kind") { [string]$inventory.source.kind } else { "npm" }
+        Assert-True -Condition ($recordKind -eq $inventoryKind) -Message "source.kind 不匹配：$identity"
+        if ([string]::IsNullOrWhiteSpace($recordKind) -or $recordKind -eq "npm") {
+            Assert-True -Condition ([string]$record.source.tarball -ceq [string]$inventory.source.tarball) -Message "tarball 不匹配：$identity"
+            Assert-True -Condition ([string]$record.source.integrity -ceq [string]$inventory.source.integrity) -Message "integrity 不匹配：$identity"
+            Assert-True -Condition ([string]$record.source.shasum -ceq [string]$inventory.source.shasum) -Message "shasum 不匹配：$identity"
+        }
+        elseif ($recordKind -eq "git") {
+            Assert-True -Condition ([string]$record.source.repository -ceq [string]$inventory.source.repository) -Message "git repository 不匹配：$identity"
+            Assert-True -Condition ([string]$record.source.tag -ceq [string]$inventory.source.tag) -Message "git tag 不匹配：$identity"
+            Assert-True -Condition ([string]$record.source.commit -ceq [string]$inventory.source.commit) -Message "git commit 不匹配：$identity"
+        }
+
         Assert-True -Condition (@($inventory.files).Count -eq [int]$record.fileCount) -Message "fileCount 不匹配：$identity"
         $stringCount = (@($inventory.files | ForEach-Object { if ($_.PSObject.Properties.Name -contains "stringCount") { [int]$_.stringCount } else { 0 } }) | Measure-Object -Sum).Sum
         Assert-True -Condition ($stringCount -eq [int]$record.stringCount) -Message "stringCount 不匹配：$identity"
@@ -58,4 +70,4 @@ if ($failures.Count -gt 0) {
     $failures | ForEach-Object { Write-Error $_ }
     exit 1
 }
-Write-Host "catalog 校验通过：core 与 extensions 的 registry 元数据、inventory 引用和载荷边界一致。"
+Write-Host "catalog 校验通过：core 与 extensions 的来源元数据、inventory 引用和载荷边界一致。"

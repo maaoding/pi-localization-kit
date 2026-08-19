@@ -1,6 +1,6 @@
 # 工作流
 
-## 新版本
+## npm 发布版
 
 1. `npm view "<package>@<version>" version dist.integrity dist.shasum --json`
 2. 在 `inventories/` 建立 inventory，只记录上游事实。
@@ -16,6 +16,19 @@
 12. `check-manifest-local.mjs` 校验。
 13. `apply-local-manifest.mjs` 写入本机官方包副本。
 14. 把 inventory、catalog、scope 和工具更新提交；译文不提交。
+
+## git 来源版（npm 未发布）
+
+1. 确认上游 tag 与 commit：`git ls-remote --tags <repository>`。
+2. 在 `inventories/` 建立 inventory，`source.kind = "git"` 并记录：
+   - `repository`：HTTPS 仓库地址
+   - `tag`：发布 tag（如 `v0.4.5`）
+   - `commit`：tag 解引用后的完整 40 位 commit
+   - `build`：可复现目标文件的命令数组（如 `["npm ci", "npm run build"]`）
+3. 同步 `catalog/` 中的同名来源字段。
+4. 克隆 tag、执行 build，再对构建产物运行 `tools/verify-upstream.mjs`；
+   `validation/check-upstream-live.ps1` 会自动执行这组步骤。
+5. 其余审计、manifest 生成与校验步骤与 npm 发布版一致。
 
 ## 保持英文
 

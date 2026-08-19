@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-web-access",
+    "version": "0.24.0",
+    "installPath": "npm/node_modules/pi-web-access"
+  },
+  "source": {
+    "tarball": "pi-web-access@0.24.0",
+    "integrity": "sha512-BVosva1tGDhHveaGpFnc++YS5+pzmWVzJ/5B+1xBavkRjAgyDvMpA1EfVL+GYIviAxXKck9JyRGVzo4ASV7snA==",
+    "shasum": "ddef685aa273ecfb8459193d3fbfad9490ad59a9"
+  },
+  "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "render-search-error.ts",
+      "upstreamSha256": "4B012923B794DC0A78109C1F52964E0A51762431FC50CE9FD84C7ECEFD288883",
+      "stringCount": 15
+    },
+    {
+      "path": "index.ts",
+      "upstreamSha256": "C36757F971A7BF69FB92029E146D2166DAAFCFDD0F913DDA624427B1B80A2E28",
+      "stringCount": 38
+    },
+    {
+      "path": "curator-page.ts",
+      "upstreamSha256": "EB4902F94BCF5AB2C050B45CB26F9A6395F6725FA639AE9EC92B02AFC4D59D3A",
+      "stringCount": 71
+    }
+  ]
+}

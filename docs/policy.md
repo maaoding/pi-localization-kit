@@ -2,7 +2,9 @@
 
 ## 远程套件可保存
 
-- 包名、固定版本、npm registry 元数据。
+- 包名、固定版本、来源元数据：
+  - npm 发布版：tarball、integrity、shasum。
+  - git 来源版：HTTPS repository、tag、完整 commit、复现 build 命令（不含本机绝对路径或凭据）。
 - 目标文件相对路径和官方上游 SHA-256。
 - 汉化 scope 与 keepEnglish 边界。
 - 不依赖译文内容的验证工具与合成测试。

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-agent-browser-native",
+    "version": "0.4.5",
+    "installPath": "local-packages/pi-browser-upgrade-20260819-v0.4.5/pi-agent-browser-native-0.4.5"
+  },
+  "source": {
+    "kind": "git",
+    "repository": "https://github.com/fitchmultz/pi-agent-browser-native.git",
+    "tag": "v0.4.5",
+    "commit": "f352e0f5b8c73d5624ea3025191700822930c7df",
+    "build": [
+      "npm ci --ignore-scripts",
+      "npm run build"
+    ],
+    "note": "npm registry 尚未发布 0.4.5；目标文件为 v0.4.5 tag 构建产物。Windows 构建需 --ignore-scripts，避免 prepare 脚本触发 shell 安装。"
+  },
+  "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "dist/extensions/agent-browser/lib/pi-tool-rendering.js",
+      "upstreamSha256": "8A411985116D54C2D6541651542E69A9D84F755E9D0328F24EA717ECF1DFD5F7",
+      "stringCount": 6
+    },
+    {
+      "path": "scripts/doctor.mjs",
+      "upstreamSha256": "B52AD8CD3772DBF8C6F27A90398C620B333D968FA8AF6D953AFE39B59C9E982E",
+      "stringCount": 42
+    },
+    {
+      "path": "scripts/config.mjs",
+      "upstreamSha256": "041C13C8DFC3228D7326B8A3A4F7AA729B4F0746EF69DE4BED8CCA51AC60E123",
+      "stringCount": 12
+    },
+    {
+      "path": "dist/extensions/agent-browser/lib/config-policy.js",
+      "upstreamSha256": "AB11764704DC065D37703E1F7FDD6F1967D18D2A5A9A78300F2C2F20BC4DFCCA",
+      "stringCount": 9
+    }
+  ]
+}
