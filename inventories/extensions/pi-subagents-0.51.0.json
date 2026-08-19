@@ -11,8 +11,8 @@
     "integrity": "sha512-qC9ndnMbuHefE6mGS2k69jP4htgbiQQG5jGnwCuKyK/pMcz5RFZ5nChrJ6JxPOBlpmVxsQzW27MCh0HDJCXxsA==",
     "shasum": "774c453a5c72c6a620022e9349775dc302ec3d63"
   },
-  "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示和内置提示模板说明；提示模板名与正文、action、状态枚举、工具协议与恢复命令保持英文。",
-  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示、内置提示模板说明和 pi-subagents 技能说明；提示模板名与正文、技能名与正文、action、状态枚举、工具协议与恢复命令保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL、原始外部错误、提示模板名与正文和技能名与正文。",
   "files": [
     {
       "path": "src/extension/doctor.ts",
@@ -77,6 +77,11 @@
     {
       "path": "prompts/review-loop.md",
       "upstreamSha256": "8D5C88B3E104CE894D658F67F611F97FA6859C25432498A23235465C63104E8E",
+      "stringCount": 1
+    },
+    {
+      "path": "skills/pi-subagents/SKILL.md",
+      "upstreamSha256": "2523F2A7BAA367746DEF804D72E8C477DB12033030925D0EC0E7F0C5E6A00383",
       "stringCount": 1
     }
   ]
