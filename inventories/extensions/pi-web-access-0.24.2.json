@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-web-access",
+    "version": "0.24.2",
+    "installPath": "npm/node_modules/pi-web-access"
+  },
+  "source": {
+    "tarball": "pi-web-access@0.24.2",
+    "integrity": "sha512-wpw1XJLITrLY5epZCjiGxdF75HlKgZTrK1UM3TG/AVRzRrFqvNoc4bLYaCFFjYUG8QNEo6dIpYbCJyAUkLz/QA==",
+    "shasum": "a03f40ee3bfa239da692540d0a44279e8982cd88"
+  },
+  "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "activity.ts",
+      "upstreamSha256": "B3DB83F65A9C1291D7A63FF85427FE8C3DE282722512704EB394AEFB2BDAE716",
+      "stringCount": 0
+    },
+    {
+      "path": "anysearch.ts",
+      "upstreamSha256": "EA476B5A64CDD232A08B74917AB08DCCA79323EFC0C42AE32586A6AF5301B97B",
+      "stringCount": 0
+    },
+    {
+      "path": "auth-fetch.ts",
+      "upstreamSha256": "451632F006D3503ADEB20FE488383B915FBAA373852FA593274572FADA472CCD",
+      "stringCount": 0
+    },
+    {
+      "path": "bocha.ts",
+      "upstreamSha256": "91DFDA52B797504DDE3D076A0897758782C8142811A84930BF6563FDE249BA7F",
+      "stringCount": 0
+    },
+    {
+      "path": "brave.ts",
+      "upstreamSha256": "E7AFB66EF2A502AF66A65363D23FA66EE39EB07712656A9C231F9BEC66C84EA2",
+      "stringCount": 0
+    },
+    {
+      "path": "brightdata-unlocker.ts",
+      "upstreamSha256": "6699B32542DCD843C687EAE25F48DFAF2CFB08BE69BB9E0E69C6D907F32188A7",
+      "stringCount": 0
+    },
+    {
+      "path": "brightdata.ts",
+      "upstreamSha256": "79C77854CA7073EF6297949AB9F7F58FB35A001E7B939C654E03B03EF5EF9C7A",
+      "stringCount": 0
+    },
+    {
+      "path": "CHANGELOG.md",
+      "upstreamSha256": "6C89A940C5E93A7A39488650FE6AF1223B09FF0A718EFC6D78EA1ED67976448B",
+      "stringCount": 0
+    },
+    {
+      "path": "chrome-cookies.ts",
+      "upstreamSha256": "E735AD014CBC167F5ED45FBD50B5582378771ED16120563587A48C6406FA495A",
+      "stringCount": 0
+    },
+    {
+      "path": "content-find.ts",
+      "upstreamSha256": "3854D744D1DB30C1036069A9DC4C2CAFA96BFA5AA8A5BA23610B06E6A4F8D1A6",
+      "stringCount": 0
+    },
+    {
+      "path": "credential-source.ts",
+      "upstreamSha256": "15896F00F0AFAD91B7B0C8830DA79C670FB51E6922AFE37D17B6172B05F87DAA",
+      "stringCount": 0
+    },
+    {
+      "path": "curator-page.ts",
+      "upstreamSha256": "EB4902F94BCF5AB2C050B45CB26F9A6395F6725FA639AE9EC92B02AFC4D59D3A",
+      "stringCount": 0
+    },
+    {
+      "path": "curator-server.ts",
+      "upstreamSha256": "14317E9D7780861A79D770E5ECF520A9E7052EF48531A365DE5C7BAD0489912B",
+      "stringCount": 0
+    },
+    {
+      "path": "data-uri-sanitize.ts",
+      "upstreamSha256": "2F63C0B0B5009EB9B92CA27D041707C3F7D0D0042EA0EE8A921AD0813F332EC0",
+      "stringCount": 0
+    },
+    {
+      "path": "datalab-pdf-extract.ts",
+      "upstreamSha256": "AE9492CDBF457FE3817CCAD9C175E1CDB7B30A81814610669EB9A6D86524799F",
+      "stringCount": 0
+    },
+    {
+      "path": "declared-web-links.ts",
+      "upstreamSha256": "7C4BEC152A2064ED644C5CFF7AB744856214547B587EF7EB887C1EAAC9A76972",
+      "stringCount": 0
+    },
+    {
+      "path": "duckduckgo.ts",
+      "upstreamSha256": "6ED6A765B0AD14021E5EFF3650056AF71171427DD23F16053FA64FEA44CE9556",
+      "stringCount": 0
+    },
+    {
+      "path": "exa.ts",
+      "upstreamSha256": "350B058F92422A485DAB7AB9ADEFBEB0CC79F2AA67F1E299D5C2CB71A586A0EE",
+      "stringCount": 0
+    },
+    {
+      "path": "extract.ts",
+      "upstreamSha256": "A3A83B2416AEB8D63F8196243FA5795519E6E0C5C2D8E431E580A6B9B2CA6886",
+      "stringCount": 0
+    },
+    {
+      "path": "feature-config.ts",
+      "upstreamSha256": "207DC9F392086474B7759A5FC9C36B0540096359D367F213F198BAB39FD258BF",
+      "stringCount": 0
+    },
+    {
+      "path": "fetch-params.ts",
+      "upstreamSha256": "D10A71C8D42CC004E93D99532487436535E4BD5ECE80CBD3E58355F4F5E21864",
+      "stringCount": 0
+    },
+    {
+      "path": "firecrawl.ts",
+      "upstreamSha256": "152DE3A293ED233A61001F27934BD807B39088AB76A952BEE3C6FDCFD2564411",
+      "stringCount": 0
+    },
+    {
+      "path": "gemini-api.ts",
+      "upstreamSha256": "25AFBF2F8B420BC79D3F8CB46E9F47B2407909837FFEAB21DAEDE0ACCF9580CC",
+      "stringCount": 0
+    },
+    {
+      "path": "gemini-pdf-extract.ts",
+      "upstreamSha256": "9730FF102E0B30B3CDD7A203FCE6FE381FF3968C8D3A4442792E4046DB0DCC8A",
+      "stringCount": 0
+    },
+    {
+      "path": "gemini-search.ts",
+      "upstreamSha256": "A6FDE655C24A2889675FC6687844E1F8025EF3275490C127D7DBB42802E928E9",
+      "stringCount": 0
+    },
+    {
+      "path": "gemini-url-context.ts",
+      "upstreamSha256": "E3E3506A16ABF22FD3FEEF0EE403119350F86B3078BBD24FB4E4D1425D0E1A28",
+      "stringCount": 0
+    },
+    {
+      "path": "gemini-web-config.ts",
+      "upstreamSha256": "A314D390AB674311DED0727E1FBDAF54A4FCA6EB6C96307566ECB64434F66CE9",
+      "stringCount": 0
+    },
+    {
+      "path": "gemini-web.ts",
+      "upstreamSha256": "106B93AE275970654E1EBF811AC39C7DDD1F9DF7145FE8438E0B606DA738EDF6",
+      "stringCount": 0
+    },
+    {
+      "path": "github-api.ts",
+      "upstreamSha256": "2C4A5509A72C10F7EDBBE34A11FE6295BC457753D6CEC47146AB4100A12C3EF5",
+      "stringCount": 0
+    },
+    {
+      "path": "github-extract.ts",
+      "upstreamSha256": "DA077B6B0559D3789BA5B6773A237E256B1221B0F027F0E09A0E9C93B5FE35F8",
+      "stringCount": 0
+    },
+    {
+      "path": "index.ts",
+      "upstreamSha256": "745478A6675B1088E92C3C27A31EE15871011103A386DF5F22F1CB30B4E13D25",
+      "stringCount": 0
+    },
+    {
+      "path": "jina-search.ts",
+      "upstreamSha256": "8E142042C57F75A5959698BB14ACBAC5DE4D45E1FDDE44D78836268A2D3E78DF",
+      "stringCount": 0
+    },
+    {
+      "path": "kagi.ts",
+      "upstreamSha256": "4A6D0A0A6FFF5C42F7E9CDCF288E9A918B825B1310B9E4DF48955EF163B5A7F2",
+      "stringCount": 0
+    },
+    {
+      "path": "LICENSE",
+      "upstreamSha256": "871B3C6C64E030C0647CA33543716BDAE9511AE2D6A85D6F4CE63783BAB52C8F",
+      "stringCount": 0
+    },
+    {
+      "path": "ollama.ts",
+      "upstreamSha256": "E2D85EC175180DA4A4B8B34A778DA1EDCEF62B92884EA39D946A50D5836C7589",
+      "stringCount": 0
+    },
+    {
+      "path": "openai-search.ts",
+      "upstreamSha256": "0B9C6AA8613217FDD56941D4AF3BA1C06D60F34AB5686D2BA2A8D7860590CB24",
+      "stringCount": 0
+    },
+    {
+      "path": "package.json",
+      "upstreamSha256": "8B5FCA3D03020CAD9530CC7F8A24EAF46938B0FF2F1B8F83C1C2398C98CCC320",
+      "stringCount": 0
+    },
+    {
+      "path": "page-query.ts",
+      "upstreamSha256": "1574284CD35467F88E23E881B20B4FA458D11463BE950BE90676DDF48559833B",
+      "stringCount": 0
+    },
+    {
+      "path": "parallel-mcp.ts",
+      "upstreamSha256": "CD1FA2340FAAF7D716264D98C9B9304B2DE1F3FDC57B7D0123635BC5424D52C9",
+      "stringCount": 0
+    },
+    {
+      "path": "parallel.ts",
+      "upstreamSha256": "4B3CA35C31720E92A2D6C3FD382F8F4075654E3D29CB6031BF4044A507956C75",
+      "stringCount": 0
+    },
+    {
+      "path": "pdf-extract.ts",
+      "upstreamSha256": "E7DFD6DDA9887373A40B815E2D60A7F0E96FD1A1950A7E4F0C9C9E1657FE3170",
+      "stringCount": 0
+    },
+    {
+      "path": "perplexity.ts",
+      "upstreamSha256": "8451DEECF8F6551FF26383431116D3B381E66CA2BCB84F9F2918F1BA0DC6B866",
+      "stringCount": 0
+    },
+    {
+      "path": "promise-try.d.ts",
+      "upstreamSha256": "C9927616AC3E6CC7CCDC308712C0B8394CDAFDFCEC562190FB0A2ADC5EE8EA7E",
+      "stringCount": 0
+    },
+    {
+      "path": "querit.ts",
+      "upstreamSha256": "576D449E3526DBF3FF2856C51CA3FBE753A30492E4E88DACF9429D5A67C2028C",
+      "stringCount": 0
+    },
+    {
+      "path": "query-rewrite.ts",
+      "upstreamSha256": "F62BBBC992991B6D5AAF85ECD7A9DAE7A1BB84CF6339757440F84EE17AD90547",
+      "stringCount": 0
+    },
+    {
+      "path": "README.md",
+      "upstreamSha256": "7329442F0F2EA5D2850412FCEE8FC4B9182525EC20CF539D67FFE75B507413A9",
+      "stringCount": 0
+    },
+    {
+      "path": "render-search-error.ts",
+      "upstreamSha256": "4B012923B794DC0A78109C1F52964E0A51762431FC50CE9FD84C7ECEFD288883",
+      "stringCount": 0
+    },
+    {
+      "path": "rsc-extract.ts",
+      "upstreamSha256": "6E2537D70F80F750E619DB887FFE9DA14EF78A8CD5D502B49BF13A1865EF2078",
+      "stringCount": 0
+    },
+    {
+      "path": "search1api.ts",
+      "upstreamSha256": "D7802DC6D5831C723732D3E64B99366EACA766A64E84F6DFD278BC40BB315E35",
+      "stringCount": 0
+    },
+    {
+      "path": "searchinfinity.ts",
+      "upstreamSha256": "6785A5AA5986A90C3B2B21DD27C230476D1A35E4E91A069649938C94E4BBC1AF",
+      "stringCount": 0
+    },
+    {
+      "path": "searxng.ts",
+      "upstreamSha256": "0B96A55A7ABCC3992ECABBCFEC6490F9462E85E9FDB7373C8DB48FCB92240A42",
+      "stringCount": 0
+    },
+    {
+      "path": "SECURITY.md",
+      "upstreamSha256": "80DF9EC418CCB957B86C796F15B202E713E6AD7B944A2D1E278CB69F39CB96DD",
+      "stringCount": 0
+    },
+    {
+      "path": "serpbase.ts",
+      "upstreamSha256": "7F14E2954CC7DB3214D378DB63959A4DC26B64C87CB8F98C6859DFD7539C5E9F",
+      "stringCount": 0
+    },
+    {
+      "path": "serpdive.ts",
+      "upstreamSha256": "146B7556ECB64ED88C0A97703967C2B772E3CEE28391CBD2E744C0557FDC6E2A",
+      "stringCount": 0
+    },
+    {
+      "path": "serper.ts",
+      "upstreamSha256": "49C4AE8F31B0C101896849634A6DA9E45D5DF007DCE3643F0B6B44A608BB8E01",
+      "stringCount": 0
+    },
+    {
+      "path": "source-check.ts",
+      "upstreamSha256": "27FFBDC4ABD11C6B5D8522886C3B48701237D62683E864CC13B4F0BD08527765",
+      "stringCount": 0
+    },
+    {
+      "path": "ssrf-protection.ts",
+      "upstreamSha256": "945E914929B9967D6C9F3036D552F0F9CA5B0564CFB08E0FC25D6CAD80D06EC8",
+      "stringCount": 0
+    },
+    {
+      "path": "storage.ts",
+      "upstreamSha256": "89EE6FF204CEB108A7D619F4A207819F774BD829A7F80D6CCD1A780009EA012F",
+      "stringCount": 0
+    },
+    {
+      "path": "summary-model-scope.ts",
+      "upstreamSha256": "F9700D39A7E4F6A128F05F78C7DF2630C70F3362930F12DF560C3D6C7BDD5ADB",
+      "stringCount": 0
+    },
+    {
+      "path": "summary-review.ts",
+      "upstreamSha256": "57A56BC0DD3BA1C785A64B1FB375A1C5ED8B4182A4ACA739FB482D862C2189D9",
+      "stringCount": 0
+    },
+    {
+      "path": "tavily.ts",
+      "upstreamSha256": "DA80B962D8B3D112D3A73E2DF40B162493EBA0A7DA80354C2C6D7BC4BD226C7C",
+      "stringCount": 0
+    },
+    {
+      "path": "tinyfish.ts",
+      "upstreamSha256": "EA345323278AD7487B3611BC92D24CBD6DF8D47E6FA44019DEF5E073542FE6E6",
+      "stringCount": 0
+    },
+    {
+      "path": "utils.ts",
+      "upstreamSha256": "86017BE692F5C5C5E1B4DCE92F12BDB1D0517ED90D903D7EF408673D37CAF124",
+      "stringCount": 0
+    },
+    {
+      "path": "valyu.ts",
+      "upstreamSha256": "0D1651DFF608AC82C2B4835A06AAA272788E096DD0FBE55EB6759FD7C709B831",
+      "stringCount": 0
+    },
+    {
+      "path": "video-extract.ts",
+      "upstreamSha256": "C5EEA57652EFE02C70A7EBAF9E32CCE72EBE9A41C06573061CD94211EC73E843",
+      "stringCount": 0
+    },
+    {
+      "path": "xai-search.ts",
+      "upstreamSha256": "66DA0690CF2FFD4168CEBDB5BA6AA85DFB0A8EC86C7BDC841B5A69A678B21940",
+      "stringCount": 0
+    },
+    {
+      "path": "youtube-extract.ts",
+      "upstreamSha256": "AEA122F7F30D24780291EA0C7A900D1159142368A58C6E5373ED09656A6F6AF7",
+      "stringCount": 0
+    }
+  ]
+}
