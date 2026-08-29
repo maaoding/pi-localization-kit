@@ -3,14 +3,14 @@
   "packages": [
     {
       "name": "@earendil-works/pi-coding-agent",
-      "version": "0.84.3",
+      "version": "0.84.4",
       "kind": "core",
       "installPath": "dist",
-      "inventory": "inventories/core/pi-coding-agent-0.84.3.json",
+      "inventory": "inventories/core/pi-coding-agent-0.84.4.json",
       "source": {
-        "tarball": "@earendil-works/pi-coding-agent@0.84.3",
-        "integrity": "sha512-Yr2p9PubrbFZmYEPYI+C8KmZP9xlFuLDnAG64RtU0ZDgrdiXYWa+y7WGyJO5OlqPliOkVCMd9IzVszO3/t0D0w==",
-        "shasum": "c040a5c2cfacd996731ce302a323269f124c8bdc"
+        "tarball": "@earendil-works/pi-coding-agent@0.84.4",
+        "integrity": "sha512-jmOlrqUmvhh/siNWFRXjYLJzhKFIHNsAQaysRwzQPQFnPAaV/vhqHsLH/MBsIISA1Rjj7WTUFR3nJrpXoLx39w==",
+        "shasum": "3a2f04bfc5e463b4cfa36b174a586d11a0bdf9ad"
       },
       "fileCount": 118,
       "stringCount": null,

@@ -1,0 +1,563 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-mcp-adapter",
+    "version": "2.31.0",
+    "installPath": "npm/node_modules/pi-mcp-adapter"
+  },
+  "source": {
+    "tarball": "pi-mcp-adapter@2.31.0",
+    "integrity": "sha512-yKPgHWFLQY6FT7ukCgEp5KvkAZ4ZC1pl7+8Tdq+j4evfTtjhHXPuIpi0joNN7lIIKuJD1cjlTb+hu6IxRpseoA==",
+    "shasum": "c8539558672010a674a1ac087231e982f410688d"
+  },
+  "scope": "CLI helper、扩展 CLI flag 说明、/mcp 与 /mcp-auth 用户界面、启动/页脚状态、MCP 主面板、setup 面板和 mcp-scripting 技能说明；MCP method、JSON-RPC/schema、工具名与工具描述、Slash command、selector、状态枚举、模型可见结果、外部路径、原始错误和技能名与正文保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL、原始外部错误和技能名与正文。",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "upstreamSha256": "B68BC0760AD1D5322BC49BE027972A1F905EE0505A87ACAEF38B3E438E0B5C4C",
+      "stringCount": 0
+    },
+    {
+      "path": "LICENSE",
+      "upstreamSha256": "2D20DFACD9742706E564470DC77438608A1E54B0ED46959F080709389209093C",
+      "stringCount": 0
+    },
+    {
+      "path": "README.md",
+      "upstreamSha256": "BE4CB8658AD179ACA8CD66D0CDC149D000222C0DC36815F566DE0B18B9679C12",
+      "stringCount": 0
+    },
+    {
+      "path": "abort.ts",
+      "upstreamSha256": "E73C182626CD187A3AE83254D146875CA6C71C911C6CDBE74890003B8811784A",
+      "stringCount": 0
+    },
+    {
+      "path": "agent-dir.ts",
+      "upstreamSha256": "72AF0C49EB6ACC34282D97975BD358501B46B598A0B153D32C21EF5929461614",
+      "stringCount": 0
+    },
+    {
+      "path": "agent-plugin-loader.ts",
+      "upstreamSha256": "06E3AFA393CB728ADF48F53FEBF36D8F48C43DAE68BFCFD6C316C5FBF9A8C155",
+      "stringCount": 0
+    },
+    {
+      "path": "app-bridge.bundle.js",
+      "upstreamSha256": "7D069DBFBA3733453E4A7A6E340E767B95FDDC10B01FA907B8582C1A85144E8E",
+      "stringCount": 0
+    },
+    {
+      "path": "banner.png",
+      "upstreamSha256": "34E053B3A425F13CD151091012158B9CFB98DEF26F092D63748BB409C65478D4",
+      "stringCount": 0
+    },
+    {
+      "path": "cli.js",
+      "upstreamSha256": "5A40B8FCE7879BC7A950CC950D4A83EDEA19F3736503997905CB4AF04CA54DFE",
+      "stringCount": 0
+    },
+    {
+      "path": "commands.ts",
+      "upstreamSha256": "A2215124F795E5FAE48140374E5BE1ABB30F30D185AD718C5D6FDD1F610BADDB",
+      "stringCount": 0
+    },
+    {
+      "path": "config.ts",
+      "upstreamSha256": "146B49F07E7A01A07CD9ADB178204996F0CF8F3BCDE78631CF4E45AC3556FBE8",
+      "stringCount": 0
+    },
+    {
+      "path": "consent-manager.ts",
+      "upstreamSha256": "FCC15906C716BAFBDA0C09769D06B6A7EC4E4D97661858F54490AE6AF594A469",
+      "stringCount": 0
+    },
+    {
+      "path": "direct-tools.ts",
+      "upstreamSha256": "4CEDF29334EB80062251D25F1CFE37F188A5EC2BE10E0885C1D506830511BB65",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/agent-dir.d.ts",
+      "upstreamSha256": "6456D2B785A9FF106C2526DD990D8AD763B52C7108692C5A067153A91A84D010",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/agent-dir.js",
+      "upstreamSha256": "D36B6A229E14C6EF6D50175EA2535E81742EBB0D4AF97C78954283772315842C",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/agent-dir.js.map",
+      "upstreamSha256": "BB186BA9EAEC6589F3F0D90301751791F10EBF4FBB463FA5C608618EC2B45E05",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/agent-plugin-loader.d.ts",
+      "upstreamSha256": "4D82616D53A27C634B1195E424E12BC66796E872DF0BE49A85A1A9D9D4C171E4",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/agent-plugin-loader.js",
+      "upstreamSha256": "561F029F131DE0032FA4169525692DA3349923974AB48B5F7F576DC3C55FDCE4",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/agent-plugin-loader.js.map",
+      "upstreamSha256": "E64B809255F5CD1B239C8F28070913151165A7F68FD8AB73D554D641F1E15107",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/config.d.ts",
+      "upstreamSha256": "3522C30389A7B89D97CE4D12721D93934AE5C1FA32F285AF7A3646BED24A6638",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/config.js",
+      "upstreamSha256": "A3D21F9EC4DC97BFB93502F6FE9F19785233D64FB462F8B41EA010E2921777E0",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/config.js.map",
+      "upstreamSha256": "C4F8637CE089C12FEEC6C6AB4DCF122C7ABD6DEF0E8C74CF19C6BD8E29788E38",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/mcp-bearer-store.d.ts",
+      "upstreamSha256": "7E07256F40097D0EEB3E9B54FDD27E2A0962AD15DD3BDB4609199408C2A0EFA3",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/mcp-bearer-store.js",
+      "upstreamSha256": "145EB08EFC7D5B4E67225896541BC7BC83AEC3B957DAAB608F379434459C310E",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/mcp-bearer-store.js.map",
+      "upstreamSha256": "5725D930A8F2EEA11B9B875F39B863ED9B11C11DDFC8376743B016252B0C2CF5",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/metadata-cache.d.ts",
+      "upstreamSha256": "2F3CB5B155802CE0DAC1BBA63C4ED9073CEFF38F794C4749C4B1DAA5A2A9EA3F",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/metadata-cache.js",
+      "upstreamSha256": "E9C874670DB1B4281E0DEA0831C6E13C5BEB4ADFCDE6E9133DCC773344449BD8",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/metadata-cache.js.map",
+      "upstreamSha256": "4789B209E31FD274D727A964046B74E4167F421DDF9572DA0DA641761C01AAC9",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/package-mcp-loader.d.ts",
+      "upstreamSha256": "8AA6746E492221CB7131909C21E15F80AA6236AF5FE7E50DE9AC03078BD60967",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/package-mcp-loader.js",
+      "upstreamSha256": "4603B740AC9BC4ED36F940BDFB9D872C72B09A326E1BCA74B87338CFA7BE10F1",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/package-mcp-loader.js.map",
+      "upstreamSha256": "54DA88C8C364CC6A65DA4C43A0A444ED0698E04C812DDDD5E9574365A20E8D7F",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/resource-tools.d.ts",
+      "upstreamSha256": "D731F82285BB38EC7BC1D60C3070C428DB41D16C22C06C2C2F32451BBC780B23",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/resource-tools.js",
+      "upstreamSha256": "8F1F638846D274A2C6E9034277B0F892D1BC7ABD6EF15AAA15286BABA8630BA5",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/resource-tools.js.map",
+      "upstreamSha256": "F6896F8899603511AD719BA67E9D8D0091E1E6B8F5150CB4C5F5576672CA55BD",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/types.d.ts",
+      "upstreamSha256": "DAD7BB94ED948ABC39283A8CE1F4A0DF86C38ADF081CEAF2F58B31B7AF28E9E7",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/types.js",
+      "upstreamSha256": "1AEAC454EADC8BE11DDAF5589DD882E1D320BB2D691AD3705AC58F7D5D6ABDB4",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/types.js.map",
+      "upstreamSha256": "DE2FECEF082C523645DEF9D884A8ECE8229A83EA251AC2F242033667BB7F1A0F",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-app-bridge-helpers.d.ts",
+      "upstreamSha256": "7F94D6D56BD4AEDD7CD08F7BFCBF9CCB8DFE1B7D002073E41F9A79CC5D92EEC5",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-app-bridge-helpers.js",
+      "upstreamSha256": "6B2D0E9B0DE3508D9337C05E7622FDB5CB1564D977AEB757C9E5628BF0616E02",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-app-bridge-helpers.js.map",
+      "upstreamSha256": "E544379EBEADAD1E691298B6FD795388B780594211390E13CED08140CEE1B7DC",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-stream-types.d.ts",
+      "upstreamSha256": "171C5303969C8F2A89B15382462C90AB64D7BD3A9FA6C64C2AEAB6CCCA3E548A",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-stream-types.js",
+      "upstreamSha256": "0FD64475204E9D6D19A8AB226F51EC20972B1FEFAFFE6F73DE61CDED22E9B384",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-stream-types.js.map",
+      "upstreamSha256": "6B15CC467F8852B40D0D885FA584E5F65EF7D2822346A33986F6E052F7C19229",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-tool-visibility.d.ts",
+      "upstreamSha256": "32A691C682E2A0FBE5D8FE013A074E912A43F4B4BA209044A881C71E293860DE",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-tool-visibility.js",
+      "upstreamSha256": "C9D3D1655752575182E400E79EE7E66A38F88C44A1E17101FD8C397703E2CF93",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/ui-tool-visibility.js.map",
+      "upstreamSha256": "D1177369BDD2748DD31239878A6A535631BAD73713EA1ED7757F325804D9C673",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/utils.d.ts",
+      "upstreamSha256": "8C8B83DF0DD59207E8F7B0DA80F06EE6646197D3B5CA2C2605EB03E5AEC8F25C",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/utils.js",
+      "upstreamSha256": "D731360FE6C94C73E6313C964556E82E2F7B50A6FBAA381B68E5BCF804415EDE",
+      "stringCount": 0
+    },
+    {
+      "path": "dist/utils.js.map",
+      "upstreamSha256": "F17A74D996771B2EC4C46586494CFAFCBF6E88B9642E2E9535BF95CB0F87120C",
+      "stringCount": 0
+    },
+    {
+      "path": "elicitation-handler.ts",
+      "upstreamSha256": "B771BE099633B76623166A91CFEC7FF343166BD2DBC7A6B788DF79B7591913B6",
+      "stringCount": 0
+    },
+    {
+      "path": "error-signal.ts",
+      "upstreamSha256": "2A01E57025F3DC2B18F1EC4179FBB1DA6BE7277A871215A9091C6E8B3005FC52",
+      "stringCount": 0
+    },
+    {
+      "path": "errors.ts",
+      "upstreamSha256": "1A28995A94AAB605C4D60C6AF7DA9D00D18ABD7340C780C29A3EBBFCE2A2D8E7",
+      "stringCount": 0
+    },
+    {
+      "path": "failure-backoff.ts",
+      "upstreamSha256": "91C824CD40BBEC8617C4AD1B7513D53468635466792ACDC4D0389016F946A428",
+      "stringCount": 0
+    },
+    {
+      "path": "glimpse-ui.ts",
+      "upstreamSha256": "0BBC94FD4218426B227A499E8F245B3FCCFACB4593A90855D8C9466A84C55779",
+      "stringCount": 0
+    },
+    {
+      "path": "host-html-template.ts",
+      "upstreamSha256": "13B495B12EE4D74C3A760D18449E70576500D5C4FA3714CDDD40B232642D73D5",
+      "stringCount": 0
+    },
+    {
+      "path": "index.ts",
+      "upstreamSha256": "16D260AC25B66346BAAB6ECEF76680324336953BAFC7BE8CF95B3DF5C611B89E",
+      "stringCount": 0
+    },
+    {
+      "path": "init.ts",
+      "upstreamSha256": "E0BCBB2456DD71E008EA889BA4917DE98CD2F062F6425187571D51E40D5254CA",
+      "stringCount": 0
+    },
+    {
+      "path": "json-schema-validator.ts",
+      "upstreamSha256": "04F21C05C4CE15C575CC78798F124BAC31FCAEE0E8627DFFE6881BA62ED192D6",
+      "stringCount": 0
+    },
+    {
+      "path": "lifecycle.ts",
+      "upstreamSha256": "70A81CF8B396AF381C5A257676557C98D5924DE3A535767C6EDFCD67F0144A9A",
+      "stringCount": 0
+    },
+    {
+      "path": "logger.ts",
+      "upstreamSha256": "E8329F64AFB4C3C1F797A8CF5A733A8A244EDB6385293FAABE75251691384D5E",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-auth-flow.ts",
+      "upstreamSha256": "361DD2D421A50C9E37F3E514C4EEAEBCBE5E5785C708D3DB796E6D5ED1705AAB",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-auth.ts",
+      "upstreamSha256": "381F714D6EEEDFA392746A60A957E6568F522935D837CB2B4895D6F1F6420F9A",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-bearer-store.ts",
+      "upstreamSha256": "86517A78DC2B0471FFF727C36969519F347E07C8893612B428956F5AAB17B171",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-callback-server.ts",
+      "upstreamSha256": "8A121E194D6C3FB4F5940FA26E0F1C574E9E68F9F02714BC9EC81BE5A46B81AA",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-code.ts",
+      "upstreamSha256": "EBABDE51666DCC38BB251A899F05CBB770ABC82952E7C7DD1D39F074F0BC40A1",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-keyring-helper.cjs",
+      "upstreamSha256": "FBED8564E1E96A4AFBE4EFD7923E9CCD5B0FD3C7A1FF1F28A00CE5B324C97716",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-oauth-provider.ts",
+      "upstreamSha256": "FE5CE4EC19497EFE1041D2ACC0FFCFBD710D54020EC2165EB20B61B48FFF3A57",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-output-guard.ts",
+      "upstreamSha256": "A13FA4B7202DE5B0CC17EC94F7D77128E6F7C794DFC7C2F79A5ACC685CA986D9",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-panel.ts",
+      "upstreamSha256": "C595A1A258FCF4E6CA69CEA13D60BD7AB78227635F05FE5B9FEDACEA8F6C07AA",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-probe.ts",
+      "upstreamSha256": "5DD769AB62C42B5941AFEAE592FD3B21C2858F571EA4AB9B3353B4F18CC50D4D",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-references.ts",
+      "upstreamSha256": "F030A9C612F7BB6EC8ECC597086F82FB9024953D4116AD92877D2BD666DF64E9",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-script-worker.mjs",
+      "upstreamSha256": "2959B1DF723A599A402C8B11A65DF7636BF2E856B6E4665DF9C86B80A31D3277",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-setup-panel.ts",
+      "upstreamSha256": "0858A8EFE1D785F77CC15B3B4291F52B2F82029DCBD61BAE99709FB8131E4AFA",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-status.ts",
+      "upstreamSha256": "2621D4CDA2E4B57EC20DC39D2B455AA073E18DD32148B2E1DD0537585DACB20B",
+      "stringCount": 0
+    },
+    {
+      "path": "mcp-trace.ts",
+      "upstreamSha256": "48373EE24E76C0F4BA48ADD571CB33146C49139935E874348D172559200C5922",
+      "stringCount": 0
+    },
+    {
+      "path": "metadata-cache.ts",
+      "upstreamSha256": "E75E7BE102E299EAB5856AE0D62FAB4FFEBE81E624F7A4ECF0EE27BA62A023C2",
+      "stringCount": 0
+    },
+    {
+      "path": "namespace-tools.ts",
+      "upstreamSha256": "D66B8531B96461167396A9886D81FAD477A8676CE62FADAD913E126B3964AD71",
+      "stringCount": 0
+    },
+    {
+      "path": "npx-resolver.ts",
+      "upstreamSha256": "47EB0E6A228BD9D1069383F51C4393F695E5381D07C6324D2D7BE021B56F277C",
+      "stringCount": 0
+    },
+    {
+      "path": "oauth-handler.ts",
+      "upstreamSha256": "66C8714B2DDA637CBF83638B7A7B0AA240A91B48370E0D3F8C92B00F7D78F793",
+      "stringCount": 0
+    },
+    {
+      "path": "oauth.ts",
+      "upstreamSha256": "4AB54D881212A6B4DE120D5237CB6CB8CB99E51CD923EA6AC374A121268C9ACD",
+      "stringCount": 0
+    },
+    {
+      "path": "onboarding-state.ts",
+      "upstreamSha256": "376D6A56F20E8DE9C4075DF975F9C2192D7B8DF165F4A8D27BDA0EC36E814DAB",
+      "stringCount": 0
+    },
+    {
+      "path": "package-mcp-loader.ts",
+      "upstreamSha256": "668DEBE28AFAB44DC994BEED38127345328E2BBD9775A0079EF24328D75C22E6",
+      "stringCount": 0
+    },
+    {
+      "path": "package.json",
+      "upstreamSha256": "27D5E3E21DB557A7732AF1645E2C68C82B34B84C195583F181CF2BFFEF159373",
+      "stringCount": 0
+    },
+    {
+      "path": "panel-keys.ts",
+      "upstreamSha256": "952C331CB91C14703EE794F91C8C2E6A9368B8C6309F8874E4DC5E614201BD2D",
+      "stringCount": 0
+    },
+    {
+      "path": "prompts.ts",
+      "upstreamSha256": "3C9E9825365C25C31B95271E6D68412ECE0E2B3F73DE9AFF813EA00FA5531040",
+      "stringCount": 0
+    },
+    {
+      "path": "proxy-modes.ts",
+      "upstreamSha256": "129E0473A36B52F87FB3C0C9129DE4BD4C2B5F6651A19AB93DA6D3906097B93B",
+      "stringCount": 0
+    },
+    {
+      "path": "request-headers-command.ts",
+      "upstreamSha256": "AB61FBD6FB3461E8A4ADD70F1B09DDAEC26042798A7278BF8DAF553F11A9794A",
+      "stringCount": 0
+    },
+    {
+      "path": "resource-tools.ts",
+      "upstreamSha256": "A2D662195322731837DC0387F21993A956E26D9287DE2F83D17C9CD1CC140177",
+      "stringCount": 0
+    },
+    {
+      "path": "runtime-owner.ts",
+      "upstreamSha256": "6883A091CC6AB2E7F3C2263456233AF011CDC0CD03A92CB48802CAB887928AF4",
+      "stringCount": 0
+    },
+    {
+      "path": "sampling-handler.ts",
+      "upstreamSha256": "16AD21D8269E570715B2118DDACDB5E150564F72C49259889BA8D0E6F2B2288B",
+      "stringCount": 0
+    },
+    {
+      "path": "search-ranking.ts",
+      "upstreamSha256": "32BB1CDD394A5DF82739708F89A55469E339452C78F941DA6A6108EA025279A0",
+      "stringCount": 0
+    },
+    {
+      "path": "server-manager.ts",
+      "upstreamSha256": "4AC4D06008BDD0BDCEBB8E333212EBD6AEB4E5A246CE5E466691002FC152E7FE",
+      "stringCount": 0
+    },
+    {
+      "path": "session-recovery.ts",
+      "upstreamSha256": "CF3A6931849E3CD6A32C7772A9EED7A9A849429B355A059E5384CAA4D71AF8F4",
+      "stringCount": 0
+    },
+    {
+      "path": "skills/mcp-scripting/SKILL.md",
+      "upstreamSha256": "D33016AEB01D696E42FD57063E6447A3A25338EAE00176BFB8768149E2F29CD5",
+      "stringCount": 0
+    },
+    {
+      "path": "state.ts",
+      "upstreamSha256": "F35003D1936826FF1524377070CE0FA7AFA9FF188DC712AA6B27F826611E1728",
+      "stringCount": 0
+    },
+    {
+      "path": "tool-approval.ts",
+      "upstreamSha256": "AFDF7CEE53DF8A2030B60A841AFE0B346B567B883661B3A3743A11C7C249348F",
+      "stringCount": 0
+    },
+    {
+      "path": "tool-metadata.ts",
+      "upstreamSha256": "CC91A6D22C0243B1C6648A34EE775A9DE2C205251A14A4557A3B00B75078CE31",
+      "stringCount": 0
+    },
+    {
+      "path": "tool-registrar.ts",
+      "upstreamSha256": "4BC8F3C25743D6BE3A7BBED5EC2425F80A66CBBBEDA3D5922302C1961B67A170",
+      "stringCount": 0
+    },
+    {
+      "path": "tool-result-renderer.ts",
+      "upstreamSha256": "645F29148518F5C9EF2A00863F2A05D151A099690BC804C9BE33AACADA1E1B7F",
+      "stringCount": 0
+    },
+    {
+      "path": "ts-shape.ts",
+      "upstreamSha256": "401ACFE8EA58498DD0F27906E79733C0C6B4D2049DCBCEA993A0686EDD9445E9",
+      "stringCount": 0
+    },
+    {
+      "path": "types.ts",
+      "upstreamSha256": "D7B7CACAEEB4B2E25161F84037444EA9FAC87C835A90BE115AE7266CCF6E52BC",
+      "stringCount": 0
+    },
+    {
+      "path": "ui-app-bridge-helpers.ts",
+      "upstreamSha256": "278A8315C5278F43E1FB36A04734FD6ED410AA05DA25B4E891AAC3326768396F",
+      "stringCount": 0
+    },
+    {
+      "path": "ui-resource-handler.ts",
+      "upstreamSha256": "171AA849ADAEF90EAB031EBD52CBAD6F3B73524BDD045B82932D8F00BA8EE5A0",
+      "stringCount": 0
+    },
+    {
+      "path": "ui-server.ts",
+      "upstreamSha256": "B5CE071E653DF9D788F49879D7B4735188190B330A18687BCE37D30DB0A87EE0",
+      "stringCount": 0
+    },
+    {
+      "path": "ui-session.ts",
+      "upstreamSha256": "E73F617A91E6B4C67220748BCFE2E8A19CCE4021CE9723453ED0D00B3D1AA213",
+      "stringCount": 0
+    },
+    {
+      "path": "ui-stream-types.ts",
+      "upstreamSha256": "2892161D3AC3EFC2F4B757F667E64CD22EDAFE844763ADA1CD70DE03FDF77500",
+      "stringCount": 0
+    },
+    {
+      "path": "ui-tool-visibility.ts",
+      "upstreamSha256": "DF4FD662EDAEC537D6221F9554B3A53FF77C4F99E2419C5DA226095CE07F33F1",
+      "stringCount": 0
+    },
+    {
+      "path": "unix-socket-transport.ts",
+      "upstreamSha256": "2AD560B617F7FDFF68DAE95113857D1B0A87A4FA0753A13DB1BB7EB62B6CAE57",
+      "stringCount": 0
+    },
+    {
+      "path": "utils.ts",
+      "upstreamSha256": "E83D2CC0C5CBC12756243801CAFEC71D91017F6D68672F7B5502B85573410D00",
+      "stringCount": 0
+    }
+  ]
+}
