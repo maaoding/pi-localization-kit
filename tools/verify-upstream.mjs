@@ -18,6 +18,33 @@ const targetRoot = inventory.package.kind === "core"
   : packageRoot;
 
 const failures = [];
+if (inventory.package.kind === "core") {
+  const packageJsonPath = join(packageRoot, "package.json");
+  if (!existsSync(packageJsonPath)) {
+    failures.push("package.json: 文件缺失，无法核对实际 CLI 入口");
+  } else {
+    const packageJson = JSON.parse(readFileSync(packageJsonPath, "utf8"));
+    const bin = packageJson.bin;
+    const packageBasename = String(packageJson.name ?? "").split("/").at(-1);
+    const entrypoint = typeof bin === "string" ? bin : bin?.pi ?? bin?.[packageBasename];
+    if (typeof entrypoint !== "string" || entrypoint.length === 0) {
+      failures.push("package.json#bin.pi: 未找到实际 CLI 入口");
+    } else {
+      const normalizedEntrypoint = entrypoint.replace(/^\.\//, "").replaceAll("\\", "/");
+      const normalizedInstallPath = String(installPath).replace(/^\.\//, "").replace(/\/$/, "");
+      const prefix = `${normalizedInstallPath}/`;
+      if (!normalizedEntrypoint.startsWith(prefix)) {
+        failures.push(`package.json#bin.pi: ${normalizedEntrypoint} 不在 installPath ${normalizedInstallPath} 下`);
+      } else {
+        const inventoryEntrypoint = normalizedEntrypoint.slice(prefix.length);
+        if (!inventory.files.some((file) => file.path === inventoryEntrypoint)) {
+          failures.push(`package.json#bin.pi: 实际入口 ${inventoryEntrypoint} 未纳入 inventory`);
+        }
+      }
+    }
+  }
+}
+
 for (const file of inventory.files) {
   const target = join(targetRoot, ...file.path.split("/"));
   if (!existsSync(target)) {

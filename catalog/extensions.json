@@ -3,14 +3,14 @@
   "packages": [
     {
       "name": "@juicesharp/rpiv-ask-user-question",
-      "version": "2.7.1",
+      "version": "2.9.0",
       "kind": "extension",
       "installPath": "npm/node_modules/@juicesharp/rpiv-ask-user-question",
-      "inventory": "inventories/extensions/juicesharp-rpiv-ask-user-question-2.7.1.json",
+      "inventory": "inventories/extensions/juicesharp-rpiv-ask-user-question-2.9.0.json",
       "source": {
-        "tarball": "@juicesharp/rpiv-ask-user-question@2.7.1",
-        "integrity": "sha512-S4muZ/IbQ5M3xRX49b2r1CfxdkMmREjq+gv9j4qnyZ0BaEHNHTJ61NIerRzgmYt4FeteXqJB8XV3x8pZvq/GGg==",
-        "shasum": "30a8198cf55d04f47c2fa834c7158d1b5fd6cfc4"
+        "tarball": "@juicesharp/rpiv-ask-user-question@2.9.0",
+        "integrity": "sha512-/sqY7ysOgJ8snWyXLOS2zH+djfVuwFce6hU88BDP6tpoFPYq5gT+TaZpSIt9lYnJUVkgzTABIAtCNSUc/rovrA==",
+        "shasum": "cdfb74553cd4c64991e2ee2febef8488ace8501a"
       },
       "fileCount": 56,
       "stringCount": 6,
@@ -33,44 +33,44 @@
     },
     {
       "name": "pi-subagents",
-      "version": "0.59.0",
+      "version": "0.65.1",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-subagents",
-      "inventory": "inventories/extensions/pi-subagents-0.59.0.json",
+      "inventory": "inventories/extensions/pi-subagents-0.65.1.json",
       "source": {
-        "tarball": "pi-subagents@0.59.0",
-        "integrity": "sha512-EOzArN0fU3AUQT+bjtq/8DfW8nSySTV43Qw97QFyChYBFX+GfmO3b7CgtelUfBqfg4gYmcq50B4MguAExIYM1g==",
-        "shasum": "58488438b81ed3e5565a8fcbffd505f513d47382"
+        "tarball": "pi-subagents@0.65.1",
+        "integrity": "sha512-t5Ik4pHNp/E87a36cuHpTrWaXPEQZzb2mOyZzKRuRtBXm5Z9Ht91nu9mZHrjKj83XYL3SL1kXJdmwBWqm/9fmg==",
+        "shasum": "151c0ee4c00da18e555c4e99be8ddf6d9cb88cf6"
       },
-      "fileCount": 287,
-      "stringCount": 0,
+      "fileCount": 306,
+      "stringCount": 23,
       "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示、内置提示模板说明和 pi-subagents 技能说明；提示模板名与正文、技能名与正文、action、状态枚举、工具协议与恢复命令保持英文。"
     },
     {
       "name": "pi-web-access",
-      "version": "0.27.0",
+      "version": "0.28.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-web-access",
-      "inventory": "inventories/extensions/pi-web-access-0.27.0.json",
+      "inventory": "inventories/extensions/pi-web-access-0.28.0.json",
       "source": {
-        "tarball": "pi-web-access@0.27.0",
-        "integrity": "sha512-D/z7ILwbnJeDjzFPC1j3G1OvO+j2vl2H13ByYcH5FLbrJ1yBdbBwTBcl96Bbt2NEqH5vdmoZ/EpbDG8BTF9W7Q==",
-        "shasum": "f97ea9371f81d44c9bb34e43e1868db32e2c21ae"
+        "tarball": "pi-web-access@0.28.0",
+        "integrity": "sha512-NMiRWiRXt46oNOoef+9WUN9IKzwADXuM9Wu6fPgMBScIVO8wQK3+dUV0CkmkvTHWADv8PBCqxcDSufVwqF++9Q==",
+        "shasum": "fa14439d050527f994003c981a1bde7fdde146b0"
       },
-      "fileCount": 73,
-      "stringCount": 0,
+      "fileCount": 74,
+      "stringCount": 17,
       "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。"
     },
     {
       "name": "pi-agent-browser-native",
-      "version": "0.5.0",
+      "version": "0.6.6",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-agent-browser-native",
-      "inventory": "inventories/extensions/pi-agent-browser-native-0.5.0.json",
+      "inventory": "inventories/extensions/pi-agent-browser-native-0.6.6.json",
       "source": {
-        "tarball": "pi-agent-browser-native@0.5.0",
-        "integrity": "sha512-Z2XHzeVgnzTTxBxuFOdYAscBDETXQQPEWQtGq++SYBA8Yca2ZamFxyX2eIn//HKhSgTEy7t3shBhLJFb5Xi0og==",
-        "shasum": "41b6c7f0f4198f73b9692c97bf766c3c995f1f2b"
+        "tarball": "pi-agent-browser-native@0.6.6",
+        "integrity": "sha512-EMtjWgGsuD6IojWf9KnNwhXzZWBlGklPTRpeDXm8UBlOd/bCyr7VUN+Rm8PCxwetTahInTQbpJ5hLbdJGkXdCw==",
+        "shasum": "3dd8954463f20fdfcfa9d79f86abd32bc8713861"
       },
       "fileCount": 4,
       "stringCount": 69,
@@ -78,17 +78,17 @@
     },
     {
       "name": "pi-mcp-adapter",
-      "version": "2.31.0",
+      "version": "2.32.1",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-mcp-adapter",
-      "inventory": "inventories/extensions/pi-mcp-adapter-2.31.0.json",
+      "inventory": "inventories/extensions/pi-mcp-adapter-2.32.1.json",
       "source": {
-        "tarball": "pi-mcp-adapter@2.31.0",
-        "integrity": "sha512-yKPgHWFLQY6FT7ukCgEp5KvkAZ4ZC1pl7+8Tdq+j4evfTtjhHXPuIpi0joNN7lIIKuJD1cjlTb+hu6IxRpseoA==",
-        "shasum": "c8539558672010a674a1ac087231e982f410688d"
+        "tarball": "pi-mcp-adapter@2.32.1",
+        "integrity": "sha512-GNLYa2U9T5ZqIhZmhx/RTenEjfakJTelq/z6Q+At5SIxyuYvrvobriDEVsnx+lqetVDizUCudTWLfdZytQu0rg==",
+        "shasum": "1b984ef8fa51822d505af1bfd06778bc7600cd72"
       },
-      "fileCount": 109,
-      "stringCount": 0,
+      "fileCount": 110,
+      "stringCount": 74,
       "scope": "CLI helper、扩展 CLI flag 说明、/mcp 与 /mcp-auth 用户界面、启动/页脚状态、MCP 主面板、setup 面板和 mcp-scripting 技能说明；MCP method、JSON-RPC/schema、工具名与工具描述、Slash command、selector、状态枚举、模型可见结果、外部路径、原始错误和技能名与正文保持英文。"
     }
   ]

@@ -72,6 +72,47 @@ try {
     )
     Assert-True -Condition ($result.ExitCode -ne 0) -Message "verify-upstream 未检出篡改"
 
+    $corePackage = Join-Path $testRoot "core-pkg"
+    $coreDist = Join-Path $corePackage "dist\bundle"
+    New-Item -ItemType Directory -Path $coreDist -Force | Out-Null
+    $entrypointText = "console.log('pi');`n"
+    [System.IO.File]::WriteAllText(
+        (Join-Path $corePackage "package.json"),
+        "{`"name`":`"fixture-pi`",`"bin`":{`"pi`":`"dist/bundle/cli.js`"}}`n",
+        [System.Text.UTF8Encoding]::new($false)
+    )
+    [System.IO.File]::WriteAllText(
+        (Join-Path $coreDist "cli.js"),
+        $entrypointText,
+        [System.Text.UTF8Encoding]::new($false)
+    )
+    $coreInventory = Join-Path $testRoot "core-inventory.json"
+    $coreInventoryObject = [ordered]@{
+        schemaVersion = 1
+        package = [ordered]@{ kind = "core"; name = "fixture-pi"; version = "1.0.0"; installPath = "dist" }
+        source = [ordered]@{ tarball = "fixture-pi@1.0.0"; integrity = "sha512-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="; shasum = "0000000000000000000000000000000000000000" }
+        files = @([ordered]@{ path = "bundle/cli.js"; upstreamSha256 = (Get-TextHash -Text $entrypointText) })
+    }
+    [System.IO.File]::WriteAllText(
+        $coreInventory,
+        (($coreInventoryObject | ConvertTo-Json -Depth 10) + [Environment]::NewLine),
+        [System.Text.UTF8Encoding]::new($false)
+    )
+    $result = Invoke-Node -Arguments @(
+        (Join-Path $root "tools\verify-upstream.mjs"), $coreInventory, $corePackage
+    )
+    Assert-True -Condition ($result.ExitCode -eq 0) -Message "verify-upstream 未接受已登记的真实 CLI 入口：$($result.Output)"
+    $coreInventoryObject.files = @()
+    [System.IO.File]::WriteAllText(
+        $coreInventory,
+        (($coreInventoryObject | ConvertTo-Json -Depth 10) + [Environment]::NewLine),
+        [System.Text.UTF8Encoding]::new($false)
+    )
+    $result = Invoke-Node -Arguments @(
+        (Join-Path $root "tools\verify-upstream.mjs"), $coreInventory, $corePackage
+    )
+    Assert-True -Condition ($result.ExitCode -ne 0 -and $result.Output -match "bin\.pi") -Message "verify-upstream 未检出遗漏的真实 CLI 入口"
+
     $result = Invoke-Node -Arguments @(
         (Join-Path $root "tools\diff-inventory.mjs"), $oldInventory, $inventory
     )

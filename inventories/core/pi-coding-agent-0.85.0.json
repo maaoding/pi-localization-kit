@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "core",
+    "name": "@earendil-works/pi-coding-agent",
+    "version": "0.85.0",
+    "installPath": "dist"
+  },
+  "source": {
+    "tarball": "@earendil-works/pi-coding-agent@0.85.0",
+    "integrity": "sha512-INxVkLAVfAMju5MojJpmyu/0bMP+r+ffZuS7UqVv32E2JwHBRbcHfELDfmFNvapEbgYfKN2r9OYO1p3TqDBR+g==",
+    "shasum": "063fab0fe6d5f6654e09b479e95dd5e2359824c4"
+  },
+  "scope": "TUI、CLI 帮助、状态、通知、doctor、错误说明、认证与包管理界面、设置子菜单、思考强度、会话分享、原生上下文压缩和分支摘要提示词。",
+  "keepEnglish": "官方系统提示词、工具协议、模型可见协议、内部标识、命令参数、路径、API、HTTP、CLI、TUI、模型 ID 和外部原始错误。",
+  "files": [
+    {
+      "path": "bundle/chunks/chunk-WZB2R5YO.js",
+      "upstreamSha256": "91BFAA089E38858AAF1EB5359E358394BD902C684A6811D8215A29171F51EE8E"
+    },
+    {
+      "path": "bundle/cli.js",
+      "upstreamSha256": "4C152DF1EF4B743898EC780E49CF7A197E4032A4B0696F645730AA8C18703B96"
+    },
+    {
+      "path": "cli.js",
+      "upstreamSha256": "660BA06E2BE634044926F603F3E4968C1204D78CF9E77B134D6B37C47E0348C5"
+    },
+    {
+      "path": "cli/args.js",
+      "upstreamSha256": "05F30CC6545EF472FD0D8519C9E26B80B7A03432440CE42C356B65206F1077F9"
+    },
+    {
+      "path": "cli/auth-check.js",
+      "upstreamSha256": "15F1601346F1EE9DA3D560B133FB65AA9654FA002A5474224913E6CA99517AED"
+    },
+    {
+      "path": "cli/auth-command.js",
+      "upstreamSha256": "C212933E6AFC64C011EF065B8588CE9E67E6F29A383E096C77A264CEBDFE404A"
+    },
+    {
+      "path": "cli/credential-print.js",
+      "upstreamSha256": "FF819664ACC0856334414A719371ECCB492914F28F7796B340F0A80A3E8CAC94"
+    },
+    {
+      "path": "cli/experimental/cli.js",
+      "upstreamSha256": "0715B719213E5B5A45326BC65B438828E90AF19658F5D7C94EA3F2A512939372"
+    },
+    {
+      "path": "cli/experimental/command-options.js",
+      "upstreamSha256": "C4E2AB16564CDB8ED5F1EDD191324F018B9B763117102BA95574A2241C7AF91B"
+    },
+    {
+      "path": "cli/experimental/command.js",
+      "upstreamSha256": "316398A964921231A474102E933D4FA0E6CA9882E0257B29D8301332341A1455"
+    },
+    {
+      "path": "cli/experimental/commands/client.js",
+      "upstreamSha256": "DC47EC74B8B767F427ABF674882E6B2D61297F10EE17ED87AF6DF61D32AAF3AF"
+    },
+    {
+      "path": "cli/experimental/commands/server.js",
+      "upstreamSha256": "66A7E78CBC5635BA1AADDB9A9E4B7585AC172A57F37B6B57E3AEC072EC304932"
+    },
+    {
+      "path": "cli/file-processor.js",
+      "upstreamSha256": "4946F4E3E193713135A4924982D31C9403190BEFD421B7BE9893D0E5C65055AE"
+    },
+    {
+      "path": "cli/list-models.js",
+      "upstreamSha256": "7775957478370706D9859B6C992B74B5F24E6807254DBA1A53531132A9240BAD"
+    },
+    {
+      "path": "cli/project-trust.js",
+      "upstreamSha256": "A71E512D81E49CB6F8E20B78677DCE4B4CA19EE2C4B4C6F14A00411FB52BD3CC"
+    },
+    {
+      "path": "config.js",
+      "upstreamSha256": "53098AFC9F4BFA2A3720E6971561291B3850E78E9A22E482FFB4584BD4F123F8"
+    },
+    {
+      "path": "core/agent-session-runtime.js",
+      "upstreamSha256": "61375F59AFC3395940C05832C3F992E8020139A2F4A53065CCCACBC370B65F16"
+    },
+    {
+      "path": "core/agent-session-services.js",
+      "upstreamSha256": "3A4EE476B0596F346023398F52176381355F98DD621B8161F269C7EF3A57E28F"
+    },
+    {
+      "path": "core/agent-session.js",
+      "upstreamSha256": "FB8A3981C20C8C0BBD42231B1C99A10335FB3858B659056B341954DE9CFA467F"
+    },
+    {
+      "path": "core/auth-guidance.js",
+      "upstreamSha256": "990E8295236AB4C87763B8E47E0FFA20C2958FD1827D17CAF5DDF36D601E5FB4"
+    },
+    {
+      "path": "core/auth-storage.js",
+      "upstreamSha256": "0B45029901579032B19273A1427F63B622DF8E1AAF9EA185EB932C0D4898998C"
+    },
+    {
+      "path": "core/compaction/branch-summarization.js",
+      "upstreamSha256": "6AA05F0A777DA2928DA42AC6F407D8B9C237C01015E542A227E907D3AF134D34"
+    },
+    {
+      "path": "core/compaction/compaction.js",
+      "upstreamSha256": "3D5F1F2A3E801C965214717B6ABAD1839239B4A030517BFFDF0C8EFF25DF5C2A"
+    },
+    {
+      "path": "core/compaction/utils.js",
+      "upstreamSha256": "EBA26429C8ED717754BCDC3C1164715B1D2F2D68655530CF1E0DF975C18F6891"
+    },
+    {
+      "path": "core/event-bus.js",
+      "upstreamSha256": "F96A9A13071B2832955608387BF2482BCAF5310CE667F32F85A0D5BCA44F08E3"
+    },
+    {
+      "path": "core/export-html/index.js",
+      "upstreamSha256": "0D5984EA8D607E48DF6256014F5410A8446EFF7DBF0BAED8BFE621103490E98E"
+    },
+    {
+      "path": "core/export-html/template.html",
+      "upstreamSha256": "916782B1184A9597527605AD751E2B3AF30FCEA23BA2194002969CD217A06881"
+    },
+    {
+      "path": "core/export-html/template.js",
+      "upstreamSha256": "1893CDB77587F592EEF5717905391269886D6D7A4DC6A488417A73DA374D9226"
+    },
+    {
+      "path": "core/extensions/loader.js",
+      "upstreamSha256": "A1393DE916487A2C47107AC7239F3139DCDB938705F88BA1EA5A954B3C8BB483"
+    },
+    {
+      "path": "core/extensions/runner.js",
+      "upstreamSha256": "0DE12ED1275E02595F92476EEC3F61AE1F2E54FD2225CED721DDC90AF58A5E61"
+    },
+    {
+      "path": "core/http-dispatcher.js",
+      "upstreamSha256": "F9AA2C81B0A5958FFBA6368506F24C9B202904C234ADA19494CDC9C4A1D0E97B"
+    },
+    {
+      "path": "core/keybindings.js",
+      "upstreamSha256": "921A3606F2C4212A6FF0AD25435F6CDEECF7E3D566F520A5DD3805830D6D4892"
+    },
+    {
+      "path": "core/messages.js",
+      "upstreamSha256": "A4E4865E343BF87F8078F75FF179A2A77CD7C2700CF8473476BD4DC5ED36ADB6"
+    },
+    {
+      "path": "core/model-config.js",
+      "upstreamSha256": "AC983B5825F96EB2BFDEB9776CEDEB540724E14F1C9FE41DED9F5411038DD522"
+    },
+    {
+      "path": "core/model-registry.js",
+      "upstreamSha256": "AFB8B58AD6128E810A6B4CFF4F5E2B764C7C597B0C8035C49025021F1E64D60B"
+    },
+    {
+      "path": "core/model-resolver.js",
+      "upstreamSha256": "00F57B9C60F990F059C48B14269E571FABDFEFAAB93B062EE77501D5FA9DB0A7"
+    },
+    {
+      "path": "core/model-runtime.js",
+      "upstreamSha256": "32CD50599D9E6E001229090E3D0554B60E4ADDB8AB7B3165635A574FEB660B74"
+    },
+    {
+      "path": "core/package-manager.js",
+      "upstreamSha256": "26AA8ADF255F7B1EBF9B00732D2E9A1648E38B76A10EEDCD443131E3708B6E88"
+    },
+    {
+      "path": "core/project-trust.js",
+      "upstreamSha256": "BE5428398A12124730790095E8BA9B0ECF67B1DDE464C717970CF58A5AF11F56"
+    },
+    {
+      "path": "core/provider-composer.js",
+      "upstreamSha256": "8ECA507009D00768130E46CD9A0831E4FA2F98B81435AE0A8D5079A1D27E13CD"
+    },
+    {
+      "path": "core/remote-catalog-provider.js",
+      "upstreamSha256": "789F462D9CD4A050267A2243D0A5A6FC34BDD0F948E40B7E6A8AC8CF1865C105"
+    },
+    {
+      "path": "core/resolve-config-value.js",
+      "upstreamSha256": "01FDB1673990635BB419C7418EEFA298B6A1C6FBB3C6193D3B05A4902E51992D"
+    },
+    {
+      "path": "core/resource-loader.js",
+      "upstreamSha256": "8E8A1BC1C5BC9E955F6A2314DD1DB02071BE56D48B1FEA7B8B2CACB4FC9A0628"
+    },
+    {
+      "path": "core/sdk.js",
+      "upstreamSha256": "6969BD56BA8E1628CD033BB15CB15FE38299F00B5AD84F4F8EF37A33A98681C9"
+    },
+    {
+      "path": "core/session-cwd.js",
+      "upstreamSha256": "D7D23660FFFD1E6F22A12F0DBEFA9FB1F5BFDE7C1131B6176EC27BA57B6CFD16"
+    },
+    {
+      "path": "core/session-manager.js",
+      "upstreamSha256": "CCACE64949DB25379A43971ECEA750C1B7EC6344E1BC31B9D5FE596AC2F1C9F3"
+    },
+    {
+      "path": "core/settings-diagnostics.js",
+      "upstreamSha256": "64F43563460C862BD0D94D408CB6A915428BD2413D1CF2A47C2C570A8A7F13C1"
+    },
+    {
+      "path": "core/settings-manager.js",
+      "upstreamSha256": "EE4F52D1DD4F1C18D5D814BE4BA260DDF7FE40B7B70C2F0732A30A8B287111AD"
+    },
+    {
+      "path": "core/skills.js",
+      "upstreamSha256": "3B7CC3997C630553EB88931DE978E0DB623CE51FBF7356E0AB922183885E208C"
+    },
+    {
+      "path": "core/slash-commands.js",
+      "upstreamSha256": "2FC700C9618DC4DC954B40200EE734412A11251884020CFC001B6C6C5E3F5282"
+    },
+    {
+      "path": "core/timings.js",
+      "upstreamSha256": "9BEC37F6FCACD80CA07AD7BAFDC6AEC91821F691698AA9D81DCDD2D7D5B08531"
+    },
+    {
+      "path": "core/tools/index.js",
+      "upstreamSha256": "16A517A54E2AA1386FADA22CBEF63205CA11463394F95FD20D74BEE6FB2898A3"
+    },
+    {
+      "path": "core/tools/output-accumulator.js",
+      "upstreamSha256": "4FE5F89CE61446EC50DA5EA26E9F66E34ED7D628DF8563EDA403B804A67AF50A"
+    },
+    {
+      "path": "core/tools/render-utils.js",
+      "upstreamSha256": "7F5CC3236C321DFE27FB3911A022EF0A9F96E8F3AE048BB0461D78026848BE03"
+    },
+    {
+      "path": "core/tools/renderers/bash.js",
+      "upstreamSha256": "5CB055685E1F95F0DEA5CB81F81DA5CA2216C82994BAC8BA0559551FBEAF82C8"
+    },
+    {
+      "path": "core/tools/renderers/find.js",
+      "upstreamSha256": "19287D358BAE49A8F1C72EAB080C43668A83D808050BFF36AA57AF5D6B4F6497"
+    },
+    {
+      "path": "core/tools/renderers/grep.js",
+      "upstreamSha256": "AA76091451D7643727AE633741F9B1B6CBAC648C244AC8F14EC0B2DC8FA1FFD3"
+    },
+    {
+      "path": "core/tools/renderers/ls.js",
+      "upstreamSha256": "581EC2783A2BF806EE84E983F54451C162A580767B8FD8A30AC3CF7F9B41DCCA"
+    },
+    {
+      "path": "core/tools/renderers/read.js",
+      "upstreamSha256": "4869B86561F59F58D7546E92C105027DCFF21DC83B7032F53B9833BFE533AFA9"
+    },
+    {
+      "path": "core/tools/renderers/write.js",
+      "upstreamSha256": "7837EA886D1661A558596BE6A6809BADDD4C97B64EA28CCCC0AAE30D671BA2FD"
+    },
+    {
+      "path": "core/trust-manager.js",
+      "upstreamSha256": "EC63C7A44CD154A7EBD6E7415375FE2D38561D3C88ECBAD835AA83C1B60FEFBC"
+    },
+    {
+      "path": "experimental/client-runtime.js",
+      "upstreamSha256": "516582A181639AE6F7F4FE9C472EC7F18AABD3A3E74F6A86DF9A4A90DD77D908"
+    },
+    {
+      "path": "experimental/client-tui-chat.js",
+      "upstreamSha256": "380D43379E50423040BBFB203007BAD615D81E81ADBB9C22D79EF2E5BE7071ED"
+    },
+    {
+      "path": "experimental/client-tui.js",
+      "upstreamSha256": "DDA1231C061488F381D66B8AC5A12BE932E3F844EAB8BB43A6C3F2A74A1798BD"
+    },
+    {
+      "path": "experimental/client.js",
+      "upstreamSha256": "011D3547ADE21462BC6E96918C35DCE6C2D9CD93EDE78D8196865EE2BF10EC50"
+    },
+    {
+      "path": "experimental/mini/main.js",
+      "upstreamSha256": "D494EECF8E26239C5C3E25E33477399B500A61EBC6923A6056F5736D79FDC00A"
+    },
+    {
+      "path": "experimental/mini/tui/run.js",
+      "upstreamSha256": "EAA4BA138AED44B71E512B5A34DA093844000AD7AB67E368F9F66A210560E12C"
+    },
+    {
+      "path": "experimental/mini/tui/view.js",
+      "upstreamSha256": "A73A69EB5C66BE78AD8F754B943DC780A7D84429061E8495FE61D11EC2E675DB"
+    },
+    {
+      "path": "experimental/plugins/bundled.js",
+      "upstreamSha256": "C8826E9F299D4C78E32BEB40C6EF6D99BF89BB9485ABAC9C578F87468D174A3C"
+    },
+    {
+      "path": "experimental/plugins/package.js",
+      "upstreamSha256": "9B70B6E21330876C3B7B074BAF14148F291DD1EF46335414B117FBFEFA08A931"
+    },
+    {
+      "path": "experimental/radius-auth.js",
+      "upstreamSha256": "358F160ACDC88BFBD627048872D40206B53C8D95AD42D70028506ED1AB551AC6"
+    },
+    {
+      "path": "experimental/services/slash-commands-provider.js",
+      "upstreamSha256": "D859B826B2BAAEB502818919D0C9DC3742F8D49E47AF5F61A5255214CE814224"
+    },
+    {
+      "path": "extensions/llama/client.js",
+      "upstreamSha256": "36EAA3D28BF378DFDA73EFDE114E7D6A731A24E092E34AF1136F6913D24F78AA"
+    },
+    {
+      "path": "extensions/llama/huggingface.js",
+      "upstreamSha256": "BD50E60B011148D8C473429AAF51F0C69512D5D8F9ACB522F7CF18092219A305"
+    },
+    {
+      "path": "extensions/llama/index.js",
+      "upstreamSha256": "446B17F49D6197DE5AAA6548F78DA5934E4E5DFC83ACDEED7119A2971CE5E8C1"
+    },
+    {
+      "path": "extensions/llama/provider.js",
+      "upstreamSha256": "284B8A0E975D7E7F8BDE0386E0CFECF719CC45815F715748728DB658A184F3A3"
+    },
+    {
+      "path": "extensions/llama/ui.js",
+      "upstreamSha256": "7E2CA80B5CAED641B68F7F7C37806FD38A16E13F3EAF798128823A945D5A43D2"
+    },
+    {
+      "path": "main.js",
+      "upstreamSha256": "99E1FD310FBAFF817487E37D7A550BF7B783DBD2F49C5F7111E3C4CD15BB9F47"
+    },
+    {
+      "path": "migrations.js",
+      "upstreamSha256": "AA57901E3DD13F38D3D4E95B40EA3A9062E4943FEFF4535285CC41ECE0D98F69"
+    },
+    {
+      "path": "modes/interactive/components/armin.js",
+      "upstreamSha256": "F60686FB650195EBB1BD8EDEB5327CA8F31C3BEC30A64C1B27EAE5F9371F9730"
+    },
+    {
+      "path": "modes/interactive/components/assistant-message.js",
+      "upstreamSha256": "EDBD1E712234609D2AD1078EDCF960E3B6F549669075F1C5D1A7A4481E2B3D19"
+    },
+    {
+      "path": "modes/interactive/components/bash-execution.js",
+      "upstreamSha256": "605B02B0108C767AA2EE2125CC97EB33806FE421B2DC53C8A7D5B231F4A6F558"
+    },
+    {
+      "path": "modes/interactive/components/bordered-loader.js",
+      "upstreamSha256": "2F85321883ECDBFDED929B565542393C13B26361F0D02A6E239EA63F211222D8"
+    },
+    {
+      "path": "modes/interactive/components/branch-summary-message.js",
+      "upstreamSha256": "576F42710629EA894814A4F6252565611E796A94F858E33C4080BDFB640B2553"
+    },
+    {
+      "path": "modes/interactive/components/compaction-summary-message.js",
+      "upstreamSha256": "87D366E0C6864CB969E9059FF437EBC7D103B0AB5B3F6CE8B9EC7249E99FD19A"
+    },
+    {
+      "path": "modes/interactive/components/config-selector.js",
+      "upstreamSha256": "C3EBF804E41B4C8F654774E1C73596F85DAE66D3F4A7007384928A6A085CC90B"
+    },
+    {
+      "path": "modes/interactive/components/custom-entry.js",
+      "upstreamSha256": "B7FA09B49D1AC9E12F6D86FD030F91E221FBD05CD749188644AA5D04495EB38B"
+    },
+    {
+      "path": "modes/interactive/components/daxnuts.js",
+      "upstreamSha256": "8761C871C7DC904F8817F2C08F126508B9A62BDF2B6CCA9303AFF828F80D8198"
+    },
+    {
+      "path": "modes/interactive/components/earendil-announcement.js",
+      "upstreamSha256": "4CAD6D3B911979F13E6CF8CEE0E495726F0E947B988C18554B8D263E02CA5EEF"
+    },
+    {
+      "path": "modes/interactive/components/extension-editor.js",
+      "upstreamSha256": "2560A68DA43D0522437AACEF6EBEE20B4F1F068B293AD2651A69F7778A11E0B0"
+    },
+    {
+      "path": "modes/interactive/components/extension-input.js",
+      "upstreamSha256": "3BF770D6D27D1BEE0EC8FBCE3AFDC458A4302233BCF10C3A43AD2E1FDAD9413C"
+    },
+    {
+      "path": "modes/interactive/components/extension-selector.js",
+      "upstreamSha256": "D70650E529B23DEB1F2113115C69C47A86EB3BE50B2BF402B238ADA485E31B6F"
+    },
+    {
+      "path": "modes/interactive/components/first-time-setup.js",
+      "upstreamSha256": "E1E7BB3AF8F64B84B0594611FE00D4750A76F9D3C1F1B034696037BCA0D6BC57"
+    },
+    {
+      "path": "modes/interactive/components/footer.js",
+      "upstreamSha256": "05CC0AB96CBDACF15A34F4E2A9A3EE0395ABAEAAC638C1C153632CB0BEFBC9D1"
+    },
+    {
+      "path": "modes/interactive/components/login-dialog.js",
+      "upstreamSha256": "10C2B34AA5DB84C0B4ADC2B94DF8079233531B35398E80670BC4E7548DDE564F"
+    },
+    {
+      "path": "modes/interactive/components/mermaid.js",
+      "upstreamSha256": "DA9EBC988B4FBDA381F886ACDA210E4EFEB0A894701FE630E1CBD7F0B5BD8BB7"
+    },
+    {
+      "path": "modes/interactive/components/model-selector.js",
+      "upstreamSha256": "B470228BD56EC4330132688B32CF638D3287801DA73C253CF25F18B0A6BC42EE"
+    },
+    {
+      "path": "modes/interactive/components/oauth-selector.js",
+      "upstreamSha256": "51F3969899368AC1C8B285C9E32A191345BC937D650D1FB3CB568C411971B635"
+    },
+    {
+      "path": "modes/interactive/components/scoped-models-selector.js",
+      "upstreamSha256": "6EF87F0079D06198FD9922AE69C120D93F02BABF1F09D428AA9CD6B6ECFBA1FF"
+    },
+    {
+      "path": "modes/interactive/components/session-selector-search.js",
+      "upstreamSha256": "A0A0304BE2DFF6E4F0E3296635B529D3B0CD3005212277259883755F49D5277A"
+    },
+    {
+      "path": "modes/interactive/components/session-selector.js",
+      "upstreamSha256": "D2EFFA5DC1C1DEDE7BAF4080AC6B50BF1808932A4667288AA3255C485E1E8129"
+    },
+    {
+      "path": "modes/interactive/components/settings-selector.js",
+      "upstreamSha256": "9534D902E80CA4FA6437980471356C26F31BC2C020CDE51FC340C00430DDC30E"
+    },
+    {
+      "path": "modes/interactive/components/settings-submenu.js",
+      "upstreamSha256": "744122EEDBAC199472AC0DED1876C90C5CB3B9103944A5DEE4A8D5F27ECFAB56"
+    },
+    {
+      "path": "modes/interactive/components/show-images-selector.js",
+      "upstreamSha256": "7D6649C2D890748A9D1A2D9D17F09874525AAF7ADEFEC97A36C11BBD063B9ECD"
+    },
+    {
+      "path": "modes/interactive/components/skill-invocation-message.js",
+      "upstreamSha256": "0359E635205E39E88ECD5803694C7224DCE9CF455751817D98811B91CA9F5145"
+    },
+    {
+      "path": "modes/interactive/components/status-indicator.js",
+      "upstreamSha256": "5CCFCB3CAF89291B2A890C3D6B561349329949FC706FED568A685C9FB9B4D814"
+    },
+    {
+      "path": "modes/interactive/components/theme-selector.js",
+      "upstreamSha256": "3681AA0B35FB3D72D09F6CCEAEB19FA3CBA7F98C32091C63138FBE051A99D37B"
+    },
+    {
+      "path": "modes/interactive/components/thinking-selector.js",
+      "upstreamSha256": "E8892634B456CE9908C7D528346267C47AE4EF054C03DB50BB7E20751353BFC0"
+    },
+    {
+      "path": "modes/interactive/components/tool-execution.js",
+      "upstreamSha256": "3C7859CDE2C4C937CD71865B106A8EE01B6A90B112D0FA78FD2DA75B6EDC6E2C"
+    },
+    {
+      "path": "modes/interactive/components/tree-selector.js",
+      "upstreamSha256": "DA2CF44DE2C70C99CFF1C4686C38614A3208A3466F7BF61D2279C2C3EC3E2C54"
+    },
+    {
+      "path": "modes/interactive/components/trust-selector.js",
+      "upstreamSha256": "E802FA526383A0B27B40DB2FD74520CAECC29BF12B2034B62C7CFD51CE3EBFCD"
+    },
+    {
+      "path": "modes/interactive/components/user-message-selector.js",
+      "upstreamSha256": "563E7619C28A6EE3626EE319E32FA1CCEA88910FC3B08126DF8EE49664D19CD6"
+    },
+    {
+      "path": "modes/interactive/external-editor.js",
+      "upstreamSha256": "27C7133602240ACD07C849994A82058EB9EF3AE15299F386808C1DD0B85486D6"
+    },
+    {
+      "path": "modes/interactive/interactive-mode.js",
+      "upstreamSha256": "802FF14F5A47710E5A46D8141B238C4D5FFCA30E8CA26BAD18F838EDDBF086BF"
+    },
+    {
+      "path": "modes/interactive/session-share.js",
+      "upstreamSha256": "8E7E5496E11178BDF7062FAC093C4A665D0D4B0EA80177E4D23037536C8A7116"
+    },
+    {
+      "path": "modes/interactive/theme/theme-controller.js",
+      "upstreamSha256": "405816575454B9AF87344ED2FE9687C6085F551CC8B5175E06175A5D3E985DC9"
+    },
+    {
+      "path": "modes/interactive/theme/theme-json.js",
+      "upstreamSha256": "6B762159B44184F5C4D735E233756BE000E38D5A79791D2DF4EB49CD2C7321CC"
+    },
+    {
+      "path": "modes/interactive/theme/theme.js",
+      "upstreamSha256": "5CED0ADB09CA8CE0F9B4EEFCF89825755E9873CD53388825694025A4B046D1D5"
+    },
+    {
+      "path": "modes/interactive/tui-renderer.js",
+      "upstreamSha256": "436EFCDD72C437965B7285EEF02BD5C2B07E0153824CA950527B4B3342F96D1D"
+    },
+    {
+      "path": "modes/print-mode.js",
+      "upstreamSha256": "F2EB170B9620C1D37E68B788FF71257A4402A23E7F3999575FEEE8E5D9E13B3F"
+    },
+    {
+      "path": "modes/rpc/rpc-client.js",
+      "upstreamSha256": "5BE2BE46C82959FDC452A06CB64C4412098193D33B67C26A4A99B8FBF70F2F26"
+    },
+    {
+      "path": "modes/rpc/rpc-mode.js",
+      "upstreamSha256": "E7E4724AA55C5AAC73CF36793653B26736200E5C59D58373990FC31028F86477"
+    },
+    {
+      "path": "package-manager-cli.js",
+      "upstreamSha256": "D4373D2FDD4DA36DEBE8443A7E49B349AD81754132F2CB63CD516365F9420A11"
+    },
+    {
+      "path": "utils/abort.js",
+      "upstreamSha256": "597948E1F340DAE1A5C0B6830395E1ADCE847122C00E6CEACB3E4CB94472684B"
+    },
+    {
+      "path": "utils/ansi.js",
+      "upstreamSha256": "20E9CAEB257D1B2BB362ADC9CAF1BF5C22CCCDBCECB43793FAECE6DAFF15F19B"
+    },
+    {
+      "path": "utils/changelog.js",
+      "upstreamSha256": "0212307224FDF3A29A34F6CC25D911C90B231D66611335CEE2123AB4627F5531"
+    },
+    {
+      "path": "utils/clipboard.js",
+      "upstreamSha256": "344311D1E7D8C2DD981A92260FEA0AF2CC9627B354FF3E61CD480A6E60F4AAA0"
+    },
+    {
+      "path": "utils/deprecation.js",
+      "upstreamSha256": "087600CCA685DC01660AC8254E503F137F69BAF5941C5B2376F2B24B5F3E16D4"
+    },
+    {
+      "path": "utils/image-resize-worker.js",
+      "upstreamSha256": "AC1B75DE5262383E7FD2AA75E7FD427C2A98F27FEBA03006B6FBD8C32A5890A9"
+    },
+    {
+      "path": "utils/image-resize.js",
+      "upstreamSha256": "87A8F1D940612932991B122B66B47CEF13A981744B837F738D00C7CCF46AA20B"
+    },
+    {
+      "path": "utils/shell.js",
+      "upstreamSha256": "9874BBE8F6E26DD05029C3487D7789B160E92470696B2168424394F5DD00A34A"
+    },
+    {
+      "path": "utils/sleep.js",
+      "upstreamSha256": "927F6C162C69CA902C8AB3D35B96F8CEF831448DE364CF4D8054D32FEC310DE4"
+    },
+    {
+      "path": "utils/tools-manager.js",
+      "upstreamSha256": "28E24A2022460ED4E17AC10D0766984B878C4F69EB6286EFED9382B958EB2963"
+    }
+  ]
+}

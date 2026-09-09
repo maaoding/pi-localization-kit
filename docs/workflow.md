@@ -7,7 +7,7 @@
 3. 同步 `catalog/`。
 4. `validation/check-catalog.ps1` 和 `validation/check-inventory.ps1`。
 5. `tools/fetch-official.ps1` 下载官方包。
-6. `tools/verify-upstream.mjs` 校验目标文件。
+6. 核对官方包的 `package.json#bin.pi`，确认真实 CLI 入口已纳入 inventory；`tools/verify-upstream.mjs` 会强制检查这一点并校验目标文件。
 7. `tools/audit-strings.mjs` 生成候选文案。
 8. `tools/diff-inventory.mjs` 与上一版比较。
 9. `tools/generate-local-manifest.mjs` 生成本地骨架。
@@ -15,7 +15,8 @@
 11. `compute-manifest-hashes.mjs` 填哈希。
 12. `check-manifest-local.mjs` 校验。
 13. `apply-local-manifest.mjs` 写入本机官方包副本。
-14. 把 inventory、catalog、scope 和工具更新提交；译文不提交。
+14. 使用真实 TTY 从 `bin.pi` 启动，至少抽查启动页、设置页和模型选择页；仅检查模块文件不足以证明用户可见入口已本地化。
+15. 把 inventory、catalog、scope 和工具更新提交；译文不提交。
 
 ## git 来源版（npm 未发布）
 

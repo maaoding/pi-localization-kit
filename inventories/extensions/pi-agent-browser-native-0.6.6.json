@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-agent-browser-native",
+    "version": "0.6.6",
+    "installPath": "npm/node_modules/pi-agent-browser-native"
+  },
+  "source": {
+    "tarball": "pi-agent-browser-native@0.6.6",
+    "integrity": "sha512-EMtjWgGsuD6IojWf9KnNwhXzZWBlGklPTRpeDXm8UBlOd/bCyr7VUN+Rm8PCxwetTahInTQbpJ5hLbdJGkXdCw==",
+    "shasum": "3dd8954463f20fdfcfa9d79f86abd32bc8713861"
+  },
+  "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "dist/extensions/agent-browser/lib/pi-tool-rendering.js",
+      "upstreamSha256": "8A411985116D54C2D6541651542E69A9D84F755E9D0328F24EA717ECF1DFD5F7",
+      "stringCount": 6
+    },
+    {
+      "path": "scripts/doctor.mjs",
+      "upstreamSha256": "37D7BAF613D8DB4CEE034B1FEA863EE51F1379D9A1DE5EF71317C9900143103C",
+      "stringCount": 42
+    },
+    {
+      "path": "scripts/config.mjs",
+      "upstreamSha256": "CDCFF9C5A8640A2A9A3523C0BECF6E50B88A4BA6BE0E243D18D733BD9435D14C",
+      "stringCount": 12
+    },
+    {
+      "path": "dist/extensions/agent-browser/lib/config-policy.js",
+      "upstreamSha256": "52CAAF51B80C7A27FC1AAC486EB85D68F1B01BDB6EA7961082FED655405984E2",
+      "stringCount": 9
+    }
+  ]
+}
