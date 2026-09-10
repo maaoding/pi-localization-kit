@@ -212,7 +212,7 @@
     {
       "path": "skills/council-mode/SKILL.md",
       "upstreamSha256": "31BE86E2177A283A53D9E36044CDB655A5060CF217FCC0594D163EA44E8642E4",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "skills/pi-subagents/references/constraints-and-recipes.md",
