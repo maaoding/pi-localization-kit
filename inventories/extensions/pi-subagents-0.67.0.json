@@ -407,7 +407,7 @@
     {
       "path": "src/extension/doctor.ts",
       "upstreamSha256": "8D63473950DA1614CF266A0EC9930C4A24E6AE34F8FA0F8C96B3602F54990F00",
-      "stringCount": 1
+      "stringCount": 9
     },
     {
       "path": "src/extension/fanout-child.ts",
@@ -417,7 +417,7 @@
     {
       "path": "src/extension/index.ts",
       "upstreamSha256": "9C9D2709A2292A3D60099AB9BF47D7433D43B1161F613B6EAD709D8CE5F7FD7B",
-      "stringCount": 1
+      "stringCount": 12
     },
     {
       "path": "src/extension/public-execution.ts",
@@ -687,7 +687,7 @@
     {
       "path": "src/runs/background/notify.ts",
       "upstreamSha256": "EDE0561485E884E1055C05AA661C8A969B1C8F1553F632AAE09F61E869645F69",
-      "stringCount": 0
+      "stringCount": 35
     },
     {
       "path": "src/runs/background/owned-process-tree.ts",
@@ -817,7 +817,7 @@
     {
       "path": "src/runs/background/wait-subscriptions.ts",
       "upstreamSha256": "EE21A0E5BF06EE3B0D9E033DED1E0D2EA493921759F8FD657758E7DA58F3CB02",
-      "stringCount": 0
+      "stringCount": 15
     },
     {
       "path": "src/runs/background/wait-tool.ts",
@@ -862,7 +862,7 @@
     {
       "path": "src/runs/foreground/subagent-executor.ts",
       "upstreamSha256": "B45E0BE64C69DF71E6B974A46F3E5153AA5D0BF5E8FED06474A374D6F841628B",
-      "stringCount": 0
+      "stringCount": 7
     },
     {
       "path": "src/runs/foreground/workflow-detach-reconcile.ts",
@@ -1442,12 +1442,12 @@
     {
       "path": "src/slash/selector.ts",
       "upstreamSha256": "595841A54BC04452299470DBA6FC8A37570DB979F77BF3596B774C3716406F1C",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "src/slash/slash-bridge.ts",
       "upstreamSha256": "F74851147E82EF8F666E002D15E4959BB0D6B1FEE39BB2F59A2CA482DD45C560",
-      "stringCount": 0
+      "stringCount": 4
     },
     {
       "path": "src/slash/slash-commands.ts",
@@ -1467,7 +1467,7 @@
     {
       "path": "src/tui/fleet-status.ts",
       "upstreamSha256": "CC0FE530D78619755717B4DAC4EDF31FBF6C3DF358E7A77F45A4D596D7650362",
-      "stringCount": 0
+      "stringCount": 19
     },
     {
       "path": "src/tui/fleet-transcript.ts",
@@ -1477,7 +1477,7 @@
     {
       "path": "src/tui/fleet.ts",
       "upstreamSha256": "2E951E121496CFDBE21A46051E4D57542C4A4A35D09F35C189D280F1812D8F43",
-      "stringCount": 0
+      "stringCount": 109
     },
     {
       "path": "src/tui/render-helpers.ts",
@@ -1487,7 +1487,7 @@
     {
       "path": "src/tui/render.ts",
       "upstreamSha256": "1961D7F1298F797E3D75561848BDA1F5F5FA6C029BD9F092EF0F44398091E0B0",
-      "stringCount": 1
+      "stringCount": 44
     },
     {
       "path": "src/types/pi-runtime-compat.d.ts",
@@ -1542,7 +1542,7 @@
     {
       "path": "src/watchdog/register-main.ts",
       "upstreamSha256": "BB6091EFF58088E2A8D09C91E1AC72C5E9937429673C4C1B4CD8A128D01A9D03",
-      "stringCount": 3
+      "stringCount": 77
     },
     {
       "path": "src/watchdog/render.ts",
@@ -1557,7 +1557,7 @@
     {
       "path": "src/watchdog/rules.ts",
       "upstreamSha256": "73A4967117D6AFBF8DDA296AAB6464D4C6AF23C01F5880DCA306678ACB24A0BE",
-      "stringCount": 0
+      "stringCount": 5
     },
     {
       "path": "src/watchdog/runtime.ts",
