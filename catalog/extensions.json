@@ -18,31 +18,31 @@
     },
     {
       "name": "pi-voice-stt",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-voice-stt",
-      "inventory": "inventories/extensions/pi-voice-stt-0.6.0.json",
+      "inventory": "inventories/extensions/pi-voice-stt-0.7.0.json",
       "source": {
-        "tarball": "pi-voice-stt@0.6.0",
-        "integrity": "sha512-BdPdSA4ppixbDVLr4W26qvi57+G9J5vqv2ns7jHbDH8lV11pvfwc8LrIcgEXV4T7uksfKcfewUD+gVT8PtQZwQ==",
-        "shasum": "92586cf4da5a4ca526933c9089e5b3d1b9728eb9"
+        "tarball": "pi-voice-stt@0.7.0",
+        "integrity": "sha512-ffJOeDHomhF28wUB5Qz6BkMyH1knPY/0fjcjvvk3psy0lyt1rvFzCvC1CSXOdVwxC0dozhB1k6T225Nc3H/Qfw==",
+        "shasum": "74222bce286e0d47c5e0792f5dba83560cb058e5"
       },
-      "fileCount": 3,
+      "fileCount": 62,
       "stringCount": 37,
       "scope": "录音、转写、配置、profile、doctor 和错误提示；mode、profile、命令及原始错误保持原文。"
     },
     {
       "name": "pi-subagents",
-      "version": "0.65.1",
+      "version": "0.67.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-subagents",
-      "inventory": "inventories/extensions/pi-subagents-0.65.1.json",
+      "inventory": "inventories/extensions/pi-subagents-0.67.0.json",
       "source": {
-        "tarball": "pi-subagents@0.65.1",
-        "integrity": "sha512-t5Ik4pHNp/E87a36cuHpTrWaXPEQZzb2mOyZzKRuRtBXm5Z9Ht91nu9mZHrjKj83XYL3SL1kXJdmwBWqm/9fmg==",
-        "shasum": "151c0ee4c00da18e555c4e99be8ddf6d9cb88cf6"
+        "tarball": "pi-subagents@0.67.0",
+        "integrity": "sha512-43FGBi82sbxEGhEfsaj0P7I/rRJfsw1UPuFSVSkjZw0Fy92lrBIB9d3gDTpwmK5hLj3ZzZUnvtlqiKQatySCTw==",
+        "shasum": "72148e3e5f0d0fb947cc0def2423f8068e6e7a52"
       },
-      "fileCount": 306,
+      "fileCount": 325,
       "stringCount": 23,
       "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示、内置提示模板说明和 pi-subagents 技能说明；提示模板名与正文、技能名与正文、action、状态枚举、工具协议与恢复命令保持英文。"
     },
@@ -63,16 +63,16 @@
     },
     {
       "name": "pi-agent-browser-native",
-      "version": "0.6.6",
+      "version": "0.6.10",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-agent-browser-native",
-      "inventory": "inventories/extensions/pi-agent-browser-native-0.6.6.json",
+      "inventory": "inventories/extensions/pi-agent-browser-native-0.6.10.json",
       "source": {
-        "tarball": "pi-agent-browser-native@0.6.6",
-        "integrity": "sha512-EMtjWgGsuD6IojWf9KnNwhXzZWBlGklPTRpeDXm8UBlOd/bCyr7VUN+Rm8PCxwetTahInTQbpJ5hLbdJGkXdCw==",
-        "shasum": "3dd8954463f20fdfcfa9d79f86abd32bc8713861"
+        "tarball": "pi-agent-browser-native@0.6.10",
+        "integrity": "sha512-yrwm4m/f/nsygadUrVE0v5AaYJ16xW0uTYLtfzkPR8tN1JBtU9AsBkVlYW2kndBjX3pe2mTUb3O1bZFIxFqxxQ==",
+        "shasum": "4262d8bedf2e5b0cf37eb31930cbeb5e5654b486"
       },
-      "fileCount": 4,
+      "fileCount": 127,
       "stringCount": 69,
       "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。"
     },

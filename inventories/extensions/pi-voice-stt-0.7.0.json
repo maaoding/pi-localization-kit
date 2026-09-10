@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-voice-stt",
+    "version": "0.7.0",
+    "installPath": "npm/node_modules/pi-voice-stt"
+  },
+  "source": {
+    "tarball": "pi-voice-stt@0.7.0",
+    "integrity": "sha512-ffJOeDHomhF28wUB5Qz6BkMyH1knPY/0fjcjvvk3psy0lyt1rvFzCvC1CSXOdVwxC0dozhB1k6T225Nc3H/Qfw==",
+    "shasum": "74222bce286e0d47c5e0792f5dba83560cb058e5"
+  },
+  "scope": "录音、转写、配置、profile、doctor 和错误提示；mode、profile、命令及原始错误保持原文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "assets/preview.gif",
+      "upstreamSha256": "DD76D5F55A732C862C0954132B6CC8340AC43A1BA1ADDF6F645433B4F9F53E38",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/assemblyai.json",
+      "upstreamSha256": "297F62155E8678E6C53AC12114A9333A9C8E235E83F60ECB40720CB414A01564",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/bridge-groq.json",
+      "upstreamSha256": "4717A8DFCF597596CAAE096E8E36A251C524BFD5FAF5453F3C0B2C958F8B4BCE",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/cleanup-openai.json",
+      "upstreamSha256": "91CFC3B9A8B30E2117A0B13E09CC482AC3B94D3AEC93C65BB7207412063F21A1",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/deepgram.json",
+      "upstreamSha256": "5CFB5D3AACC47CA18E297AD3EC2330258B3F7DFF60119D5FA0670E4E64E78E64",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/elevenlabs.json",
+      "upstreamSha256": "840EA27B9BF14D6FADCE53E06B15D0D4FA20BFF3C03284D6AB62088F709DA7F1",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/gladia.json",
+      "upstreamSha256": "9A7326DC656840D3FB5B53BFC7F799065E30D97AED9A9E88E7CFAE1B834CF682",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/groq-whisper.json",
+      "upstreamSha256": "29334DFDAE107351DD32194AA509754947CAC0C9AAAE83957BDF0A35B966E4AE",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/mistral-voxtral.json",
+      "upstreamSha256": "7BA5AA7791271736C49F2D82F21C4CBFDE34154CD8895EB7CE67FE22854B9A6B",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/openai-compatible-local.json",
+      "upstreamSha256": "45231FC0F26320F377EA00495EB8F8B3448B1F746CE70E224B8DA8AD19C5C6F9",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/openai.json",
+      "upstreamSha256": "71010C91295C406A0E57F9BB56778407FE9F9FA8B97DB1B85604A16E9A8681F6",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/profiles.json",
+      "upstreamSha256": "A7B713A7D7DD1649585DCB0C161FAC87644EDDB9205CC4F67FEDD9EE0922573E",
+      "stringCount": 0
+    },
+    {
+      "path": "examples/stt.fr.json",
+      "upstreamSha256": "5FA407B741A0AD62F7A1D075772CCEF5512F4D48948B58B4EB41DF9839F0D3C3",
+      "stringCount": 0
+    },
+    {
+      "path": "LICENSE",
+      "upstreamSha256": "D22736087298F3E7CEB651EEEFC0B348B1061B5FDBB58F94A27CDC7119BA6CBB",
+      "stringCount": 0
+    },
+    {
+      "path": "package.json",
+      "upstreamSha256": "A2673452CF241EE4AD0083E5572B42FC45D38FB7024A79EC59A9804EBBE85501",
+      "stringCount": 0
+    },
+    {
+      "path": "README.md",
+      "upstreamSha256": "0B2EA16FCB69C0F804076547E5A540DEE7A9924ABD061B3C59BF43F3F63906B6",
+      "stringCount": 0
+    },
+    {
+      "path": "SECURITY.md",
+      "upstreamSha256": "00C70A2D93075EA5E7CE0AFE17B0D1148A4EB03D8A05579D7B23B5336D2CF609",
+      "stringCount": 0
+    },
+    {
+      "path": "src/audio/bridge-recorder.ts",
+      "upstreamSha256": "6FE233D0436382D5C18443A79A74B9205F393A928BA7961EAD4AC47EB26593F7",
+      "stringCount": 0
+    },
+    {
+      "path": "src/audio/factory.ts",
+      "upstreamSha256": "0F180E67257FC3BD99798C447F745C42F67622C7F1CBFA6DE42CA8E20F3D183F",
+      "stringCount": 0
+    },
+    {
+      "path": "src/audio/ffmpeg-recorder.ts",
+      "upstreamSha256": "D6D50DDA52E0544B189DF3D38EE9F84152E853D168C7343FD790C9357B26750D",
+      "stringCount": 0
+    },
+    {
+      "path": "src/audio/types.ts",
+      "upstreamSha256": "6652044D4C458578113065E35D6A4E20A0081610F93E33C7F71B1BCD0F4C723A",
+      "stringCount": 0
+    },
+    {
+      "path": "src/audio/wav.ts",
+      "upstreamSha256": "21AADC9D408257A74D303FAA324010561D6AA1B678A67F1D123DDDA4AA124A1F",
+      "stringCount": 0
+    },
+    {
+      "path": "src/cleanup/factory.ts",
+      "upstreamSha256": "37BC8CC365292F0D94777EEB0B16F6D7C8BDEF04955FE65B74118BF1ABB2593A",
+      "stringCount": 0
+    },
+    {
+      "path": "src/cleanup/openai-compatible.ts",
+      "upstreamSha256": "605B8B60A499A7C8B604908E5EA007DC6470E091E7FF748CA9D8B6C3632F3D4F",
+      "stringCount": 0
+    },
+    {
+      "path": "src/cleanup/prompt.ts",
+      "upstreamSha256": "4C913B67248885DD04890437DA63A6A35294706B9CC45104FCA32CCC502F5D8A",
+      "stringCount": 0
+    },
+    {
+      "path": "src/cleanup/repo-context.ts",
+      "upstreamSha256": "C7C72D850D8EBD906BF7D74FA823787DF812CBE2521608CCF4539A7063DB17F4",
+      "stringCount": 0
+    },
+    {
+      "path": "src/cleanup/types.ts",
+      "upstreamSha256": "406D1C28F6AA3E291B4142E1FBFD58A26F2246D0015DCA06E23B60F3D263809C",
+      "stringCount": 0
+    },
+    {
+      "path": "src/config/defaults.ts",
+      "upstreamSha256": "4A79BED7CAE707BE76EE341F0EC5A445309C4307C43F09C2A55951EA2DEDC959",
+      "stringCount": 0
+    },
+    {
+      "path": "src/config/endpoint.ts",
+      "upstreamSha256": "F43DC2B46B7BEEA44CE55553B12725E9F841376D0B2E51AFFB76EB2ED5EAFD86",
+      "stringCount": 0
+    },
+    {
+      "path": "src/config/load-config.ts",
+      "upstreamSha256": "96E82F7521636855DEFE25B3CE5E73725EC2004479A96AB13DC3DADCCF94E0F8",
+      "stringCount": 0
+    },
+    {
+      "path": "src/config/profiles.ts",
+      "upstreamSha256": "7074E619876A68C3A20D2590ACFA4F4585679CE3CCCC025D1762F216F5B19010",
+      "stringCount": 0
+    },
+    {
+      "path": "src/config/startup.ts",
+      "upstreamSha256": "98C0F290DF3D5A6A38C54695DA9B6604724B4A188B7C5C42A3B5647E00CF5F95",
+      "stringCount": 0
+    },
+    {
+      "path": "src/config/types.ts",
+      "upstreamSha256": "06C91AFC1B3B79819ADB49C81F5B72FD5F2246EF7C4DDC92D0CAC00222C3BA5F",
+      "stringCount": 0
+    },
+    {
+      "path": "src/core/dictation-controller.ts",
+      "upstreamSha256": "07AEBE9283747DEF6D835158E1322F66E80A4A6ACE1EF2757483B27AD75E4548",
+      "stringCount": 0
+    },
+    {
+      "path": "src/core/modes.ts",
+      "upstreamSha256": "629FC43C2C77EE77477F6D01A16E23FD8F749E4AB4B94258845EE0A9B2F7084D",
+      "stringCount": 0
+    },
+    {
+      "path": "src/core/output.ts",
+      "upstreamSha256": "E9D273EE878CEA217AD0E3AD9255E077981CB729419F6EB9D34022AFE48AC33E",
+      "stringCount": 0
+    },
+    {
+      "path": "src/core/replacements.ts",
+      "upstreamSha256": "9A627676DC17B436BDB3969DBAFF1AEC07D5C42E31466B5B574AE841BA376251",
+      "stringCount": 0
+    },
+    {
+      "path": "src/core/voice-commands.ts",
+      "upstreamSha256": "E7E758367CCFFA40191EFF8766B59C5955D39401948B05A5FC13BA5BDF5B7477",
+      "stringCount": 0
+    },
+    {
+      "path": "src/i18n/strings.ts",
+      "upstreamSha256": "136D871CA941A5B75BEEF23B7D850B90F6181F77921532A1386036477F20E61E",
+      "stringCount": 25
+    },
+    {
+      "path": "src/index.ts",
+      "upstreamSha256": "0FE8FB69835BD5E106F9D652B681D746863E7FEB55B3308A1C8FAB463AF9015C",
+      "stringCount": 12
+    },
+    {
+      "path": "src/providers/assemblyai.ts",
+      "upstreamSha256": "37B93494B1834E0306D718EE0BC5622F7DAD9E5A01E1DEE19BF42A21AA0AAD52",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/deepgram.ts",
+      "upstreamSha256": "EE95F33749C089BAAB3F0DAE3722BE70F534E3A679A29BDE3746F67EDC8BEC3D",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/elevenlabs.ts",
+      "upstreamSha256": "AE5BF8967665258E9DB6213EEE9595EC6DB5DACB24594BAEAEC30637B068B3A2",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/factory.ts",
+      "upstreamSha256": "89E65D10460B1F11991406C98D19347808B918A1477A8711AD7FFDCABB65A508",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/gladia.ts",
+      "upstreamSha256": "3002430AC4D6464296611BEE5ED9E5CCC618255BFB6E56993E79EF679B887E93",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/helpers.ts",
+      "upstreamSha256": "D5FA616E404D95CA94F8A7258CA34F4CC3AB0F98DAACD6885717D65A5E0A372F",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/mistral.ts",
+      "upstreamSha256": "3E5E943E12E239BDEB09A9BCCFF28BDC603B6F6431C99172653F2A3D0542CF05",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/multipart.ts",
+      "upstreamSha256": "A4FBFFD250F1CA96DA8BBCDB1A9309DF6C45FD2D7925D248745BC28ED5D584A6",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/openai-compatible.ts",
+      "upstreamSha256": "E488749C84A448096C3E82A595C270F0F29E9B4A72B0DD44F629D730402ED599",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/readiness.ts",
+      "upstreamSha256": "ADD540D9D6DA701BD0F85422448E348293284138225139A564E9766AAA51D248",
+      "stringCount": 0
+    },
+    {
+      "path": "src/providers/types.ts",
+      "upstreamSha256": "0FE4B3F2A07BEC8217A8C01720B15D8CD07C4557C9A0796014F18CF67F385531",
+      "stringCount": 0
+    },
+    {
+      "path": "src/secrets/keychain.ts",
+      "upstreamSha256": "5F417E25DFC7C7B792E218A7484753837FC8EEB84B77879B04F99849CDB4DD7E",
+      "stringCount": 0
+    },
+    {
+      "path": "src/secrets/resolve-api-key.ts",
+      "upstreamSha256": "256CFAD3633ABB7213D1D8C6E6F2327FD189C27A60B4B031B40F3844248E0A46",
+      "stringCount": 0
+    },
+    {
+      "path": "src/ui/input-indicator.ts",
+      "upstreamSha256": "A1FF8D8C0FAA9A9BE83142E775F70F0D0FCA8A57D94C3CCE9CC84D9049FE044E",
+      "stringCount": 0
+    },
+    {
+      "path": "src/utils/coerce.ts",
+      "upstreamSha256": "4ABC5FC4D083AA85C1511ECA2A87F22378119FD422883EBC87234175C57A8A42",
+      "stringCount": 0
+    },
+    {
+      "path": "src/utils/keybind.ts",
+      "upstreamSha256": "69F8ECED515738BD2BF3A8B8661D46F023232729330DB9710028C8B174F9C33B",
+      "stringCount": 0
+    },
+    {
+      "path": "src/utils/merge.ts",
+      "upstreamSha256": "B2BB5EC31F5E30AB5E26517A0A0605BFD896CCFC07ED0CFCFE2A23CB7D74C385",
+      "stringCount": 0
+    },
+    {
+      "path": "src/utils/path.ts",
+      "upstreamSha256": "9A84D16F60D181F28CA9CE475133C114EDC495988FC16B7AABBCD94CA6FB8009",
+      "stringCount": 0
+    },
+    {
+      "path": "src/utils/text.ts",
+      "upstreamSha256": "30F214A868C60376E99110FF1449BD6CC754546C81035D1F41EEAEC5086CFB00",
+      "stringCount": 0
+    },
+    {
+      "path": "tools/install-macos-bridge.sh",
+      "upstreamSha256": "B1BFD4C9D931355D38496CC858B72C66BA00D26AAF7780348666A2A47DAC9671",
+      "stringCount": 0
+    },
+    {
+      "path": "tools/macos-bridge-native.swift",
+      "upstreamSha256": "B82AA80B3CEFF5943D470AFA1EB5CDF9C78834E5A45C6BF1EC5D0C06C8F360E3",
+      "stringCount": 0
+    },
+    {
+      "path": "tools/macos-bridge-server.mjs",
+      "upstreamSha256": "3002C1550D97494FFEE208D20F1926B7FE3B42C95BBD7888F5C249558B0CBDC9",
+      "stringCount": 0
+    }
+  ]
+}
