@@ -1462,7 +1462,7 @@
     {
       "path": "src/slash/subagents-admin.ts",
       "upstreamSha256": "D40CFC99A873DECC942308406B17061AB3A3797A8335E0C407D057D339028E67",
-      "stringCount": 0
+      "stringCount": 65
     },
     {
       "path": "src/tui/fleet-status.ts",
