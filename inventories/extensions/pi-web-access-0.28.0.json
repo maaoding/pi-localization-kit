@@ -52,7 +52,7 @@
     {
       "path": "brightdata.ts",
       "upstreamSha256": "79C77854CA7073EF6297949AB9F7F58FB35A001E7B939C654E03B03EF5EF9C7A",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "CHANGELOG.md",
@@ -107,12 +107,12 @@
     {
       "path": "exa.ts",
       "upstreamSha256": "350B058F92422A485DAB7AB9ADEFBEB0CC79F2AA67F1E299D5C2CB71A586A0EE",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "extract.ts",
       "upstreamSha256": "ABE0F451639199E7E0EBE83646AB0ED4F197CD2CB9C3634E10D77F90A029896B",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "feature-config.ts",
@@ -182,7 +182,7 @@
     {
       "path": "index.ts",
       "upstreamSha256": "AFA4D45481B0451CE85FADDE6F89A112BC141D714CC164819DD835AF320DE8A9",
-      "stringCount": 1
+      "stringCount": 36
     },
     {
       "path": "jina-search.ts",
@@ -232,12 +232,12 @@
     {
       "path": "parallel-mcp.ts",
       "upstreamSha256": "CD1FA2340FAAF7D716264D98C9B9304B2DE1F3FDC57B7D0123635BC5424D52C9",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "parallel.ts",
       "upstreamSha256": "4B3CA35C31720E92A2D6C3FD382F8F4075654E3D29CB6031BF4044A507956C75",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "pdf-extract.ts",
@@ -247,7 +247,7 @@
     {
       "path": "perplexity.ts",
       "upstreamSha256": "BC62CAEC8EC97511CF8FE5B97A2C99F189FFDAAC5199828921219D4C701B3963",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "pi-web-fetch-demo.mp4",
@@ -307,7 +307,7 @@
     {
       "path": "serpbase.ts",
       "upstreamSha256": "7F14E2954CC7DB3214D378DB63959A4DC26B64C87CB8F98C6859DFD7539C5E9F",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "serpdive.ts",

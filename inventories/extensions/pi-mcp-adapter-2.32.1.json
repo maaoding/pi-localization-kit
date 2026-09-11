@@ -52,12 +52,12 @@
     {
       "path": "commands.ts",
       "upstreamSha256": "6424701EC07D35255EA799B53AD651E8D5DE0CA27C711735AED15E11EC8CA7DA",
-      "stringCount": 1
+      "stringCount": 3
     },
     {
       "path": "config.ts",
       "upstreamSha256": "77D1B516A0104358D9A6791784C6E8E334F031B4D555B462E91E7DA90E0F6230",
-      "stringCount": 1
+      "stringCount": 8
     },
     {
       "path": "consent-manager.ts",
@@ -252,7 +252,7 @@
     {
       "path": "elicitation-handler.ts",
       "upstreamSha256": "B771BE099633B76623166A91CFEC7FF343166BD2DBC7A6B788DF79B7591913B6",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "error-signal.ts",
@@ -262,7 +262,7 @@
     {
       "path": "errors.ts",
       "upstreamSha256": "D27927E7A82FA3F08D2BB56E85559F010B675AF224292BC5241F0EC6787D6238",
-      "stringCount": 0
+      "stringCount": 6
     },
     {
       "path": "failure-backoff.ts",
@@ -277,12 +277,12 @@
     {
       "path": "host-html-template.ts",
       "upstreamSha256": "74E9C94B3AECA1CD11DFD565C431E5121AD6FA21286D35BAF4E37B9D8F337223",
-      "stringCount": 0
+      "stringCount": 3
     },
     {
       "path": "index.ts",
       "upstreamSha256": "4D463F957D0613DA8254B20DFFE0B982E57A9D7CC484E6DB556501ABD3A140B8",
-      "stringCount": 1
+      "stringCount": 4
     },
     {
       "path": "init.ts",
@@ -392,7 +392,7 @@
     {
       "path": "namespace-tools.ts",
       "upstreamSha256": "D66B8531B96461167396A9886D81FAD477A8676CE62FADAD913E126B3964AD71",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "npx-resolver.ts",
@@ -432,12 +432,12 @@
     {
       "path": "prompts.ts",
       "upstreamSha256": "3C9E9825365C25C31B95271E6D68412ECE0E2B3F73DE9AFF813EA00FA5531040",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "proxy-modes.ts",
       "upstreamSha256": "FCD4C4C4DF3602D7A024E422DD228F43D89D159DEC30EFB055E801B87C08998A",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "README.md",
@@ -512,7 +512,7 @@
     {
       "path": "tool-result-renderer.ts",
       "upstreamSha256": "645F29148518F5C9EF2A00863F2A05D151A099690BC804C9BE33AACADA1E1B7F",
-      "stringCount": 0
+      "stringCount": 2
     },
     {
       "path": "ts-shape.ts",
@@ -542,7 +542,7 @@
     {
       "path": "ui-session.ts",
       "upstreamSha256": "52D7095F16244735BFA9864F88395FF5C2462AAA24F3DCB7115F1DD2290FD21C",
-      "stringCount": 0
+      "stringCount": 2
     },
     {
       "path": "ui-stream-types.ts",

@@ -58,7 +58,7 @@
         "shasum": "fa14439d050527f994003c981a1bde7fdde146b0"
       },
       "fileCount": 74,
-      "stringCount": 17,
+      "stringCount": 59,
       "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。"
     },
     {
@@ -88,7 +88,7 @@
         "shasum": "1b984ef8fa51822d505af1bfd06778bc7600cd72"
       },
       "fileCount": 110,
-      "stringCount": 74,
+      "stringCount": 103,
       "scope": "CLI helper、扩展 CLI flag 说明、/mcp 与 /mcp-auth 用户界面、启动/页脚状态、MCP 主面板、setup 面板和 mcp-scripting 技能说明；MCP method、JSON-RPC/schema、工具名与工具描述、Slash command、selector、状态枚举、模型可见结果、外部路径、原始错误和技能名与正文保持英文。"
     }
   ]
