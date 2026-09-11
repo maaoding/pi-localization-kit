@@ -222,7 +222,7 @@
     {
       "path": "view/components/multi-select-view.ts",
       "upstreamSha256": "1FEA739C63B95FAB6C05540D3B86F6677E5938FBFCBB67E38ABBEECE388C436A",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "view/components/option-list-view.ts",
@@ -262,7 +262,7 @@
     {
       "path": "view/components/tab-bar.ts",
       "upstreamSha256": "9E65A64BA530B38DC7597D75E4AE041491A4B788AD0726D9476226CE026958BF",
-      "stringCount": 0
+      "stringCount": 1
     },
     {
       "path": "view/components/wrapping-select.ts",
