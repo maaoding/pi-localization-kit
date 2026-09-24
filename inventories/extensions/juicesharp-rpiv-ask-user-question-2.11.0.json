@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "@juicesharp/rpiv-ask-user-question",
+    "version": "2.11.0",
+    "installPath": "npm/node_modules/@juicesharp/rpiv-ask-user-question"
+  },
+  "source": {
+    "tarball": "@juicesharp/rpiv-ask-user-question@2.11.0",
+    "integrity": "sha512-nSj0CfJ/cx1/I860eB8zbP/vfceriTah6yQR4fQm9gapmL02Vfy+CEuiLu3Sqcd1xhMv230ZCV/bhuZ1LFq1Pw==",
+    "shasum": "66ab175b0e7b73d8ef53f88c85916a4c12c4f7ec"
+  },
+  "scope": "按钮、选项、提交、取消、备注、折叠提示和外部编辑器状态；工具协议保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "ask-user-question.ts",
+      "upstreamSha256": "3259729A00BA3FCAB4B626B8525FB5B25C76A9583C1B97D51D0E1C6AEDAD3C26",
+      "stringCount": 34
+    },
+    {
+      "path": "config.ts",
+      "upstreamSha256": "59B886D66198726D67E19C6FFB338F5136F0D40484E78155A37CE592EA7ECEB9"
+    },
+    {
+      "path": "docs/configuration.md",
+      "upstreamSha256": "CB650CFCE843FB4964BE9A7EA8C9BE21797F61D80DBF12919D96F7436F17F183",
+      "stringCount": 78
+    },
+    {
+      "path": "docs/hosts.md",
+      "upstreamSha256": "BB7D0DDCE25EBD4BCB766D8CC0E53F4AE1E2F77A6D2DBD1EDA8882ABB44EBF03",
+      "stringCount": 71
+    },
+    {
+      "path": "docs/keyboard.md",
+      "upstreamSha256": "885321F971C0F3DCA978444B6921077C356EA2E1C7612813A2FAE5627EAD2715",
+      "stringCount": 86
+    },
+    {
+      "path": "docs/localization.md",
+      "upstreamSha256": "1A12B2968F3174C6AAE58A7B164E8AF23D9F050F98B43443C059FE0FF221A588",
+      "stringCount": 60
+    },
+    {
+      "path": "docs/tool-schema.md",
+      "upstreamSha256": "C90362BBE751DEE71E9A3663690974EF79DE4CA093B6DFB96C9C6F41C3BD50C6",
+      "stringCount": 83
+    },
+    {
+      "path": "events.ts",
+      "upstreamSha256": "2EC04DB463AF701F372EE6D75DE8A2111055F7851AFAB3E8644D10824715EE47",
+      "stringCount": 2
+    },
+    {
+      "path": "index.ts",
+      "upstreamSha256": "CF533C088A3121884171FA2398F2E427CC778BE6B4E528A97E643BAA94F1823B",
+      "stringCount": 4
+    },
+    {
+      "path": "LICENSE",
+      "upstreamSha256": "25D0D5E4E54033F939A9657109044F1D71A0B6E8DB9ADC400456CA9190DF3FB1"
+    },
+    {
+      "path": "locales/de.json",
+      "upstreamSha256": "D6D4491504BD5A09EF02A6098BED1C146906B863149B5CF570C10C723B10A113"
+    },
+    {
+      "path": "locales/en.json",
+      "upstreamSha256": "49D142C22C26AD97D7E86FFDA3FF2418C62E1C40C3C280B12CAB9CD53AE8390A"
+    },
+    {
+      "path": "locales/es.json",
+      "upstreamSha256": "31312A491A588751F25CA1F7BE221D3BAE60D49494C3F4D40894CFC8ACD95713"
+    },
+    {
+      "path": "locales/fr.json",
+      "upstreamSha256": "D6DFC6A162BF08FE3B2FED12D22A72AB3737AEE0C1379762C33FC3B3F4CA4164"
+    },
+    {
+      "path": "locales/pt-BR.json",
+      "upstreamSha256": "F9C79AE849EB68546E4529C0AF688A9E6CA7A17B7B48736D6C713802D611F6F6"
+    },
+    {
+      "path": "locales/pt.json",
+      "upstreamSha256": "69687A3D97EC3D1D00AE765B58ED1853EE1C9CBB3518398062771042AF31E88C"
+    },
+    {
+      "path": "locales/ru.json",
+      "upstreamSha256": "9702BC2B55F69D1B9DD795396AB86E4A48F7E3EDFE847BD7C8EFF0020FD25834"
+    },
+    {
+      "path": "locales/uk.json",
+      "upstreamSha256": "81C3C2762BC86EEB4AA7AB963BF6AB6FA352CB101326F95849B2F7C1CF2891EE"
+    },
+    {
+      "path": "locales/zh.json",
+      "upstreamSha256": "B07A54CBAD959E0AE151EF37E18ED6C27B00BA526154B6CF2B9BE565605BCE1E"
+    },
+    {
+      "path": "package.json",
+      "upstreamSha256": "DF9ED35AEDF07E038736186722CCA76C0CC6EBF43D62D5D1A05BF48B002F087C"
+    },
+    {
+      "path": "README.md",
+      "upstreamSha256": "287F53163474CB70E6FB5DF62082539FAE877289D4B208DFC80AAB75502121F3",
+      "stringCount": 54
+    },
+    {
+      "path": "reconcile.ts",
+      "upstreamSha256": "67B54641EA98C0B710356B89AF50CFF9514943E25630A30B16AE66A90C64DBB0",
+      "stringCount": 1
+    },
+    {
+      "path": "rpc-fallback.ts",
+      "upstreamSha256": "14997C0B37294A466665B9661529522112DE56891BF380DAE81346D299396A29",
+      "stringCount": 7
+    },
+    {
+      "path": "state/build-questionnaire.ts",
+      "upstreamSha256": "41F920F409C904AAD40866931BA28984D8C232D4C3038DC7E383840BC061BE0E",
+      "stringCount": 18
+    },
+    {
+      "path": "state/external-editor.ts",
+      "upstreamSha256": "13E2FFF5925436A82C7460BC153A4F5E0DCB5F36A2A58AD090B901326FB243F9",
+      "stringCount": 10
+    },
+    {
+      "path": "state/i18n-bridge.ts",
+      "upstreamSha256": "C2921835574265924E0A96A1D10B010D6EDD78B07B7EE14E4A4B92CC2287A809",
+      "stringCount": 2
+    },
+    {
+      "path": "state/key-router.ts",
+      "upstreamSha256": "C77A98C1435E1C3BCB0A658079CCD1E4E54968F2BB7631F7057ED2BE05B4EE6E",
+      "stringCount": 13
+    },
+    {
+      "path": "state/questionnaire-session.ts",
+      "upstreamSha256": "1E0DACCD2238B38E5C27179753EC7F379A84471058C8E5E873E78E4BF8D6F24A",
+      "stringCount": 12
+    },
+    {
+      "path": "state/row-intent.ts",
+      "upstreamSha256": "DBB44959CFFB56FD031EA751D28F7C5647EF117051EC6EDC5A96BB877F64CA16",
+      "stringCount": 3
+    },
+    {
+      "path": "state/selectors/contract.ts",
+      "upstreamSha256": "8D1FBBCDD792E9499E30EF6DD5E14A49F2212831BF0A31BCDB6D9A063D20D63D",
+      "stringCount": 6
+    },
+    {
+      "path": "state/selectors/derivations.ts",
+      "upstreamSha256": "5E031EBAEED843106C94EB923425D7FD2BA1BF057EA6678FBE6A2E79817E5064",
+      "stringCount": 2
+    },
+    {
+      "path": "state/selectors/focus.ts",
+      "upstreamSha256": "373CDF15B3000F7D7668B6FE72084B628423ADD75B5B6398CA2FA66ED65AFF16",
+      "stringCount": 1
+    },
+    {
+      "path": "state/selectors/projections.ts",
+      "upstreamSha256": "CFABFF2E616244D57CEDF950FED193FD3E7B62A863F06ED7584802EEF15D5CF3",
+      "stringCount": 9
+    },
+    {
+      "path": "state/state-reducer.ts",
+      "upstreamSha256": "8ED9BDF4596C884FDF36D4411F6C1852CA236D5D9F161C1252961FED5DC18145",
+      "stringCount": 5
+    },
+    {
+      "path": "state/state.ts",
+      "upstreamSha256": "267E5EE471BF58F5CE0E27DD6F16AC5C304D5F0C39A43034F0FC1984CAF74001",
+      "stringCount": 2
+    },
+    {
+      "path": "tool/format-answer.ts",
+      "upstreamSha256": "AA382C244D9230C08DBF1788C2510F0DC07CC347550EE50D7407EC26BB919B06",
+      "stringCount": 2
+    },
+    {
+      "path": "tool/normalize-params.ts",
+      "upstreamSha256": "660B75BFF74B97AA49767C31B201DEC527BED60C8602751E0E5560038643C22F",
+      "stringCount": 1
+    },
+    {
+      "path": "tool/response-envelope.ts",
+      "upstreamSha256": "299971663030C4F7EEE5798D698F41679ECB27664738006CEABD27A83AC9B473",
+      "stringCount": 8
+    },
+    {
+      "path": "tool/types.ts",
+      "upstreamSha256": "F6E4CA589D8C8F11726C6D93313FE8907752140915F62AEA2055CCA691FC49E6",
+      "stringCount": 9
+    },
+    {
+      "path": "tool/validate-questionnaire.ts",
+      "upstreamSha256": "5BAF8E418756CE8420909C2AD5BEA5F4CC6FB4AC315F625C85E26F6AE99B8EDD",
+      "stringCount": 8
+    },
+    {
+      "path": "view/component-binding.ts",
+      "upstreamSha256": "19C013D0A986A43DA91BCCB7207E9407A3B9BE71F5FAAF8DCFCA33B9EFE9E8A8",
+      "stringCount": 4
+    },
+    {
+      "path": "view/components/inline-input.ts",
+      "upstreamSha256": "5DE1A683CBBCA8ED7382885B2AE16D4A0E9868194D8EAD78650D75C641EEB466"
+    },
+    {
+      "path": "view/components/multi-select-view.ts",
+      "upstreamSha256": "1FEA739C63B95FAB6C05540D3B86F6677E5938FBFCBB67E38ABBEECE388C436A",
+      "stringCount": 4
+    },
+    {
+      "path": "view/components/option-list-view.ts",
+      "upstreamSha256": "040AF43E932E1A9A30C2046C25A716DF042CE93D1DD31DDD9F07BB30202BBFAE",
+      "stringCount": 2
+    },
+    {
+      "path": "view/components/preview/markdown-content-cache.ts",
+      "upstreamSha256": "7818AB24AEE1FB29381DC513AD52D044E3EADC9A4EF3774190F366ACB3AE0AE7",
+      "stringCount": 5
+    },
+    {
+      "path": "view/components/preview/preview-block-renderer.ts",
+      "upstreamSha256": "C729059903614B18F88C3EAAA21E0F242A5818B33F190D9A08B627E85693EEF4",
+      "stringCount": 7
+    },
+    {
+      "path": "view/components/preview/preview-box-renderer.ts",
+      "upstreamSha256": "20B900EAD8A0E71F005AADB18C00103B2DFF87391EC8C8011EBD3C47540A8C33",
+      "stringCount": 1
+    },
+    {
+      "path": "view/components/preview/preview-layout-decider.ts",
+      "upstreamSha256": "7BAF9ECD1DB8AF8383D2F792D69D4FD9B22623A7CBD29E1A95BC9FD480796A3B",
+      "stringCount": 3
+    },
+    {
+      "path": "view/components/preview/preview-pane.ts",
+      "upstreamSha256": "1AFB0B7441927ED289E6F178B76DED89A7BF4B799D84E6BF8336494A92A7E655",
+      "stringCount": 8
+    },
+    {
+      "path": "view/components/submit-picker.ts",
+      "upstreamSha256": "B2EDC7397AF1B60072A738A46086C0034BD6DCF5C73657029320847E50ACAAF2",
+      "stringCount": 5
+    },
+    {
+      "path": "view/components/tab-bar.ts",
+      "upstreamSha256": "E08D60FB6365D4D315210A265F83FF5CA2FE6C40EA51A7ED291EC9FCC79ED9FB",
+      "stringCount": 2
+    },
+    {
+      "path": "view/components/wrapping-select.ts",
+      "upstreamSha256": "A9681ADFFFECF164FCB5AFBEA1676FDFF3E1E8BA536FF002AAEBB7256A3B01C6",
+      "stringCount": 1
+    },
+    {
+      "path": "view/dialog-builder.ts",
+      "upstreamSha256": "C16B9A7C7F91D7697E856232FD5D179E4AE2844EDA29A4E0413BDDE11A972DF2",
+      "stringCount": 21
+    },
+    {
+      "path": "view/props-adapter.ts",
+      "upstreamSha256": "B1F0B8D017731F957E77300E97D86CEF044C4EDE3C80CA0A7A6148A95DA11623",
+      "stringCount": 8
+    },
+    {
+      "path": "view/stateful-view.ts",
+      "upstreamSha256": "7569084CDABEA9DA2F6DA91EAD4731FA1FCDE6BD04FEBEC9B291623FF61907BA"
+    },
+    {
+      "path": "view/tab-components.ts",
+      "upstreamSha256": "4007C2B3F33B90F5384CB70130FCAB2992112508D8655B73073F8EB74BD24705",
+      "stringCount": 4
+    },
+    {
+      "path": "view/tab-content-strategy.ts",
+      "upstreamSha256": "439CC18F06C5558E79AAD6C0591271D32F4536630A2472C1E05AD08CC231EB86",
+      "stringCount": 28
+    }
+  ]
+}
