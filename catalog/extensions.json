@@ -63,17 +63,17 @@
     },
     {
       "name": "pi-agent-browser-native",
-      "version": "0.7.1",
+      "version": "0.8.2",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-agent-browser-native",
-      "inventory": "inventories/extensions/pi-agent-browser-native-0.7.1.json",
+      "inventory": "inventories/extensions/pi-agent-browser-native-0.8.2.json",
       "source": {
-        "tarball": "pi-agent-browser-native@0.7.1",
-        "integrity": "sha512-53NvOQDYHELvmVWEMlu98EN27fnbDPMqmLy/eJECoiAgpYoXo6Ha7D1riDvC7a+1pAN+a2+5XyitidomQZ2xVg==",
-        "shasum": "50365790d043506f73e1ec360d66bb71585f26e3"
+        "tarball": "pi-agent-browser-native@0.8.2",
+        "integrity": "sha512-WxQM8cvgea6kkL3uL3lFDlJvTXP/hG0bP+SNLO4pO0F6M4Iz/iKYOAH/9vuWSoO94yBUJhjpJQEv6Z+oKFOsbA==",
+        "shasum": "772e9966cc5f5718a2fb22dd54b1472521f2ef6e"
       },
       "fileCount": 137,
-      "stringCount": 7663,
+      "stringCount": 7676,
       "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。"
     },
     {
