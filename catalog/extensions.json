@@ -48,17 +48,18 @@
     },
     {
       "name": "pi-web-access",
-      "version": "0.33.0",
+      "version": "0.34.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-web-access",
-      "inventory": "inventories/extensions/pi-web-access-0.33.0.json",
+      "inventory": "inventories/extensions/pi-web-access-0.34.0.json",
       "source": {
-        "integrity": "sha512-PEwlDRb8k+V51VpHD36HrQ6TpmaoJgRUqb+aFMZVUbmhN/qYVMAlpUTs+B9QAD+67BFrazHJbcWX6/XdsXBYBQ==",
-        "shasum": "ff5d13e87092cfb5202bca02b39a87654920ed4a",
-        "tarball": "pi-web-access@0.33.0"
+        "integrity": "sha512-vZnJHKf88XhhTZxIjLEN+7cZr77RDcuuuhQiLgVCjfL5dG97fOrqeD5OBIOC8aa9rbtsj7labIxYvc2wYYQWzA==",
+        "shasum": "337d4960866a2e3b52c167f9d157a09357ec250b",
+        "tarball": "pi-web-access@0.34.0",
+        "kind": "npm"
       },
-      "fileCount": 87,
-      "stringCount": 5234,
+      "fileCount": 88,
+      "stringCount": 5332,
       "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。"
     },
     {
@@ -78,17 +79,18 @@
     },
     {
       "name": "pi-mcp-adapter",
-      "version": "3.2.0",
+      "version": "3.3.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-mcp-adapter",
-      "inventory": "inventories/extensions/pi-mcp-adapter-3.2.0.json",
+      "inventory": "inventories/extensions/pi-mcp-adapter-3.3.0.json",
       "source": {
-        "integrity": "sha512-FzGepoyY7+fmQS3Y2PMnbu+mxbR7nrtXryfw5pKCGc9Nn8i7+zSuDjT9NOna3jatyqciIQbX2KBtTgzOE8FLDg==",
-        "shasum": "caa958e15cdd89b5b163a240d1a63614b8dade33",
-        "tarball": "pi-mcp-adapter@3.2.0"
+        "integrity": "sha512-CNwp4/uTsfRM+y6tzCGDaZfzExPRbE9c+Vc2iTHgNGGp0Ey7EzdY745pQJx4utGjTmgCFCXY95fu8iwfX1Lnrg==",
+        "shasum": "1d535f971c531c7f98ab4478f0b3ece6dd577e0c",
+        "tarball": "pi-mcp-adapter@3.3.0",
+        "kind": "npm"
       },
-      "fileCount": 232,
-      "stringCount": 5648,
+      "fileCount": 239,
+      "stringCount": 5701,
       "scope": "CLI helper、扩展 CLI flag 说明、/mcp 与 /mcp-auth 用户界面、启动/页脚状态、MCP 主面板、setup 面板和 mcp-scripting 技能说明；MCP method、JSON-RPC/schema、工具名与工具描述、Slash command、selector、状态枚举、模型可见结果、外部路径、原始错误和技能名与正文保持英文。"
     }
   ]
