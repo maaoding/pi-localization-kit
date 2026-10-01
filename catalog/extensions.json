@@ -76,22 +76,6 @@
       "fileCount": 137,
       "stringCount": 7676,
       "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。"
-    },
-    {
-      "name": "pi-mcp-adapter",
-      "version": "3.3.0",
-      "kind": "extension",
-      "installPath": "npm/node_modules/pi-mcp-adapter",
-      "inventory": "inventories/extensions/pi-mcp-adapter-3.3.0.json",
-      "source": {
-        "integrity": "sha512-CNwp4/uTsfRM+y6tzCGDaZfzExPRbE9c+Vc2iTHgNGGp0Ey7EzdY745pQJx4utGjTmgCFCXY95fu8iwfX1Lnrg==",
-        "shasum": "1d535f971c531c7f98ab4478f0b3ece6dd577e0c",
-        "tarball": "pi-mcp-adapter@3.3.0",
-        "kind": "npm"
-      },
-      "fileCount": 239,
-      "stringCount": 5701,
-      "scope": "CLI helper、扩展 CLI flag 说明、/mcp 与 /mcp-auth 用户界面、启动/页脚状态、MCP 主面板、setup 面板和 mcp-scripting 技能说明；MCP method、JSON-RPC/schema、工具名与工具描述、Slash command、selector、状态枚举、模型可见结果、外部路径、原始错误和技能名与正文保持英文。"
     }
   ]
 }
