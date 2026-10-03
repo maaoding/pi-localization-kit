@@ -3,14 +3,15 @@
   "packages": [
     {
       "name": "@juicesharp/rpiv-ask-user-question",
-      "version": "2.11.0",
+      "version": "2.12.0",
       "kind": "extension",
       "installPath": "npm/node_modules/@juicesharp/rpiv-ask-user-question",
-      "inventory": "inventories/extensions/juicesharp-rpiv-ask-user-question-2.11.0.json",
+      "inventory": "inventories/extensions/juicesharp-rpiv-ask-user-question-2.12.0.json",
       "source": {
-        "tarball": "@juicesharp/rpiv-ask-user-question@2.11.0",
-        "integrity": "sha512-nSj0CfJ/cx1/I860eB8zbP/vfceriTah6yQR4fQm9gapmL02Vfy+CEuiLu3Sqcd1xhMv230ZCV/bhuZ1LFq1Pw==",
-        "shasum": "66ab175b0e7b73d8ef53f88c85916a4c12c4f7ec"
+        "integrity": "sha512-DilWc7u25SwnK6ytuAWOTerP0AmOEfK4HXpgS1oEzkgv9d5g5T+PbLG+zcLn18M3B/J3poMG14iydG5O6iBsnw==",
+        "shasum": "d65e6590fc0bde24ed7506dc57e805df5d4264a1",
+        "tarball": "@juicesharp/rpiv-ask-user-question@2.12.0",
+        "kind": "npm"
       },
       "fileCount": 57,
       "stringCount": 694,
@@ -33,48 +34,50 @@
     },
     {
       "name": "pi-subagents",
-      "version": "0.73.1",
+      "version": "0.75.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-subagents",
-      "inventory": "inventories/extensions/pi-subagents-0.73.1.json",
+      "inventory": "inventories/extensions/pi-subagents-0.75.0.json",
       "source": {
-        "integrity": "sha512-IklOqw67DtvIWQFKxFJpDFXsOGcq8RGYZEbokykD5Kvfs9aa/du1cW2NEJ5xx4GUgN2LVt3vAq5IdzEMo7YwJw==",
-        "shasum": "587cd7d2694b74d926f32afc724bd310c2e33c8b",
-        "tarball": "pi-subagents@0.73.1"
+        "integrity": "sha512-RO4DiTJM6pnK8y9PnD7Y6TLeiX2c8Kh6QhmkecFo+ou5qtnz5qiM+vUKru48UmJG1nB9eJ6rALd1M04uBOR4XQ==",
+        "shasum": "4181e8c6d47c995804ee1b99d2659bebe7e2c2d7",
+        "tarball": "pi-subagents@0.75.0",
+        "kind": "npm"
       },
-      "fileCount": 1223,
-      "stringCount": 14721,
+      "fileCount": 1259,
+      "stringCount": 15247,
       "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示、内置提示模板说明和 pi-subagents 技能说明；提示模板名与正文、技能名与正文、action、状态枚举、工具协议与恢复命令保持英文。"
     },
     {
       "name": "pi-web-access",
-      "version": "0.34.0",
+      "version": "0.35.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-web-access",
-      "inventory": "inventories/extensions/pi-web-access-0.34.0.json",
+      "inventory": "inventories/extensions/pi-web-access-0.35.0.json",
       "source": {
-        "integrity": "sha512-vZnJHKf88XhhTZxIjLEN+7cZr77RDcuuuhQiLgVCjfL5dG97fOrqeD5OBIOC8aa9rbtsj7labIxYvc2wYYQWzA==",
-        "shasum": "337d4960866a2e3b52c167f9d157a09357ec250b",
-        "tarball": "pi-web-access@0.34.0",
+        "integrity": "sha512-D1GMJMNDG2omAkL1ztmO6ZEwEyW7LoFpTcckKh2yXjLyAgDFuhpTQrs2jQPAlVtGb3rjAeIXRZrkhFcwSWdGSg==",
+        "shasum": "a807f0d5c6dfa6893f24e00320774a55425f864b",
+        "tarball": "pi-web-access@0.35.0",
         "kind": "npm"
       },
-      "fileCount": 88,
-      "stringCount": 5332,
+      "fileCount": 89,
+      "stringCount": 5350,
       "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。"
     },
     {
       "name": "pi-agent-browser-native",
-      "version": "0.8.2",
+      "version": "0.9.1",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-agent-browser-native",
-      "inventory": "inventories/extensions/pi-agent-browser-native-0.8.2.json",
+      "inventory": "inventories/extensions/pi-agent-browser-native-0.9.1.json",
       "source": {
-        "tarball": "pi-agent-browser-native@0.8.2",
-        "integrity": "sha512-WxQM8cvgea6kkL3uL3lFDlJvTXP/hG0bP+SNLO4pO0F6M4Iz/iKYOAH/9vuWSoO94yBUJhjpJQEv6Z+oKFOsbA==",
-        "shasum": "772e9966cc5f5718a2fb22dd54b1472521f2ef6e"
+        "integrity": "sha512-0UHy8PDSvwdPfY+YTDn7fYAvSnG6InnwId6kd86HoH0K9fYjkIBQgBWOEs5ie1JxCFBrFStp7KhwglSYXklNDw==",
+        "shasum": "edb9cc0d3657b385ec3fcc45c5918f5b17127a07",
+        "tarball": "pi-agent-browser-native@0.9.1",
+        "kind": "npm"
       },
-      "fileCount": 137,
-      "stringCount": 7676,
+      "fileCount": 144,
+      "stringCount": 7889,
       "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。"
     }
   ]
