@@ -34,18 +34,18 @@
     },
     {
       "name": "pi-subagents",
-      "version": "0.75.0",
+      "version": "0.76.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-subagents",
-      "inventory": "inventories/extensions/pi-subagents-0.75.0.json",
+      "inventory": "inventories/extensions/pi-subagents-0.76.0.json",
       "source": {
-        "integrity": "sha512-RO4DiTJM6pnK8y9PnD7Y6TLeiX2c8Kh6QhmkecFo+ou5qtnz5qiM+vUKru48UmJG1nB9eJ6rALd1M04uBOR4XQ==",
-        "shasum": "4181e8c6d47c995804ee1b99d2659bebe7e2c2d7",
-        "tarball": "pi-subagents@0.75.0",
+        "integrity": "sha512-r1uoi43ysqbi2MJOGAnJWMbF3o2xBwaWI7/pwJHgGaenv/JqGEmtt5YHYWoq8JRvlhVCquTnrtFeB7e0apLlOQ==",
+        "shasum": "461750f2217572691415ac7fe4b13604045e15e2",
+        "tarball": "pi-subagents@0.76.0",
         "kind": "npm"
       },
-      "fileCount": 1259,
-      "stringCount": 15247,
+      "fileCount": 1283,
+      "stringCount": 15419,
       "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示、内置提示模板说明和 pi-subagents 技能说明；提示模板名与正文、技能名与正文、action、状态枚举、工具协议与恢复命令保持英文。"
     },
     {
@@ -66,18 +66,18 @@
     },
     {
       "name": "pi-agent-browser-native",
-      "version": "0.9.1",
+      "version": "0.9.3",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-agent-browser-native",
-      "inventory": "inventories/extensions/pi-agent-browser-native-0.9.1.json",
+      "inventory": "inventories/extensions/pi-agent-browser-native-0.9.3.json",
       "source": {
-        "integrity": "sha512-0UHy8PDSvwdPfY+YTDn7fYAvSnG6InnwId6kd86HoH0K9fYjkIBQgBWOEs5ie1JxCFBrFStp7KhwglSYXklNDw==",
-        "shasum": "edb9cc0d3657b385ec3fcc45c5918f5b17127a07",
-        "tarball": "pi-agent-browser-native@0.9.1",
+        "integrity": "sha512-n6GhgyPCitfrkClNkOq/yrtbGHoDBbgiY5M9G/fvqq+jeIk5OLGXYSoo8GuicxhCYXrcfdrIG4uN2g7L4MxbsQ==",
+        "shasum": "34192abf89c7c5f60e902b4830c226e253df166f",
+        "tarball": "pi-agent-browser-native@0.9.3",
         "kind": "npm"
       },
       "fileCount": 144,
-      "stringCount": 7889,
+      "stringCount": 7984,
       "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。"
     }
   ]
