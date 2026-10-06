@@ -34,18 +34,18 @@
     },
     {
       "name": "pi-subagents",
-      "version": "0.76.0",
+      "version": "0.76.1",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-subagents",
-      "inventory": "inventories/extensions/pi-subagents-0.76.0.json",
+      "inventory": "inventories/extensions/pi-subagents-0.76.1.json",
       "source": {
-        "integrity": "sha512-r1uoi43ysqbi2MJOGAnJWMbF3o2xBwaWI7/pwJHgGaenv/JqGEmtt5YHYWoq8JRvlhVCquTnrtFeB7e0apLlOQ==",
-        "shasum": "461750f2217572691415ac7fe4b13604045e15e2",
-        "tarball": "pi-subagents@0.76.0",
+        "integrity": "sha512-DTHVUUyLx5KfwikpSQF4sWIKaazbxanAoKd8v4ZGt9OqLM2xNQ79BrPHjaqOARipoUb0kZIKyEYwTPItPqYq1g==",
+        "shasum": "06bb62f220da3b35e46cdefcb19f29ca22861648",
+        "tarball": "pi-subagents@0.76.1",
         "kind": "npm"
       },
-      "fileCount": 1283,
-      "stringCount": 15419,
+      "fileCount": 1291,
+      "stringCount": 15443,
       "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示、内置提示模板说明和 pi-subagents 技能说明；提示模板名与正文、技能名与正文、action、状态枚举、工具协议与恢复命令保持英文。"
     },
     {

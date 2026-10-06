@@ -3,17 +3,17 @@
   "packages": [
     {
       "name": "@earendil-works/pi-coding-agent",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "kind": "core",
       "installPath": "dist",
-      "inventory": "inventories/core/pi-coding-agent-1.0.3.json",
+      "inventory": "inventories/core/pi-coding-agent-1.0.4.json",
       "source": {
-        "integrity": "sha512-t2lb0dw4y/jr5a2PRo6eTHGTZOPB3/YAMVyhhYFC1W3Hl5xE+462I/gMWjF4gCLuhGipNEfuNqONFmdqLFz4SQ==",
-        "shasum": "de643ce8049ed7182517bbc5620dacf2b68314c6",
-        "tarball": "@earendil-works/pi-coding-agent@1.0.3"
+        "integrity": "sha512-+956nfMFHr5lDUVY/2Q4k+YzojzBuCaBXFgj0eSlXVGr7QVliVddKdc1Pz6yVg1dOlJQmb67doOVrlMsIcIdaw==",
+        "shasum": "878235d4ecc2ad3ac6fad0adfeffcf233b8159d7",
+        "tarball": "@earendil-works/pi-coding-agent@1.0.4"
       },
       "fileCount": 1064,
-      "stringCount": 17721,
+      "stringCount": 17747,
       "scope": "TUI、CLI 帮助、状态、通知、doctor、错误说明、认证与包管理界面、设置子菜单、思考强度、会话分享、原生上下文压缩和分支摘要提示词。"
     }
   ]
