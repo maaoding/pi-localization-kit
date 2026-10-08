@@ -50,18 +50,18 @@
     },
     {
       "name": "pi-web-access",
-      "version": "0.35.0",
+      "version": "0.37.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-web-access",
-      "inventory": "inventories/extensions/pi-web-access-0.35.0.json",
+      "inventory": "inventories/extensions/pi-web-access-0.37.0.json",
       "source": {
-        "integrity": "sha512-D1GMJMNDG2omAkL1ztmO6ZEwEyW7LoFpTcckKh2yXjLyAgDFuhpTQrs2jQPAlVtGb3rjAeIXRZrkhFcwSWdGSg==",
-        "shasum": "a807f0d5c6dfa6893f24e00320774a55425f864b",
-        "tarball": "pi-web-access@0.35.0",
+        "integrity": "sha512-Je7D5ghQi9dpN0KhpFMuHYwKy0oBvpNrNR7zuTzSyCRsIJDC5in8yGz/3yItxvWYHF1W+q2Sq190nyaLkoWhgg==",
+        "shasum": "88952d232601733f42abfbdd776e00ed4bea0ee3",
+        "tarball": "pi-web-access@0.37.0",
         "kind": "npm"
       },
-      "fileCount": 89,
-      "stringCount": 5350,
+      "fileCount": 98,
+      "stringCount": 7075,
       "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。"
     },
     {
