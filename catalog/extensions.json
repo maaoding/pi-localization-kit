@@ -34,50 +34,50 @@
     },
     {
       "name": "pi-subagents",
-      "version": "0.76.1",
+      "version": "0.77.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-subagents",
-      "inventory": "inventories/extensions/pi-subagents-0.76.1.json",
+      "inventory": "inventories/extensions/pi-subagents-0.77.0.json",
       "source": {
-        "integrity": "sha512-DTHVUUyLx5KfwikpSQF4sWIKaazbxanAoKd8v4ZGt9OqLM2xNQ79BrPHjaqOARipoUb0kZIKyEYwTPItPqYq1g==",
-        "shasum": "06bb62f220da3b35e46cdefcb19f29ca22861648",
-        "tarball": "pi-subagents@0.76.1",
-        "kind": "npm"
+        "kind": "npm",
+        "tarball": "pi-subagents@0.77.0",
+        "integrity": "sha512-kpTpUnV1hyGM0845thS7IT2QFZVBuodq/rdOqsmimQgZvixzw7fOStqt7zWN++xpb3j1AtmMFWeNU5tcp8i3uQ==",
+        "shasum": "04da1a8417927e752c5dd710d1559247d410c5b9"
       },
-      "fileCount": 1291,
-      "stringCount": 15443,
+      "fileCount": 1331,
+      "stringCount": 15731,
       "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示、内置提示模板说明和 pi-subagents 技能说明；提示模板名与正文、技能名与正文、action、状态枚举、工具协议与恢复命令保持英文。"
     },
     {
       "name": "pi-web-access",
-      "version": "0.37.0",
+      "version": "0.38.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-web-access",
-      "inventory": "inventories/extensions/pi-web-access-0.37.0.json",
+      "inventory": "inventories/extensions/pi-web-access-0.38.0.json",
       "source": {
-        "integrity": "sha512-Je7D5ghQi9dpN0KhpFMuHYwKy0oBvpNrNR7zuTzSyCRsIJDC5in8yGz/3yItxvWYHF1W+q2Sq190nyaLkoWhgg==",
-        "shasum": "88952d232601733f42abfbdd776e00ed4bea0ee3",
-        "tarball": "pi-web-access@0.37.0",
-        "kind": "npm"
+        "kind": "npm",
+        "tarball": "pi-web-access@0.38.0",
+        "integrity": "sha512-8AHja5tlOoGlrtmOsB+zy/MpMeE/fdXQd4UDDs7yg6viaElmNOyNJjNUj+LrgMgMA78ct8xLEKlAI7l9rC8DIw==",
+        "shasum": "268383105cd627464660038508594e2aadff007c"
       },
       "fileCount": 98,
-      "stringCount": 7075,
+      "stringCount": 7140,
       "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。"
     },
     {
       "name": "pi-agent-browser-native",
-      "version": "0.9.3",
+      "version": "0.9.4",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-agent-browser-native",
-      "inventory": "inventories/extensions/pi-agent-browser-native-0.9.3.json",
+      "inventory": "inventories/extensions/pi-agent-browser-native-0.9.4.json",
       "source": {
-        "integrity": "sha512-n6GhgyPCitfrkClNkOq/yrtbGHoDBbgiY5M9G/fvqq+jeIk5OLGXYSoo8GuicxhCYXrcfdrIG4uN2g7L4MxbsQ==",
-        "shasum": "34192abf89c7c5f60e902b4830c226e253df166f",
-        "tarball": "pi-agent-browser-native@0.9.3",
-        "kind": "npm"
+        "kind": "npm",
+        "tarball": "pi-agent-browser-native@0.9.4",
+        "integrity": "sha512-jIqi9Y0LljmeUUGH88ABk7g6RvjdgAkKKMObiChLPnSOawfLTYwIywhGmoUXMNNdeQbNuvA6WuDdR2WIhwtfaA==",
+        "shasum": "876440c27a54fb9f1cf30f077ae962514ba990ca"
       },
-      "fileCount": 144,
-      "stringCount": 7984,
+      "fileCount": 402,
+      "stringCount": 11407,
       "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。"
     }
   ]
