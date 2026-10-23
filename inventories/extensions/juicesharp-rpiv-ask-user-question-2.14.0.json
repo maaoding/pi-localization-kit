@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "@juicesharp/rpiv-ask-user-question",
+    "version": "2.14.0",
+    "installPath": "npm/node_modules/@juicesharp/rpiv-ask-user-question"
+  },
+  "source": {
+    "integrity": "sha512-7UVil2qsLCw92RHZ5yuVA5xCMXhwAptB1fi/HuMgIJBDIyfwmlPqfsIvovhXlXBz21XHtUcBuQHaIZDJW59JAA==",
+    "shasum": "8cb8e3c7a00048199aac37529be7b8b3dc2ec19a",
+    "tarball": "@juicesharp/rpiv-ask-user-question@2.14.0",
+    "kind": "npm"
+  },
+  "scope": "按钮、选项、提交、取消、备注、折叠提示和外部编辑器状态；工具协议保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "answer-channel.ts",
+      "upstreamSha256": "338E55091EC7A11E4AD0DA1573560511D8ACA9773C11A09DB0FC6E870E2FE085",
+      "stringCount": 10
+    },
+    {
+      "path": "ask-user-question.ts",
+      "upstreamSha256": "C97670B7AF60F5237D87A1247F5DEBDCF2FC9C39EE523A4E68C0D0D2FD858AE3",
+      "stringCount": 36
+    },
+    {
+      "path": "config.ts",
+      "upstreamSha256": "59B886D66198726D67E19C6FFB338F5136F0D40484E78155A37CE592EA7ECEB9"
+    },
+    {
+      "path": "docs/configuration.md",
+      "upstreamSha256": "E182D8ACBBBEC8769012070B2343057C0294CEF071B1D0916FAA32BDEB19EF07",
+      "stringCount": 78
+    },
+    {
+      "path": "docs/hosts.md",
+      "upstreamSha256": "31F85FAEB5715721A03D439FA42E090BB8FE2772242410E8DDFF83F6B7B41C28",
+      "stringCount": 73
+    },
+    {
+      "path": "docs/keyboard.md",
+      "upstreamSha256": "62C07A37669AB754582A4366A835F397161400BDA2DBC46C69F625DF1FF16C18",
+      "stringCount": 120
+    },
+    {
+      "path": "docs/localization.md",
+      "upstreamSha256": "1A12B2968F3174C6AAE58A7B164E8AF23D9F050F98B43443C059FE0FF221A588",
+      "stringCount": 60
+    },
+    {
+      "path": "docs/startup-performance.md",
+      "upstreamSha256": "2849AF80F208DE389F81E73AA20DCF6531507CC98757A1ADD5F686BFA7CA9656",
+      "stringCount": 62
+    },
+    {
+      "path": "docs/tool-schema.md",
+      "upstreamSha256": "2F3498352132BB27ADC41E6C77B2808A8A458FECA9B4D8F67FAA4E77356218A7",
+      "stringCount": 131
+    },
+    {
+      "path": "events.ts",
+      "upstreamSha256": "C1E5CB828D2864D629FC576847E257C9C11EB9094307C08147E8C004AA1073D4",
+      "stringCount": 4
+    },
+    {
+      "path": "index.ts",
+      "upstreamSha256": "B02F8592949F3709F5FB585D79643577B4E6421F6B1E3EC3603EBC7715AC5A1D",
+      "stringCount": 4
+    },
+    {
+      "path": "LICENSE",
+      "upstreamSha256": "25D0D5E4E54033F939A9657109044F1D71A0B6E8DB9ADC400456CA9190DF3FB1"
+    },
+    {
+      "path": "locales/de.json",
+      "upstreamSha256": "181E3180D74DCDE92408824E170497F67C0B4480EC485712CBBF00E05568D1EE"
+    },
+    {
+      "path": "locales/en.json",
+      "upstreamSha256": "092978B2C96686D6690247AB174258EFC5E856D345E3FA434546BE139C7E6D9F"
+    },
+    {
+      "path": "locales/es.json",
+      "upstreamSha256": "2F92505D4E0395ACA6713659EF8636DDF20D572D68442B93722452BC0D9033FF"
+    },
+    {
+      "path": "locales/fr.json",
+      "upstreamSha256": "303FB2F2D3EBC30BC908F2D76BEFDECE386DC6EC9315993EAFFEF2C8F1DC2F95"
+    },
+    {
+      "path": "locales/pt-BR.json",
+      "upstreamSha256": "1A37815FF03DA5729A12FB39BDA56AFC0D559B17401346828502619D2A965095"
+    },
+    {
+      "path": "locales/pt.json",
+      "upstreamSha256": "3125153E86178C431837D60C58F5CECDA9A232EF16255D9EE1620D3C6F8D5AA6"
+    },
+    {
+      "path": "locales/ru.json",
+      "upstreamSha256": "9ECEB410C5DFC211B52D729329F09B16C5FAB0FF966223551721E1B110540E93"
+    },
+    {
+      "path": "locales/uk.json",
+      "upstreamSha256": "4E4738BD96237C2FCEC6C5EC409E83371264CC707BBD6060D66B32394269048C"
+    },
+    {
+      "path": "locales/zh.json",
+      "upstreamSha256": "1EB029B481E78196533B84FCB8BDCC3214973C1B24F8C6761802110CA018E504"
+    },
+    {
+      "path": "package.json",
+      "upstreamSha256": "FA834A38A55CC3E982A9ACB16537D138929DE4ABEF6BAC3665D2BDC52D808871"
+    },
+    {
+      "path": "presentation.ts",
+      "upstreamSha256": "181001A938D1ED0E85170A216A28DC90BE9225E58FA3830B49E02DC6F913C679",
+      "stringCount": 2
+    },
+    {
+      "path": "README.md",
+      "upstreamSha256": "37E7A5824042A95217ADEA8407EBBAAE04F1C68C3606857738FB68D726D3FEC7",
+      "stringCount": 54
+    },
+    {
+      "path": "reconcile.ts",
+      "upstreamSha256": "E296D215027F677A35AD6F5AD090F14A5848B0278778148EF823DCA307E19F75",
+      "stringCount": 1
+    },
+    {
+      "path": "rpc-fallback.ts",
+      "upstreamSha256": "11074C840BC13E94CB86817FD14B2D946BB33E46F52180AD456C3183FDB1D7F7",
+      "stringCount": 8
+    },
+    {
+      "path": "state/build-questionnaire.ts",
+      "upstreamSha256": "8DCB47BF2E16D8C6898E56FD65010636752C7BC708CA94D44BDD4E2A0E4064FE",
+      "stringCount": 18
+    },
+    {
+      "path": "state/external-editor.ts",
+      "upstreamSha256": "13E2FFF5925436A82C7460BC153A4F5E0DCB5F36A2A58AD090B901326FB243F9",
+      "stringCount": 10
+    },
+    {
+      "path": "state/i18n-bridge.ts",
+      "upstreamSha256": "D465D3271CE216FC7BFF8F4BC7DCDED468651DA4AE9B6E63DE2B3F3C460D5D80",
+      "stringCount": 2
+    },
+    {
+      "path": "state/key-router.ts",
+      "upstreamSha256": "BC2023A2A59CB9341B4FEB216626B00E44FAFB7604C64A96D5DD2995813B6ED2",
+      "stringCount": 13
+    },
+    {
+      "path": "state/questionnaire-session.ts",
+      "upstreamSha256": "23C0A9E0E42AB0EDF22AFDEC510E0B17BD4AD391DB63C488489B8208C0AC64E9",
+      "stringCount": 12
+    },
+    {
+      "path": "state/row-intent.ts",
+      "upstreamSha256": "B146D76BB19DEC2ABF24E5E61A55B294784CD48256A0D8E8C0F33B93E8997A9B",
+      "stringCount": 3
+    },
+    {
+      "path": "state/selectors/contract.ts",
+      "upstreamSha256": "43D367D7949CD884764501E0FBA0248B90EAF30FDEC2176903EA215E089788A2",
+      "stringCount": 6
+    },
+    {
+      "path": "state/selectors/derivations.ts",
+      "upstreamSha256": "A59CFFA04EFF0D08B50A8E3F3723DA379B9CFFDBF8FC26D4A0CE576B8B465E60",
+      "stringCount": 2
+    },
+    {
+      "path": "state/selectors/focus.ts",
+      "upstreamSha256": "4888580ED5545B85EADE7C52E20FB75123A5EB73B2BB36D1B7895690241DEA69",
+      "stringCount": 1
+    },
+    {
+      "path": "state/selectors/projections.ts",
+      "upstreamSha256": "87E7D18AFF070EFA1C8B32F763B46E9EA1496E2391594B7918647F73348F7139",
+      "stringCount": 9
+    },
+    {
+      "path": "state/state-reducer.ts",
+      "upstreamSha256": "E22BC291297D707D8B988AB00F2E05A951680CFDDFAFCF674B961C9F294599CB",
+      "stringCount": 5
+    },
+    {
+      "path": "state/state.ts",
+      "upstreamSha256": "F6E6B243B0CA1191DDBDCCEC82FC2DDA60F5012531C42626CCD86D2F47CE3002",
+      "stringCount": 2
+    },
+    {
+      "path": "tool/external-answer.ts",
+      "upstreamSha256": "1426DD6D3F5538980C17D3D238A626D4BFA9FB5ABC701A795711E7DABFDBE12A",
+      "stringCount": 20
+    },
+    {
+      "path": "tool/format-answer.ts",
+      "upstreamSha256": "AC3CFCB8AEF95BB916CA68020FC7920C96F12058EFBAA615BEC63F58D63C2C6E",
+      "stringCount": 2
+    },
+    {
+      "path": "tool/normalize-params.ts",
+      "upstreamSha256": "40C5FFEF66159A56F5384B0A57D3C19541560ACB5BD67EE03DE44B643B4DD1CE",
+      "stringCount": 1
+    },
+    {
+      "path": "tool/response-envelope.ts",
+      "upstreamSha256": "36BC85B3C905DA14D77E79C92A12E8018AE3281DAC2DB456BF192DB0E53724C4",
+      "stringCount": 9
+    },
+    {
+      "path": "tool/types.ts",
+      "upstreamSha256": "8FB488B02C914383BB2B47AFF338C1B309F8BF14AF5E4F450BBBFBE09530A6E1",
+      "stringCount": 9
+    },
+    {
+      "path": "tool/validate-questionnaire.ts",
+      "upstreamSha256": "2A63C6204CDE2B41D033C58620EB217DC0DBEDBC004628C4C65F04791AD7808D",
+      "stringCount": 8
+    },
+    {
+      "path": "view/component-binding.ts",
+      "upstreamSha256": "C6B16160E37524A10E3FC929189A48B06486F1090B68207850876BAC9D9E1F10",
+      "stringCount": 4
+    },
+    {
+      "path": "view/components/inline-input.ts",
+      "upstreamSha256": "5DE1A683CBBCA8ED7382885B2AE16D4A0E9868194D8EAD78650D75C641EEB466"
+    },
+    {
+      "path": "view/components/multi-select-view.ts",
+      "upstreamSha256": "4F53B5B9F1C659951CDD65CEE04B6EFB20343E6D14A68441769674720C15FC3C",
+      "stringCount": 4
+    },
+    {
+      "path": "view/components/option-list-view.ts",
+      "upstreamSha256": "EA1278F380B4F4B3807358006427176B028FFF50F354887D122C636CD889F86B",
+      "stringCount": 2
+    },
+    {
+      "path": "view/components/preview/markdown-content-cache.ts",
+      "upstreamSha256": "20620E201E8065846FC6DB79D2EFB4E20A8BA861A5670B4BF8B3F5AB6CAF5D85",
+      "stringCount": 5
+    },
+    {
+      "path": "view/components/preview/preview-block-renderer.ts",
+      "upstreamSha256": "6E2E5EED974B9262EF9A62CAF0956011A655FFE8452BF7774B6168E9F72AC809",
+      "stringCount": 9
+    },
+    {
+      "path": "view/components/preview/preview-box-renderer.ts",
+      "upstreamSha256": "20B900EAD8A0E71F005AADB18C00103B2DFF87391EC8C8011EBD3C47540A8C33",
+      "stringCount": 1
+    },
+    {
+      "path": "view/components/preview/preview-layout-decider.ts",
+      "upstreamSha256": "0C04CCDF5CD9BE94138E4E7C9D10895844F32E378A7DFD7BB296AB2738FB7918",
+      "stringCount": 3
+    },
+    {
+      "path": "view/components/preview/preview-pane.ts",
+      "upstreamSha256": "D8009709A0D1C7183C04DEDB4BD570B99EF9DA6C7F58DC6618AAF3A757170B6E",
+      "stringCount": 9
+    },
+    {
+      "path": "view/components/submit-picker.ts",
+      "upstreamSha256": "F05C610044B6093D4DA05FEFF3CE543E7E7BC0564B1F0D890668CAAFC5590981",
+      "stringCount": 5
+    },
+    {
+      "path": "view/components/tab-bar.ts",
+      "upstreamSha256": "0E69BF421C2E5C556750FF1DE6934CA569F4E95A42C7B61AB1CD3627864E9E3A",
+      "stringCount": 2
+    },
+    {
+      "path": "view/components/wrapping-select.ts",
+      "upstreamSha256": "10E860ABF1BE29379A7E75204C3C6577E3529DB2FB050CF4F3622DB60DE0445F",
+      "stringCount": 1
+    },
+    {
+      "path": "view/dialog-builder.ts",
+      "upstreamSha256": "CA0278F020E2A72BEA93E6B180A34F6805ADAC477BA13BA00AE8C7C67C7C0667",
+      "stringCount": 9
+    },
+    {
+      "path": "view/dialog-copy.ts",
+      "upstreamSha256": "AFF8663E920AAC227F5CAB2C6304129CA7A40B1E6AC2D60A66478D8B1ABAFCDA",
+      "stringCount": 14
+    },
+    {
+      "path": "view/props-adapter.ts",
+      "upstreamSha256": "64B47909942A7B8B8D2C2604EDB87A86A8F13DE109085FAD36992E559DC2D89A",
+      "stringCount": 8
+    },
+    {
+      "path": "view/scroll-window.ts",
+      "upstreamSha256": "A6345CC8469F36F67C7F4AF4C97015F9B016136A14EA32380C44329610A8CC0E"
+    },
+    {
+      "path": "view/stateful-view.ts",
+      "upstreamSha256": "7569084CDABEA9DA2F6DA91EAD4731FA1FCDE6BD04FEBEC9B291623FF61907BA"
+    },
+    {
+      "path": "view/tab-components.ts",
+      "upstreamSha256": "7131141AA822D790A527D71EB77DF5394F477CCA18202A031DA9EA5E64CEF567",
+      "stringCount": 4
+    },
+    {
+      "path": "view/tab-content-strategy.ts",
+      "upstreamSha256": "955CF6AED1C054239709DB1607FCBE51C6ED499C97E505A68482E1F15B870E46",
+      "stringCount": 31
+    }
+  ]
+}

@@ -3,81 +3,81 @@
   "packages": [
     {
       "name": "@juicesharp/rpiv-ask-user-question",
-      "version": "2.12.0",
+      "version": "2.14.0",
       "kind": "extension",
       "installPath": "npm/node_modules/@juicesharp/rpiv-ask-user-question",
-      "inventory": "inventories/extensions/juicesharp-rpiv-ask-user-question-2.12.0.json",
+      "inventory": "inventories/extensions/juicesharp-rpiv-ask-user-question-2.14.0.json",
       "source": {
-        "integrity": "sha512-DilWc7u25SwnK6ytuAWOTerP0AmOEfK4HXpgS1oEzkgv9d5g5T+PbLG+zcLn18M3B/J3poMG14iydG5O6iBsnw==",
-        "shasum": "d65e6590fc0bde24ed7506dc57e805df5d4264a1",
-        "tarball": "@juicesharp/rpiv-ask-user-question@2.12.0",
+        "integrity": "sha512-7UVil2qsLCw92RHZ5yuVA5xCMXhwAptB1fi/HuMgIJBDIyfwmlPqfsIvovhXlXBz21XHtUcBuQHaIZDJW59JAA==",
+        "shasum": "8cb8e3c7a00048199aac37529be7b8b3dc2ec19a",
+        "tarball": "@juicesharp/rpiv-ask-user-question@2.14.0",
         "kind": "npm"
       },
-      "fileCount": 57,
-      "stringCount": 694,
+      "fileCount": 63,
+      "stringCount": 886,
       "scope": "按钮、选项、提交、取消、备注、折叠提示和外部编辑器状态；工具协议保持英文。"
     },
     {
       "name": "pi-voice-stt",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-voice-stt",
-      "inventory": "inventories/extensions/pi-voice-stt-0.8.0.json",
+      "inventory": "inventories/extensions/pi-voice-stt-0.9.0.json",
       "source": {
-        "tarball": "pi-voice-stt@0.8.0",
-        "integrity": "sha512-6gHcqSANHliXco1rPD3vuecqkTeYwHjey0XsM/OcrvpYrKerKNUJNJyuwLo/rTKucXxKSP1hvYpZcfBaVRGKsw==",
-        "shasum": "664bac129b7d69a5554eb78c1ddce756d25b6830"
+        "tarball": "pi-voice-stt@0.9.0",
+        "integrity": "sha512-skEX5mVhEFO1RgrLNl5PFxBM+21Hzx0qOycaR5q0AQNvqkWo1D4c2rwzKJnkCpy4t6sdt4b4TrjaFqKuaErm9A==",
+        "shasum": "dd2769c17533bf2eeaad601565c9002fae01dc78"
       },
-      "fileCount": 66,
-      "stringCount": 664,
+      "fileCount": 70,
+      "stringCount": 773,
       "scope": "录音、转写、配置、profile、doctor 和错误提示；mode、profile、命令及原始错误保持原文。"
     },
     {
       "name": "pi-subagents",
-      "version": "0.77.0",
+      "version": "0.81.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-subagents",
-      "inventory": "inventories/extensions/pi-subagents-0.77.0.json",
+      "inventory": "inventories/extensions/pi-subagents-0.81.0.json",
       "source": {
         "kind": "npm",
-        "tarball": "pi-subagents@0.77.0",
-        "integrity": "sha512-kpTpUnV1hyGM0845thS7IT2QFZVBuodq/rdOqsmimQgZvixzw7fOStqt7zWN++xpb3j1AtmMFWeNU5tcp8i3uQ==",
-        "shasum": "04da1a8417927e752c5dd710d1559247d410c5b9"
+        "tarball": "pi-subagents@0.81.0",
+        "integrity": "sha512-nS4otciP317cYBqIs+6IE8nsudWpPTbI0Lzx7BLgZHbawGs6KThjLc9429Z6eHBc5ip7rXCMRc9XhgZKyF+9Dg==",
+        "shasum": "06202f567a8c82e42e34c3462274694d633c8510"
       },
-      "fileCount": 1331,
-      "stringCount": 15731,
+      "fileCount": 755,
+      "stringCount": 23277,
       "scope": "doctor、TUI 进度、状态、通知渲染、恢复提示、内置提示模板说明和 pi-subagents 技能说明；提示模板名与正文、技能名与正文、action、状态枚举、工具协议与恢复命令保持英文。"
     },
     {
       "name": "pi-web-access",
-      "version": "0.38.0",
+      "version": "0.44.0",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-web-access",
-      "inventory": "inventories/extensions/pi-web-access-0.38.0.json",
+      "inventory": "inventories/extensions/pi-web-access-0.44.0.json",
       "source": {
         "kind": "npm",
-        "tarball": "pi-web-access@0.38.0",
-        "integrity": "sha512-8AHja5tlOoGlrtmOsB+zy/MpMeE/fdXQd4UDDs7yg6viaElmNOyNJjNUj+LrgMgMA78ct8xLEKlAI7l9rC8DIw==",
-        "shasum": "268383105cd627464660038508594e2aadff007c"
+        "tarball": "pi-web-access@0.44.0",
+        "integrity": "sha512-8YK2Nb0P7ezRL0FS7P1cPYu7gDUOuhXWA3FOBev0bKsuPtG2QrDVm2GriKBgZI1Sq7SC8QRsfVFYYP8huUEo8w==",
+        "shasum": "6cdb7aa75f8b41bbce55f1114f017403e0ed827e"
       },
-      "fileCount": 98,
-      "stringCount": 7140,
+      "fileCount": 101,
+      "stringCount": 7592,
       "scope": "搜索状态、活动面板、Curator 页面和常见错误；工具结果协议、Provider 名称、URL 与原始错误保持英文。"
     },
     {
       "name": "pi-agent-browser-native",
-      "version": "0.9.4",
+      "version": "0.9.6",
       "kind": "extension",
       "installPath": "npm/node_modules/pi-agent-browser-native",
-      "inventory": "inventories/extensions/pi-agent-browser-native-0.9.4.json",
+      "inventory": "inventories/extensions/pi-agent-browser-native-0.9.6.json",
       "source": {
         "kind": "npm",
-        "tarball": "pi-agent-browser-native@0.9.4",
-        "integrity": "sha512-jIqi9Y0LljmeUUGH88ABk7g6RvjdgAkKKMObiChLPnSOawfLTYwIywhGmoUXMNNdeQbNuvA6WuDdR2WIhwtfaA==",
-        "shasum": "876440c27a54fb9f1cf30f077ae962514ba990ca"
+        "tarball": "pi-agent-browser-native@0.9.6",
+        "integrity": "sha512-OXt+xFhj++OPJgKcta2Xj2MyUVSe1Cq06Tet8fwyW/B0pcPTYBx6YvlgouYPNWe3aU7cEKTcLk1+AEL2d/ILCw==",
+        "shasum": "bfa871ecc104888b87385f074d759878685c1ae7"
       },
-      "fileCount": 402,
-      "stringCount": 11407,
+      "fileCount": 53,
+      "stringCount": 8488,
       "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。"
     }
   ]

@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "kind": "extension",
+    "name": "pi-agent-browser-native",
+    "version": "0.9.6",
+    "installPath": "npm/node_modules/pi-agent-browser-native"
+  },
+  "source": {
+    "kind": "npm",
+    "tarball": "pi-agent-browser-native@0.9.6",
+    "integrity": "sha512-OXt+xFhj++OPJgKcta2Xj2MyUVSe1Cq06Tet8fwyW/B0pcPTYBx6YvlgouYPNWe3aU7cEKTcLk1+AEL2d/ILCw==",
+    "shasum": "bfa871ecc104888b87385f074d759878685c1ae7"
+  },
+  "scope": "TUI 工具渲染、只读 doctor、配置帮助与状态；agent_browser 工具协议、参数、selector、状态枚举、系统 prompt、模型可见结果和原始外部错误保持英文。",
+  "keepEnglish": "工具名、Slash command、命令参数、JSON/schema、selector、状态枚举、模型可见工具协议、系统 prompt、Provider/模型名、路径、URL 和原始外部错误。",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "upstreamSha256": "B5685F4C2CE5916DA778D72DD9B0ECA994C1E6EB7527A37AEC5D0B1397A2CFBA",
+      "stringCount": 753
+    },
+    {
+      "path": "dist/extensions/agent-browser/index.js",
+      "upstreamSha256": "48C584E2A27131D1E2E5963B845AFD4D05547BDAE5B69ED5968A97A5FB08CB0A",
+      "stringCount": 2090
+    },
+    {
+      "path": "dist/extensions/agent-browser/script-worker.js",
+      "upstreamSha256": "450840CA98E45ECD95A9694CDE1BFFDA495A5B05431DFE22EB2FDD0A53C75BAA",
+      "stringCount": 61
+    },
+    {
+      "path": "dist/packaged/lib/browser-session-conversion.js",
+      "upstreamSha256": "7984DE4B53F5FA26E13AAA9B22E0BDD3408FBCAE1311C659649DAFBDB8FEF7A6",
+      "stringCount": 46
+    },
+    {
+      "path": "dist/packaged/lib/config-policy.js",
+      "upstreamSha256": "C0BACE02899C1AF2394938641FEFF59F8A62C0E5559BB0C64B5043030D20266C",
+      "stringCount": 36
+    },
+    {
+      "path": "dist/packaged/lib/parsing.js",
+      "upstreamSha256": "16228415504E1D107E788F4135FAD58DA7D01434B9B1B0EBB331ED143E4AC5EF"
+    },
+    {
+      "path": "dist/packaged/lib/playbook.js",
+      "upstreamSha256": "8314EC57465ADC1B67D7C95D0F5120BF95B63933EB2C4ACB51DE702681C5C02C",
+      "stringCount": 116
+    },
+    {
+      "path": "dist/packaged/lib/results/snapshot.js",
+      "upstreamSha256": "FDFF239472B35105EF1A5CD8D2847EEBC5743BE7A9017025A6DC447B2E8ADF33",
+      "stringCount": 53
+    },
+    {
+      "path": "dist/packaged/lib/runtime.js",
+      "upstreamSha256": "151FE9FABD93B0C7AB6BADC4D49E6ACA843C122EA022689D744C39CB46411749",
+      "stringCount": 97
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "upstreamSha256": "019C2B3454E9292245A417112E0525EF9D7D93FB48D29A5F3F25CE55C58544D4",
+      "stringCount": 226
+    },
+    {
+      "path": "docs/CODE_QUALITY.md",
+      "upstreamSha256": "834C3173EE3DD9B8905F59ED8C01B0C8B61C682FD9E4DAC293083C6A4D22A5CB",
+      "stringCount": 233
+    },
+    {
+      "path": "docs/COMMAND_REFERENCE.md",
+      "upstreamSha256": "563F043FCD4CFAD6CCF92A5995F829942607D69F4D2C8DA5EECDE3216101C199",
+      "stringCount": 1602
+    },
+    {
+      "path": "docs/ELECTRON.md",
+      "upstreamSha256": "1AE34BF32CF84970C78D7337243E7444F13A6A1810E3FEE01E2209DE7569EFE9",
+      "stringCount": 231
+    },
+    {
+      "path": "docs/performance/2026-10-12.json",
+      "upstreamSha256": "0053E3CEC0C7E628EE368D47E4C40869994FB68DE12CCD38B402D089A0F99888"
+    },
+    {
+      "path": "docs/PERFORMANCE.md",
+      "upstreamSha256": "EC593E224B23D5FFACECF0B9A77437FA9AF0533DDADA6E7B4ABCC3C6A2ABDB64",
+      "stringCount": 185
+    },
+    {
+      "path": "docs/platform-smoke.md",
+      "upstreamSha256": "E9D1D13FCF97DF9F3476AAA8A6BFFF4251E766714F99F157646E402E2F59EC6D",
+      "stringCount": 113
+    },
+    {
+      "path": "docs/REFERENCE.md",
+      "upstreamSha256": "B4462F3F4B983E97B72A038220009A9800BD0ABC20206705B13EE8BA7A4D46DC",
+      "stringCount": 461
+    },
+    {
+      "path": "docs/RELEASE.md",
+      "upstreamSha256": "9212368D1C9D18691AB927F1ACBCA2A43F0A80311C84F07DFD0411ED439D4B8D",
+      "stringCount": 238
+    },
+    {
+      "path": "docs/REQUIREMENTS.md",
+      "upstreamSha256": "4359F8233411D5452E1E0C3C95FCAF2A5FDB8AD6278DB2A95F9190AE4BCAE147",
+      "stringCount": 114
+    },
+    {
+      "path": "docs/SESSION_STORAGE.md",
+      "upstreamSha256": "EC3272617F188541AE00F573BA66272A438A2E2D89B41AAEF1C30EF7C0526B91",
+      "stringCount": 35
+    },
+    {
+      "path": "docs/SUPPORT_MATRIX.md",
+      "upstreamSha256": "C7E33D58695715C842A6733634AE48F93EA487DE8DFC1A43C3DB7623F459FE56",
+      "stringCount": 136
+    },
+    {
+      "path": "docs/TOOL_CONTRACT.md",
+      "upstreamSha256": "01D91CC7ECBDCA68EF82E9B3923D586632B2BC1454BD11451BF1ED6D1CF510D6",
+      "stringCount": 603
+    },
+    {
+      "path": "LICENSE",
+      "upstreamSha256": "A69CB493AFF5F26DCE3939D4B5716F66D3E62BBAC7A287DE69FDFE177804A0C4"
+    },
+    {
+      "path": "package.json",
+      "upstreamSha256": "BBD43A55CF288B8623BDFA118B80BB941EB7C917F16F57CC98617A10CD921886"
+    },
+    {
+      "path": "platform-smoke.config.mjs",
+      "upstreamSha256": "2515A882279045DC6E02F7255AC43E2E53F6448A112BC9499F05320A667C8AE4",
+      "stringCount": 6
+    },
+    {
+      "path": "README.md",
+      "upstreamSha256": "0CE85C6AC77C5F745CA856278E6DE7CE2B53BE2F2063DF4BF9E39D6A77D0BE90",
+      "stringCount": 62
+    },
+    {
+      "path": "scripts/agent-browser-capability-baseline.mjs",
+      "upstreamSha256": "8943BE0B86A7300899A129BB0013A7B7B9F51BC91A67F4C1F4251A7A4C2662F4",
+      "stringCount": 239
+    },
+    {
+      "path": "scripts/agent-browser-target.mjs",
+      "upstreamSha256": "763E8403AA6DE3BAD108B7DAC2921B987F65C58FAD50010B7ABCD60305011AAA",
+      "stringCount": 2
+    },
+    {
+      "path": "scripts/build.mjs",
+      "upstreamSha256": "156E0A26316D6E44C4E03B3256CD92322EE952D45488F7A282B3A086B7041AAE",
+      "stringCount": 10
+    },
+    {
+      "path": "scripts/capability-core-commands.mjs",
+      "upstreamSha256": "4D30C78603EDCD178D12B0AB33E27C0FE12F79501A3972B31CB1547AC6CD464D",
+      "stringCount": 146
+    },
+    {
+      "path": "scripts/capability-options.mjs",
+      "upstreamSha256": "4DD5A1D3CE1F59184F0B236C7ABC27828D2C5FEE76BF0CBAB89F49827A4843FE",
+      "stringCount": 48
+    },
+    {
+      "path": "scripts/capability-samples.mjs",
+      "upstreamSha256": "7AED660538A28BA63635AF251E371E9293A81CD2EEA0B6896AE8746303845722",
+      "stringCount": 116
+    },
+    {
+      "path": "scripts/capability-section.mjs",
+      "upstreamSha256": "456AB045C4069B141D16B0053FC53898B4B4DC68FA361090FCB90C7B17AB90E9",
+      "stringCount": 1
+    },
+    {
+      "path": "scripts/config.mjs",
+      "upstreamSha256": "486A713CD659844FA8A96A9F35C92F780DECE1E95E488F16E513F6E57AEF0468",
+      "stringCount": 56
+    },
+    {
+      "path": "scripts/convert-browser-session.mjs",
+      "upstreamSha256": "DDCF585580B588D6F284CAF92B4D0E843E9576044F3AD3C0C13F97310E6B9075",
+      "stringCount": 5
+    },
+    {
+      "path": "scripts/doctor-sources.mjs",
+      "upstreamSha256": "85EE1CB43DCBFE4A10DC161703F258F34B233EDF9D9B08D24574578B90FE0187",
+      "stringCount": 23
+    },
+    {
+      "path": "scripts/doctor.mjs",
+      "upstreamSha256": "7BE1064306DAF362B6F208FD8A6C931AD5F85234FB2B07EAC056BC1798A09278",
+      "stringCount": 43
+    },
+    {
+      "path": "scripts/platform-smoke/artifacts.mjs",
+      "upstreamSha256": "DB4504BE9094D9A7006965D88B2B3988F7E0E777F3048919DDBAFD81FB607FAF",
+      "stringCount": 10
+    },
+    {
+      "path": "scripts/platform-smoke/browser-dogfood-windows.ps1",
+      "upstreamSha256": "F3A14CA5F1C77BF91374B92685A5A96B2EF5485CD3F478EB4A3F7D71B80B4635"
+    },
+    {
+      "path": "scripts/platform-smoke/build-ubuntu-image.mjs",
+      "upstreamSha256": "599053F8809B380F68E984668D3695DF3A4BA0F4A78807F30197D17335138FED",
+      "stringCount": 3
+    },
+    {
+      "path": "scripts/platform-smoke/commands.mjs",
+      "upstreamSha256": "A740561FB425E17E5B42C9910EE28ED3A464272A813558603EB1088679892B27",
+      "stringCount": 62
+    },
+    {
+      "path": "scripts/platform-smoke/crabbox-runner.mjs",
+      "upstreamSha256": "84F3FE40C8110DA416F53A194730ABA93C53BCAC687ED021042626D095BD229F",
+      "stringCount": 7
+    },
+    {
+      "path": "scripts/platform-smoke/doctor-support.mjs",
+      "upstreamSha256": "67AB9D8D55105E615C4BE8B5B7D7125EBCC1A56AAC4368E3C8BA6023CC429720",
+      "stringCount": 18
+    },
+    {
+      "path": "scripts/platform-smoke/doctor-windows.mjs",
+      "upstreamSha256": "3189C20995FE04F06B59C318372C4D8066B5AAC29642F0A1B3862ACBA6F591FA",
+      "stringCount": 35
+    },
+    {
+      "path": "scripts/platform-smoke/doctor.mjs",
+      "upstreamSha256": "75A5D4A2546011F431BFF37EA18EBAC60A8F53F00C9C02C8C40E3739F3701C60",
+      "stringCount": 55
+    },
+    {
+      "path": "scripts/platform-smoke/lease-evidence.mjs",
+      "upstreamSha256": "50CDA3C66E7AA16755BE3CA2EE1E434DA17CF2010F84228D0263D5CF321B3222",
+      "stringCount": 22
+    },
+    {
+      "path": "scripts/platform-smoke/linux-image/Dockerfile",
+      "upstreamSha256": "CD47EB41A1E0540D928837EC7E9EAEC881BB0B14527E2B933DF28E353C80D637"
+    },
+    {
+      "path": "scripts/platform-smoke/platform-build-windows.ps1",
+      "upstreamSha256": "3DE300A81C2DEEA96C528CE7A41B752B9CF1E622DF7EDC416D22D6414EA0A3C6"
+    },
+    {
+      "path": "scripts/platform-smoke/suite-checks.mjs",
+      "upstreamSha256": "0817754297BDC5D2C65573EC8E029EEA9EF226CAFE2606EB6A190437750B3730",
+      "stringCount": 3
+    },
+    {
+      "path": "scripts/platform-smoke/suite-evidence.mjs",
+      "upstreamSha256": "AC55BF97C7E5D73B4CD7AC1767D4A4208C3798174E6BDB6262EA1CF3FB9F26F2",
+      "stringCount": 35
+    },
+    {
+      "path": "scripts/platform-smoke/targets.mjs",
+      "upstreamSha256": "60DD8DFF985B1AF59C04982834FF25320D962377E5CEF6E980337F323386BB01",
+      "stringCount": 28
+    },
+    {
+      "path": "scripts/platform-smoke.mjs",
+      "upstreamSha256": "88FB22C0669A0DDF2966E2705CC3F4CA4A5EAE79A4A755E4F4886C7433AB5FFE",
+      "stringCount": 18
+    },
+    {
+      "path": "scripts/prepare.mjs",
+      "upstreamSha256": "DEF3355E5FC379C7BF1D7F690F796841EC74674E3718D7D53F2718B14DA5E7C7",
+      "stringCount": 6
+    }
+  ]
+}
